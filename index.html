@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Tona - Personal Porfolio Landing Page Template</title>
+    <title>Kultur- & Bildungshaus</title>
     <!-- Meta Tags -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Availablecoder">
-    <meta name="description" content="Tomas Personal Porfolio one-page template for freelance usage and person resume">
-    <meta name="keywords" content="person,resume,skills,skill,portoflio,multipourpose,web template, landing page, personal portfolio, personal landing page, personal portfolio landing page template">
+    <meta name="author" content="KulturHaus-BS">
+    <meta name="description" content="Kulturhaus BS website">
+    <meta name="keywords" content="Kulturhaus BS">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,13 +32,14 @@
     <!-- - - - -->
 </head>
 <body>
-
     <!-- Preloader -->
     <div class="preloader">
         <div class="load-splitter"></div>
         <div class="load-splitter"></div>
         <div class="loader">
-            <p class="text">Tona<span>.</span></p>
+            <p class="text">Willkommen</p>
+            <p class="text">Welcome</p>
+            <p class="text">Hoş geldiniz</p>
             <div class="loading-bar">
                 <span></span>
             </div>
@@ -50,9 +51,7 @@
     <header class="header-sliding">
         <nav class="navbar w-100 navbar-expand-lg">
             <div class="container">
-                <a class="navbar-brand logo p-0" href="index_3.html">
-                    Tona
-                </a>
+                <a style="font-size: 20px; text-decoration: none; color: inherit" href="#home"><strong>Kultur- & Bildungshaus<br>BS</strong></a>
                 <button class="navbar-toggler menu-toggle-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="header-nav-icon"></span>
                     <span class="header-nav-icon"></span>
@@ -61,124 +60,95 @@
                 <div class="ul-cont collapse navbar-collapse ms-0 ms-lg-auto" id="navbarSupportedContent">
                     <ul class="navbar-nav navbar-right ms-0 ms-lg-auto mb-2 mb-lg-0">
                         <li class="nav-item mx-1">
-                            <a class="nav-link active" data-scroll="home" href="#home">Home</a>
+                            <a class="nav-link active" href="#home" data-scroll="home"><span id="menu-home">Startseite</span></a>
                         </li>
                         <li class="nav-item mx-1">
-                            <a class="nav-link" href="#about" data-scroll="about">About</a>
+                            <a class="nav-link" href="#about" data-scroll="about"><span id="menu-about">Über Uns</span></a>
                         </li>
                         <li class="nav-item mx-1">
-                            <a class="nav-link" href="#services" data-scroll="services">Services</a>
+                            <a class="nav-link" href="#activities" data-scroll="activities"><span id="menu-activities">Aktivitäten</span></a>
                         </li>
                         <li class="nav-item mx-1">
-                            <a class="nav-link" href="#resume" data-scroll="resume">Resume</a>
+                            <a class="nav-link" href="#gallery" data-scroll="gallery"><span id="menu-gallery">Galerie</span></a>
                         </li>
                         <li class="nav-item mx-1">
-                            <a class="nav-link" href="#portfolio" data-scroll="portfolio">Portfolio</a>
-                        </li>
-                        <li class="nav-item mx-1">
-                            <a class="nav-link" href="#reviews" data-scroll="reviews">Reviews</a>
+                            <a class="nav-link" href="#trainers" data-scroll="trainers"><span id="menu-trainers">Unsere Trainer</span></a>
                         </li>
                         <li class="nav-item mx-1">
                             <a class="nav-link" href="#blog" data-scroll="blog">Blog</a>
                         </li>
                         <li class="nav-item mx-1">
-                            <a class="nav-link" href="#contact" data-scroll="contact">Contact</a>
-                        </li>
-                        <li>
-                            <div class="dropdown">
-                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Dropdown asdf
-                                </button>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                    <li><a class="dropdown-item" href="#">Deutsch</a></li>
-                                    <li><a class="dropdown-item" href="#">English</a></li>
-                                    <li><a class="dropdown-item" href="#">Turkce</a></li>
-                                </ul>
-                            </div>
+                            <a class="nav-link" href="#contact" data-scroll="contact"><span id="menu-contact">Kontakt</span></a>
                         </li>
                     </ul>
                 </div>
+                <select id="language-select" class="form-select nav-item mx-1" style="width: 90px; font-weight: bold; border: none; margin-top: 2px; visibility: hidden">
+                    <option selected value="de">🇩🇪 DE</option>
+                    <option value="en">🇬🇧 EN</option>
+                    <option value="tr">🇹🇷 TR</option>
+                </select>
             </div>
         </nav>
     </header>
     <!-- End Header -->
+
     <!-- Start Home -->
     <section class="home d-flex align-items-center" id="home">
         <div class="container">
             <div class="home-text text-center text-md-start">
-                <p class="intro mx-auto mx-md-0">Hello</p>
-                <p class="name">I&acute;m <span>Tomas</span> Carter</p>
+                <p class="name"><span id="banner-title">Kultur- & Bildungshaus BS</span></p>
                 <div class="head-text" id="home-text-changer">
-                    <h1 class="ah-headline">
-                        <span>I&acute;m </span>
+                    <h2 class="ah-headline">
                         <span class="ah-words-wrapper">
-                            <b class="is-visible">Web Designer</b>
-                            <b>Web Developer</b>
-                            <b>Mobile Developer</b>
+                            <b class="is-visible"><span id="banner-text-1">Soziale Aktivitäten</span></b>
+                            <b><span id="banner-text-2">Deutschsprachigen Raum</span></b>
+                            <b><span id="banner-text-3">Tage der türkische Küche</span></b>
                         </span>
-                    </h1>
+                    </h2>
                 </div>
                 <div class="home-social d-flex justify-content-center justify-content-md-start mt-3">
                     <a href="#"><i class="fab fa-facebook-f"></i></a>
                     <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
                 </div>
 
             </div>
         </div>
     </section>
     <!-- End Home -->
+
     <!-- Start About -->
     <section class="about section-padding" id="about">
         <div class="container d-flex flex-column flex-md-row">
             <div class="image wow fadeInLeft">
-                <img class="img-fluid w-100" src="images/about_light.jpg" alt="about">
+                <img class="img-fluid w-100" src="images/about.jpeg" alt="about">
                 <div class="movable-border">
                     <span></span>
                 </div>
             </div>
             <div class="about-content wow fadeInRight">
                 <div class="main-heading about-main-heading mx-auto mx-md-0">
-                    <h2>About me</h2>
-                    <span>i&acute;m Tomas</span>
+                    <h2 id="about-title">ÜBER UNS</h2>
                 </div>
-                <p class="about-text">
-                    I am a programmer and designer of websites and mobile applications with more than five years of experience, as I possess the skill, creativity and innovation in my field of work, and this is what makes me distinguished from others and people love to deal with me
-                </p>
-                <div class="about-info">
-                    <ul>
-                        <li><span>Name:</span> Tomas Carter</li>
-                        <li><span>Age:</span> 35 years old</li>
-                        <li><span>Email:</span> tona@example.com</li>
-                        <li><span>Address:</span> 1902 Jones Avenue</li>
-                    </ul>
-                </div>
-                <div class="cv-button">
-                    <a class="main-btn" href="#">
-                        <i class="fas fa-inbox"></i>
-                        Download CV
-                    </a>
-                </div>
+                <p id="about-text" class="about-text">Über uns</p>
             </div>
         </div>
     </section>
     <!-- End About -->
-    <!-- Start Services -->
-    <section class="services section-padding" id="services">
+
+    <!-- Start Activities -->
+    <section class="services section-padding" id="activities">
         <div class="container">
             <div class="main-heading mx-auto">
-                <h2 class="main-head-animation">Services</h2>
-                <span>What I Offer</span>
+                <h2 id="activity-title" class="main-head-animation">AKTIVITÄTEN</h2>
             </div>
             <div class="services-field mt-4 row">
                 <div class="serv-box mb-2 mt-5 col-12 col-md-6 col-lg-4 wow fadeInUp">
                     <div class="serv-cont cursor-pointer-hover p-3 position-relative">
                         <div class="icon">
-                            <i class="fas fa-sitemap"></i>
+                            <i class="fas fa-child"></i>
                         </div>
-                        <h3 class="text-center pt-4 pb-2">Web Development</h3>
-                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum praesentium quo quasi. Sit, saepe impedit!</p>
+                        <h3 class="text-center pt-4 pb-2"><span id="a1-title">Programme der kindlichen Entwicklung</span></h3>
+                        <p class="text-center"><span id="a1-description">Beschreibung</span></p>
                     </div>
                 </div>
                 <div class="serv-box mb-2 mt-5 col-12 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
@@ -186,329 +156,172 @@
                         <div class="icon">
                             <i class="fas fa-palette"></i>
                         </div>
-                        <h3 class="text-center pt-4 pb-2">UI / UX design</h3>
-                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum praesentium quo quasi. Sit, saepe impedit!</p>
+                        <h3 class="text-center pt-4 pb-2"><span id="a2-title">Kunstverein</span></h3>
+                        <p class="text-center"><span id="a2-description">Beschreibung</span></p>
                     </div>
                 </div>
                 <div class="serv-box mb-2 mt-5 col-12 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
                     <div class="serv-cont cursor-pointer-hover p-3 position-relative">
                         <div class="icon">
-                            <i class="fas fa-mobile-alt"></i>
+                            <i class="fas fa-book-open"></i>
                         </div>
-                        <h3 class="text-center pt-4 pb-2">Mobile Apps</h3>
-                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum praesentium quo quasi. Sit, saepe impedit!</p>
+                        <h3 class="text-center pt-4 pb-2"><span id="a3-title">Leseclub</span></h3>
+                        <p class="text-center"><span id="a3-description">Beschreibung</span></p>
                     </div>
                 </div>
                 <div class="serv-box mb-2 mt-5 col-12 col-md-6 col-lg-4 wow fadeInUp">
                     <div class="serv-cont cursor-pointer-hover p-3 position-relative">
                         <div class="icon">
-                            <i class="fas fa-shield-alt"></i>
+                            <i class="fas fa-comments"></i>
                         </div>
-                        <h3 class="text-center pt-4 pb-2">Cyber Security</h3>
-                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum praesentium quo quasi. Sit, saepe impedit!</p>
+                        <h3 class="text-center pt-4 pb-2"><span id="a4-title">Deutschen Sprachraums</span></h3>
+                        <p class="text-center"><span id="a4-description">Beschreibung</span></p>
                     </div>
                 </div>
                 <div class="serv-box mb-2 mt-5 col-12 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="serv-cont cursor-pointer-hover p-3 position-relative">
                         <div class="icon">
-                            <i class="fas fa-database"></i>
+                            <i class="fas fa-guitar"></i>
                         </div>
-                        <h3 class="text-center pt-4 pb-2">Database Analysis</h3>
-                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum praesentium quo quasi. Sit, saepe impedit!</p>
+                        <h3 class="text-center pt-4 pb-2"><span id="a5-title">Gitarrenclub</span></h3>
+                        <p class="text-center"><span id="a5-description">Beschreibung</span></p>
                     </div>
                 </div>
                 <div class="serv-box mb-2 mt-5 col-12 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
                     <div class="serv-cont cursor-pointer-hover p-3 position-relative">
                         <div class="icon">
-                            <i class="fas fa-mail-bulk"></i>
+                            <i class="fas fa-cheese"></i>
                         </div>
-                        <h3 class="text-center pt-4 pb-2">Marketing</h3>
-                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum praesentium quo quasi. Sit, saepe impedit!</p>
-                    </div>
-                </div>
-            </div>
-            <div class="more-services text-center mt-4 pt-2">
-                <a href="#" class="main-btn">More Services</a>
-            </div>
-        </div>
-    </section>
-    <!-- End Services -->
-    <!-- Start Resume -->
-    <section class="resume section-padding" id="resume">
-        <div class="container">
-            <div class="main-heading mx-auto">
-                <h2 class="main-head-animation">Resume</h2>
-                <span>Qualifications</span>
-            </div>
-            <div class="resume-field mt-5 row">
-                <div class="experience-box mb-3 mb-lg-0 col-12 col-lg-6">
-                    <div class="experience-content resume-content">
-                        <div class="wow bounceIn res-head mb-3 mb-sm-5 d-flex justify-content-sm-start justify-content-center align-items-center">
-                            <i class="fas fa-laptop-code"></i>
-                            <h3 class="mb-0">My Experiences</h3>
-                        </div>
-                        <div class="wow fadeInLeft res-text">
-                            <span class="res-circle"></span>
-                            <h4>Web Developer</h4>
-                            <span class="date">2009 - 2013</span>
-                            <p class="info">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem</p>
-                        </div>
-                        <div class="wow fadeInLeft res-text" data-wow-delay="0.2s">
-                            <span class="res-circle"></span>
-                            <h4>Mobile Developer</h4>
-                            <span class="date">2014 - 2018</span>
-                            <p class="info">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem</p>
-                        </div>
-                        <div class="wow fadeInLeft res-text" data-wow-delay="0.4s">
-                            <span class="res-circle"></span>
-                            <h4>IT Developer</h4>
-                            <span class="date">2019 - 2021</span>
-                            <p class="info">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="education-box col-12 col-lg-6">
-                    <div class="education-content resume-content">
-                        <div class="wow bounceIn res-head mb-3 mb-sm-5 d-flex justify-content-sm-start justify-content-center align-items-center">
-                            <i class="fas fa-graduation-cap"></i>
-                            <h3 class="mb-0">My Education</h3>
-                        </div>
-                        <div class="wow fadeInLeft res-text" data-wow-delay="0.1s">
-                            <span class="res-circle"></span>
-                            <h4>Bachelor's degree in Computer Science </h4>
-                            <span class="date">2008</span>
-                            <p class="info">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem</p>
-                        </div>
-                        <div class="wow fadeInLeft res-text" data-wow-delay="0.3s">
-                            <span class="res-circle"></span>
-                            <h4>Mobile development online certificate</h4>
-                            <span class="date">2013</span>
-                            <p class="info">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem</p>
-                        </div>
-                        <div class="wow fadeInLeft res-text" data-wow-delay="0.5s">
-                            <span class="res-circle"></span>
-                            <h4>Cyber Security online certificate</h4>
-                            <span class="date">2018</span>
-                            <p class="info">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem</p>
-                        </div>
+                        <h3 class="text-center pt-4 pb-2"><span id="a6-title">Tage der türkische Küche</span></h3>
+                        <p class="text-center"><span id="a6-description">Beschreibung</span></p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- End Resume -->
-    <!-- Start Skills -->
-    <section class="skills section-padding" id="skills">
+    <!-- End Activities -->
+
+    <!-- Start Gallery -->
+    <section class="portfolio section-padding" id="gallery">
         <div class="container">
             <div class="main-heading mx-auto">
-                <h2 class="main-head-animation">Skills</h2>
-                <span>My Skills</span>
-            </div>
-            <div class="skill-field mt-5 row">
-                <div class="skill-box col-12 col-lg-6">
-                    <div class="skill-piece">
-                        <p class="name mb-2">HTML</p>
-                        <div class="skill-loader">
-                            <span data-progress="80%" class="loader-liquid"></span>
-                            <span class="loader-value">80%</span>
-                        </div>
-                    </div>
-                    <div class="skill-piece">
-                        <p class="name mb-2">CSS</p>
-                        <div class="skill-loader">
-                            <span data-progress="85%" class="loader-liquid"></span>
-                            <span class="loader-value">85%</span>
-                        </div>
-                    </div>
-                    <div class="skill-piece">
-                        <p class="name mb-2">JS</p>
-                        <div class="skill-loader">
-                            <span data-progress="70%" class="loader-liquid"></span>
-                            <span class="loader-value">70%</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="skill-box col-12 col-lg-6">
-                    <div class="skill-piece">
-                        <p class="name mb-2">Bootstrap</p>
-                        <div class="skill-loader">
-                            <span data-progress="75%" class="loader-liquid"></span>
-                            <span class="loader-value">75%</span>
-                        </div>
-                    </div>
-                    <div class="skill-piece">
-                        <p class="name mb-2">PHP</p>
-                        <div class="skill-loader">
-                            <span data-progress="50%" class="loader-liquid"></span>
-                            <span class="loader-value">50%</span>
-                        </div>
-                    </div>
-                    <div class="skill-piece">
-                        <p class="name mb-2">Photoshop</p>
-                        <div class="skill-loader">
-                            <span data-progress="90%" class="loader-liquid"></span>
-                            <span class="loader-value">90%</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Skills -->
-    <!-- Start Projects -->
-    <section class="portfolio section-padding" id="portfolio">
-        <div class="container">
-            <div class="main-heading mx-auto">
-                <h2 class="main-head-animation">Porfolio</h2>
-                <span>Our Projects</span>
+                <h2 id="gallery-title" class="main-head-animation">GALERIE</h2>
             </div>
             <div class="prog-filter wow fadeIn">
                 <ul class="ps-0">
-                    <li class="cursor-pointer-hover active" data-filter="all">All</li>
-                    <li class="cursor-pointer-hover" data-filter=".design">Design</li>
-                    <li class="cursor-pointer-hover" data-filter=".development">Development</li>
-                    <li class="cursor-pointer-hover" data-filter=".marketing">Marketing</li>
+                    <li class="cursor-pointer-hover active" data-filter="all"><span id="gallery-all">Alle</span></li>
+                    <li class="cursor-pointer-hover" data-filter=".design"><span id="gallery-education">Bildung</span></li>
+                    <li class="cursor-pointer-hover" data-filter=".development"><span id="gallery-activity">Aktivität</span></li>
+                    <li class="cursor-pointer-hover" data-filter=".marketing"><span id="gallery-entertainment">Unterhaltung</span></li>
                 </ul>
             </div>
             <div class="port-field row" id="portfolio-shuffle">
                 <div class="mix design prog-box col-12 col-md-6 col-lg-4 mb-4" data-order="1">
-                    <a data-fancybox="gallery" class="d-block position-relative" data-caption="Design: Project Title" href="images/portfolio/portfolio1.jpg">
-                        <img class="img-fluid w-100 d-block" src="images/portfolio/portfolio1.jpg" alt="portfolio">
+                    <a data-fancybox="gallery" class="d-block position-relative" data-caption="Child Development Programs" href="images/gallery/child-development.jpeg">
+                        <img class="img-fluid w-100 d-block" src="images/gallery/child-development.jpeg" alt="portfolio">
                         <div class="port-disc">
                             <span></span>
                             <span></span>
                             <span></span>
                             <span></span>
                             <i class="fas fa-search-plus"></i>
-                            <h4>Project Title</h4>
-                            <p class="type mb-0">Design</p>
+                            <h4 id="gallery-title1">Bildung</h4>
+                            <p id="gallery-description1" class="type mb-0">Programme der kindlichen Entwicklung</p>
                         </div>
                     </a>
                 </div>
                 <div class="mix development prog-box col-12 col-md-6 col-lg-4 mb-4" data-order="2">
-                    <a data-fancybox="gallery" data-caption="Development: Project Title" class="d-block position-relative" href="images/portfolio/portfolio2.jpg">
-                        <img class="img-fluid w-100 d-block" src="images/portfolio/portfolio2.jpg" alt="portfolio">
+                    <a data-fancybox="gallery" class="d-block position-relative" data-caption="Ramadan Iftar" href="images/gallery/ramadan-iftar.jpeg">
+                        <img class="img-fluid w-100 d-block" src="images/gallery/ramadan-iftar.jpeg">
                         <div class="port-disc">
                             <span></span>
                             <span></span>
                             <span></span>
                             <span></span>
                             <i class="fas fa-search-plus"></i>
-                            <h4>Project Title</h4>
-                            <p class="type mb-0">Development</p>
+                            <h4 id="gallery-title2">Aktivität</h4>
+                            <p id="gallery-description2" class="type mb-0">Ramadan Iftar</p>
                         </div>
                     </a>
                 </div>
                 <div class="mix design prog-box col-12 col-md-6 col-lg-4 mb-4" data-order="3">
-                    <a data-fancybox="gallery" data-caption="Design: Project Title" class="d-block position-relative" href="images/portfolio/portfolio3.jpg">
-                        <img class="img-fluid w-100 d-block" src="images/portfolio/portfolio3.jpg" alt="portfolio">
+                    <a data-fancybox="gallery" data-caption="Guitar Club" class="d-block position-relative" href="images/gallery/guitar-class.jpeg">
+                        <img class="img-fluid w-100 d-block" src="images/gallery/guitar-class.jpeg" alt="portfolio">
                         <div class="port-disc">
                             <span></span>
                             <span></span>
                             <span></span>
                             <span></span>
                             <i class="fas fa-search-plus"></i>
-                            <h4>Project Title</h4>
-                            <p class="type mb-0">Design</p>
+                            <h4 id="gallery-title3">Bildung</h4>
+                            <p id="gallery-description3" class="type mb-0">Gitarrenclub</p>
                         </div>
                     </a>
                 </div>
                 <div class="mix marketing prog-box col-12 col-md-6 col-lg-4 mb-4" data-order="4">
-                    <a data-fancybox="gallery" data-caption="Marketing: Project Title" class="d-block position-relative" href="images/portfolio/portfolio4.jpg">
-                        <img class="img-fluid w-100 d-block" src="images/portfolio/portfolio4.jpg" alt="portfolio">
+                    <a data-fancybox="gallery" data-caption="PlayStation Tournament" class="d-block position-relative" href="images/gallery/ps-tournament.jpeg">
+                        <img class="img-fluid w-100 d-block" src="images/gallery/ps-tournament.jpeg" alt="portfolio">
                         <div class="port-disc">
                             <span></span>
                             <span></span>
                             <span></span>
                             <span></span>
                             <i class="fas fa-search-plus"></i>
-                            <h4>Project Title</h4>
-                            <p class="type mb-0">Marketing</p>
+                            <h4 id="gallery-title4">Unterhaltung</h4>
+                            <p id="gallery-description4" class="type mb-0">PlayStation Turnier</p>
                         </div>
                     </a>
                 </div>
                 <div class="mix development prog-box col-12 col-md-6 col-lg-4 mb-4" data-order="5">
-                    <a data-fancybox="gallery" data-caption="Development: Project Title" class="d-block position-relative" href="images/portfolio/portfolio5.jpg">
-                        <img class="img-fluid w-100 d-block" src="images/portfolio/portfolio5.jpg" alt="portfolio">
+                    <a data-fancybox="gallery" data-caption="Birthday Party" class="d-block position-relative" href="images/gallery/birthday-party.jpeg">
+                        <img class="img-fluid w-100 d-block" src="images/gallery/birthday-party.jpeg" alt="portfolio">
                         <div class="port-disc">
                             <span></span>
                             <span></span>
                             <span></span>
                             <span></span>
                             <i class="fas fa-search-plus"></i>
-                            <h4>Project Title</h4>
-                            <p class="type mb-0">Development</p>
+                            <h4 id="gallery-title5">Aktivität</h4>
+                            <p id="gallery-description5" class="type mb-0">Geburtstagsfeier</p>
                         </div>
                     </a>
                 </div>
                 <div class="mix marketing prog-box col-12 col-md-6 col-lg-4 mb-4" data-order="6">
-                    <a data-fancybox="gallery" data-caption="Marketing: Project Title" class="d-block position-relative" href="images/portfolio/portfolio6.jpg">
-                        <img class="img-fluid w-100 d-block" src="images/portfolio/portfolio6.jpg" alt="portfolio">
+                    <a data-fancybox="gallery" data-caption="Football Tournament" class="d-block position-relative" href="images/gallery/football-tournament.jpeg">
+                        <img class="img-fluid w-100 d-block" src="images/gallery/football-tournament.jpeg" alt="portfolio">
                         <div class="port-disc">
                             <span></span>
                             <span></span>
                             <span></span>
                             <span></span>
                             <i class="fas fa-search-plus"></i>
-                            <h4>Project Title</h4>
-                            <p class="type mb-0">Marketing</p>
+                            <h4 id="gallery-title6">Unterhaltung</h4>
+                            <p id="gallery-description6" class="type mb-0">Fußballturnier</p>
                         </div>
                     </a>
                 </div>
             </div>
-            <div class="more-projects text-center mt-4 pt-2">
-                <a href="#" class="main-btn">More Projects</a>
-            </div>
-        </div>
-       
-    </section>
-    <!-- End Projects -->
-    <!-- Start Counter -->
-    <section class="counter pt-5 pb-5" id="counter">
-        <div class="container">
-            <div class="row counter-area">
-                <div class="wow fadeInLeft col-12 col-lg-3 col-md-6 text-center">
-                    <i class="far fa-hand-rock d-block mb-2"></i>
-                    <span class="odometer" data-count="10">00</span>
-                    <h4>Years of experience</h4>
-                </div>       
-                <div class="wow fadeInLeft col-12 col-lg-3 col-md-6 text-center" data-wow-delay="0.3s">
-                    <i class="far fa-handshake d-block mb-2"></i>
-                    <span class="odometer" data-count="173">00</span>
-                    <h4>Successful Projects </h4>
-                </div>
-                <div class="wow fadeInLeft col-12 col-lg-3 col-md-6 text-center" data-wow-delay="0.6s">
-                    <i class="far fa-smile-beam d-block mb-2"></i>
-                    <span class="odometer" data-count="261">00</span>
-                    <h4>Happy Clients</h4>
-                </div>
-                <div class="wow fadeInLeft col-12 col-lg-3 col-md-6 text-center" data-wow-delay="0.9s">
-                    <i class="fas fa-award d-block mb-2"></i>
-                    <span class="odometer" data-count="22">00</span>
-                    <h4>Awards achieved</h4>
-                </div>
-            </div>
         </div>
     </section>
-    <!-- End Counter -->
-    <!-- Start Reviews -->
-    <section class="reviews section-padding" id="reviews">
+    <!-- End Gallery -->
+
+    <!-- Start Trainers -->
+    <section class="reviews section-padding" id="trainers">
         <div class="container">
             <div class="main-heading mx-auto">
-                <h2 class="main-head-animation">Reviews</h2>
-                <span>Clients Feedback</span>
+                <h2 id="trainers-title" class="main-head-animation">UNSERE TRAINER</h2>
             </div>
             <div class="review-field row justify-content-between align-items-center">
                 <div class="wow bounceInUp review-swiper-image col-3">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide px-0">
-                            <img class="img-fluid w-100" src="images/clients/client1.jpg" alt="clients reviews">
+                            <img class="img-fluid w-100" src="images/trainers/memoji1.png" alt="trainers">
                         </div>
                         <div class="swiper-slide px-0">
-                            <img class="img-fluid w-100" src="images/clients/client2.jpg" alt="clients reviews">
+                            <img class="img-fluid w-100" src="images/trainers/memoji2.jpg" alt="trainers">
                         </div>
                         <div class="swiper-slide px-0">
-                            <img class="img-fluid w-100" src="images/clients/client3.jpg" alt="clients reviews">
+                            <img class="img-fluid w-100" src="images/trainers/memoji1.png" alt="trainers">
                         </div>
                     </div>
                 </div>
@@ -517,75 +330,68 @@
                         <div class="swiper-slide">
                             <div class="client-info">
                                 <div class="review-head py-3">
-                                    <img class="text-slider-image mx-auto" src="images/clients/client1.jpg" alt="clients reviews">
+                                    <img class="text-slider-image mx-auto" src="images/trainers/memoji1.png" alt="clients reviews">
                                     <div class="rev-box d-flex align-items-center justify-content-lg-start justify-content-center">
-                                        <i class="fas fa-quote-left pe-3 pt-2"></i>
+                                        <i class="fas fa-chevron-circle-right pe-3 pt-2"></i>
                                         <div class="review-details">
-                                            <h4 class="client-name mb-2">Hunter Rad</h4>
-                                            <div class="rating d-flex">
-                                                <i class="mx-1 fas fa-star"></i>
-                                                <i class="mx-1 fas fa-star"></i>
-                                                <i class="mx-1 fas fa-star"></i>
-                                                <i class="mx-1 fas fa-star"></i>
-                                                <i class="mx-1 fas fa-star"></i>
-                                            </div>
+                                            <h4 class="client-name mb-2" style="margin-top: 0.7rem">Sinem</h4>
                                         </div>
                                     </div>
                                 </div>
-                                <q>Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in</q>
+                                <q id="trainer1-profession">Çocuk Gelişimi Uzmani</q>
                                 <div class="review-dates d-flex justify-content-between mt-3">
-                                    <div class="client-project"><span>Project Type: </span>Website design</div>
-                                    <p class="date"><span>Receiving date: </span>30 jan 2018</p>
+                                    <div class="client-project"><p id="trainer1-description">Beschreibung</p></div>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="client-info">
                                 <div class="review-head py-3">
-                                    <img class="text-slider-image mx-auto" src="images/clients/client2.jpg" alt="clients reviews">
+                                    <img class="text-slider-image mx-auto" src="images/trainers/memoji2.jpg" alt="clients reviews">
                                     <div class="rev-box d-flex align-items-center justify-content-lg-start justify-content-center">
-                                        <i class="fas fa-quote-left pe-3 pt-2"></i>
+                                        <i class="fas fa-chevron-circle-right pe-3 pt-2"></i>
                                         <div class="review-details">
-                                            <h4 class="client-name mb-2">Gleda Wilson</h4>
-                                            <div class="rating d-flex">
-                                                <i class="mx-1 fas fa-star"></i>
-                                                <i class="mx-1 fas fa-star"></i>
-                                                <i class="mx-1 fas fa-star"></i>
-                                                <i class="mx-1 fas fa-star"></i>
-                                                <i class="mx-1 fas fa-star"></i>
-                                            </div>
+                                            <h4 class="client-name mb-2" style="margin-top: 0.7rem">Hatice</h4>
                                         </div>
                                     </div>
                                 </div>
-                                <q>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm</q>
+                                <q id="trainer2-profession">Ebru Sanati Uzmani</q>
                                 <div class="review-dates d-flex justify-content-between mt-3">
-                                    <div class="client-project"><span>Project Type: </span>Database modification</div>
-                                    <p class="date"><span>Receiving date: </span>5 Feb 2019</p>
+                                    <div class="client-project"><p id="trainer2-description">Beschreibung</p></div>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="client-info">
                                 <div class="review-head py-3">
-                                    <img class="text-slider-image mx-auto" src="images/clients/client3.jpg" alt="clients reviews">
+                                    <img class="text-slider-image mx-auto" src="images/trainers/memoji1.png" alt="clients reviews">
                                     <div class="rev-box d-flex align-items-center justify-content-lg-start justify-content-center">
-                                        <i class="fas fa-quote-left pe-3 pt-2"></i>
+                                        <i class="fas fa-chevron-circle-right pe-3 pt-2"></i>
                                         <div class="review-details">
-                                            <h4 class="client-name mb-2">Eadric Jakob</h4>
-                                            <div class="rating d-flex">
-                                                <i class="mx-1 fas fa-star"></i>
-                                                <i class="mx-1 fas fa-star"></i>
-                                                <i class="mx-1 fas fa-star"></i>
-                                                <i class="mx-1 fas fa-star"></i>
-                                                <i class="mx-1 fas fa-star"></i>
-                                            </div>
+                                            <h4 class="client-name mb-2" style="margin-top: 0.7rem">Gizem</h4>
                                         </div>
                                     </div>
                                 </div>
-                                <q>The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in</q>
+                                <q id="trainer3-profession">Turk Mutfagi Uzmani</q>
                                 <div class="review-dates d-flex justify-content-between mt-3">
-                                    <div class="client-project"><span>Project Type: </span>Mobile application</div>
-                                    <p class="date"><span>Receiving date: </span>17 Sept 2020</p>
+                                    <div class="client-project"><p id="trainer3-description">Beschreibung</p></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="client-info">
+                                <div class="review-head py-3">
+                                    <img class="text-slider-image mx-auto" src="images/trainers/memoji1.png" alt="clients reviews">
+                                    <div class="rev-box d-flex align-items-center justify-content-lg-start justify-content-center">
+                                        <i class="fas fa-chevron-circle-right pe-3 pt-2"></i>
+                                        <div class="review-details">
+                                            <h4 class="client-name mb-2" style="margin-top: 0.7rem">Gizem</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <q id="trainer4-profession">Turk Mutfagi Uzmani</q>
+                                <div class="review-dates d-flex justify-content-between mt-3">
+                                    <div class="client-project"><p id="trainer4-description">Beschreibung</p></div>
                                 </div>
                             </div>
                         </div>
@@ -595,142 +401,92 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
-    <!-- End Reviews -->
+    <!-- End Trainers -->
+
     <!-- Start Blog -->
     <section class="blog section-padding" id="blog">
         <div class="container">
             <div class="main-heading mx-auto">
-                <h2 class="main-head-animation">Blog</h2>
-                <span>Read News</span>
+                <h2 class="main-head-animation">BLOG</h2>
             </div>
             <div class="blog-field pt-4 row">
                 <div class="wow fadeInDown blog-box mb-4 col-12 col-md-6 col-lg-4">
                     <div class="blog-content">
                         <a href="#" data-bs-toggle="modal" data-bs-target="#blogModal1" data-popup="first-pop" class="show-pop image d-block position-relative overflow-hidden">
-                            <img class="img-fluid w-100 d-block" src="images/blog/blog1.jpg" alt="blog image">
-                            <span class="blog-title">Web</span>
+                            <img class="img-fluid w-100 d-block" src="images/blog/chess-lessons.jpg" alt="blog image">
+                            <span class="blog-title">Egitim</span>
                         </a>
-                        <h3 class="blog-head my-2 px-2">Web development technology</h3>
-                        <p class="blog-text mb-3 px-2">The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz</p>
-                        <hr class="my-0">
-                        <div class="blog-links d-flex justify-content-between align-items-center p-2">
-                            <div class="blog-rating">
-                                <a class="blog-like ms-1 me-3" href="#">173</a>
-                                <a class="blog-comment" href="#">34</a>
-                            </div>
-                            <div class="more">
-                                <a class="show-pop" href="#" data-bs-toggle="modal" data-bs-target="#blogModal1">Read More</a>
-                            </div>
-                        </div>
+                        <h3 class="blog-head my-2 px-2">Satranc Kurslari Basladi</h3>
+                        <p class="blog-text mb-3 px-2">Aciklama</p>
                     </div>
                 </div>
                 <div class="wow fadeInDown blog-box mb-4 col-12 col-md-6 col-lg-4" data-wow-delay="0.4s">
                     <div class="blog-content">
                         <a href="#" data-bs-toggle="modal" data-bs-target="#blogModal2" class="image d-block position-relative overflow-hidden">
-                            <img class="img-fluid w-100 d-block" src="images/blog/blog2.jpg" alt="blog image">
-                            <span class="blog-title">Mobile</span>
+                            <img class="img-fluid w-100 d-block" src="images/blog/ramadan-iftar.jpg" alt="blog image">
+                            <span class="blog-title">Etkinlik</span>
                         </a>
-                        <h3 class="blog-head my-2 px-2">Flutter technology</h3>
-                        <p class="blog-text mb-3 px-2">The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz</p>
-                        <hr class="my-0">
-                        <div class="blog-links d-flex justify-content-between align-items-center p-2">
-                            <div class="blog-rating">
-                                <a class="blog-like ms-1 me-3" href="#">173</a>
-                                <a class="blog-comment" href="#">34</a>
-                            </div>
-                            <div class="more">
-                                <a href="#" data-bs-toggle="modal" data-bs-target="#blogModal2">Read More</a>
-                            </div>
-                        </div>
+                        <h3 class="blog-head my-2 px-2">Ramazan Iftari Bulusmasi</h3>
+                        <p class="blog-text mb-3 px-2">Aciklama</p>
                     </div>
                 </div>
                 <div class="wow fadeInDown blog-box mb-4 mx-auto col-12 col-md-6 col-lg-4" data-wow-delay="0.8s">
                     <div class="blog-content">
                         <a href="#" data-bs-toggle="modal" data-bs-target="#blogModal3" class="image d-block position-relative overflow-hidden">
-                            <img class="img-fluid w-100 d-block" src="images/blog/blog3.jpg" alt="blog image">
-                            <span class="blog-title">Design</span>
+                            <img class="img-fluid w-100 d-block" src="images/blog/football-tournament.jpg" alt="blog image">
+                            <span class="blog-title">Eglence</span>
                         </a>
-                        <h3 class="blog-head my-2 px-2">Attractive designs</h3>
-                        <p class="blog-text mb-3 px-2">The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz</p>
-                        <hr class="my-0">
-                        <div class="blog-links d-flex justify-content-between align-items-center p-2">
-                            <div class="blog-rating">
-                                <a class="blog-like ms-1 me-3" href="#">173</a>
-                                <a class="blog-comment" href="#">34</a>
-                            </div>
-                            <div class="more">
-                                <a href="#" data-bs-toggle="modal" data-bs-target="#blogModal3">Read More</a>
-                            </div>
-                        </div>
+                        <h3 class="blog-head my-2 px-2">Futbol Turnuvasi Duzenledik</h3>
+                        <p class="blog-text mb-3 px-2">Aciklama</p>
                     </div>
                 </div>
-            </div>
-            <div class="more-blogs text-center mt-4 pt-2">
-                <a href="#" class="main-btn">More Blogs</a>
             </div>
         </div>
     </section>
     <!-- End Blog -->
+
     <!-- Start Contact -->
     <section class="contact section-padding" id="contact">
         <div class="container">
             <div class="main-heading mx-auto">
-                <h2 class="main-head-animation">Contact</h2>
-                <span>Send Message</span>
+                <h2 id="contact-title" class="main-head-animation">KONTAKT</h2>
             </div>
             <div class="contact-field my-4 row flex-wrap-reverse">
                 <div class="contact-info-field p-2 col-12 col-md-4">
                     <div class="location">
                         <i class="fas fa-street-view"></i>
-                        <h5>Location
-                            <a
-                                data-fancybox
-                                data-type="iframe"
-                                data-preload="false"
-                                data-width="640"
-                                data-height="480"
-                                href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2435330.2461244175!2d-119.22978090041478!3d35.016509229685205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c229d213a60943%3A0x3458deb43bf50b32!2sCalifornia%20City%2C%20CA%2C%20USA!5e0!3m2!1sen!2seg!4v1630528358426!5m2!1sen!2seg" style="border:0;">
-                                <i class="fas fa-external-link-alt"></i>
-                            </a>
-                        </h5>
-                        <address class="mb-0">205 Fairview St. Rochester, NY 14606</address>
+                        <address class="mb-0">Braunschweig</address>
                     </div>
                     <div class="email">
                         <i class="far fa-envelope"></i>
-                        <h5>Email</h5>
-                        <a href="mailto:tona@example.com">tona@example.com</a>
+                        <a href="mailto:kulturhaus-bs@gmail.com">kulturhaus-bs@gmail.com</a>
                     </div>
                     <div class="phone">
                         <i class="fas fa-phone-alt"></i>
-                        <h5>Phone</h5>
-                        <a href="tel:#">+2 651 976 468</a>
+                        <a href="tel:#">+49 111 1111111</a>
                     </div>
                     <div class="social">
                         <i class="fas fa-share-alt"></i>
-                        <h5>Social Links</h5>
                         <div class="social-links pt-2 d-flex align-items-center justify-content-center">
                             <a class="mx-2" href="#"><i class="fab fa-facebook-f"></i></a>
                             <a class="mx-2" href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="mx-2" href="#"><i class="fab fa-instagram"></i></a>
-                            <a class="mx-2" href="#"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="contact-form-field p-4 col-12 col-md-8">
                     <form class="contact-form" action="php/contact.php" method="POST">
                         <div class="name mb-3">
-                            <input class="w-100 p-2" type="text" name="name" required placeholder="Name">
+                            <input id="name-input" class="w-100 p-2" type="text" name="name" required placeholder="Ihre Name">
                         </div>
                         <div class="email mb-3">
-                            <input class="w-100 p-2" type="email" name="email" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" required placeholder="Email">
+                            <input id="email-input" class="w-100 p-2" type="email" name="email" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" required placeholder="Ihre Email">
                         </div>
                         <div class="message mb-3">
-                            <textarea class="w-100 p-2" name="message" required placeholder="Message"></textarea>
+                            <textarea id="message-ta" class="w-100 p-2" name="message" required placeholder="Ihre Nachricht"></textarea>
                         </div>
-                        <button type="submit">Send Message</button>
+                        <button id="send-btn" type="submit">Senden</button>
                         <p class="mt-3 contact-message"></p>
                     </form>
                 </div>
@@ -738,22 +494,24 @@
         </div>
     </section>
     <!-- End Contact -->
+
     <!-- Start Footer -->
     <footer>
         <div class="container position-relative d-flex flex-column flex-md-row align-items-center justify-content-between">
-            <p class="copy mb-2 mb-md-0">&copy; 2021 Tona , All Right Reserved</p>
-            <div class="addition-links">
+            <p class="copy mb-2 mb-md-0">&copy; 2022 Kultur- & Bildungshaus</p>
+            <!--<div class="addition-links">
                 <a href="#">Privacy Policy</a>
                 <span></span>
                 <a href="#">Terms &amp; Conditions</a>
-            </div>
+            </div>-->
             <a class="scroll-top" href="#">
                 <i class="fas fa-angle-up"></i>
             </a>
         </div>
     </footer>
     <!-- End Footer -->
-    <!-- start pop -->
+
+    <!-- start popup -->
     <div class="modal fade" id="blogModal1" tabindex="-1">
         <div class="modal-dialog">
             <div class="container">
@@ -763,27 +521,18 @@
                             <i class="far fa-times-circle"></i>
                         </button>
                     </div>
-                    <span class="pop-info">Blog-Details
-                        <a href="#">Web</a>
-                    </span>
-                    <img src="images/blog/blog1.jpg" alt="blog image">
+                    <span class="pop-info">Egitim</span>
+                    <img src="images/blog/chess-lessons.jpg" alt="blog image">
                     <div class="modal-body">
-                        <h3 class="blog-title">Web development technology</h3>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque</p>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic</p>
-                        <div class="blog-quote">
-                            <q>The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab</q>
-                        </div>
-                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in</p>
+                        <h3 class="blog-title">Satranc Kurslari Basladi</h3>
+                        <p>Aciklama</p>
                     </div>
                     <div class="modal-footer d-flex justify-content-between">
                         <div class="blog-share d-flex">
-                            <span class="pe-2">Share:</span>
+                            <span class="pe-2">Paylas:</span>
                             <ul class="ps-0 mb-0 d-flex">
                                 <li class="px-2"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <li class="px-2"><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li class="px-2"><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                <li class="px-2"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
                             </ul>
                         </div>
                         <span class="date">
@@ -804,27 +553,18 @@
                             <i class="far fa-times-circle"></i>
                         </button>
                     </div>
-                    <span class="pop-info">Blog-Details
-                        <a href="#">Mobile</a>
-                    </span>
-                    <img src="images/blog/blog2.jpg" alt="blog image">
+                    <span class="pop-info">Etkinlik</span>
+                    <img src="images/blog/ramadan-iftar.jpg" alt="blog image">
                     <div class="modal-body">
-                        <h3 class="blog-title">Flutter technology</h3>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque</p>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic</p>
-                        <div class="blog-quote">
-                            <q>The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab</q>
-                        </div>
-                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in</p>
+                        <h3 class="blog-title">Ramazan Iftari Bulusmasi</h3>
+                        <p>Aciklama</p>
                     </div>
                     <div class="modal-footer d-flex justify-content-between">
                         <div class="blog-share d-flex">
-                            <span class="pe-2">Share:</span>
+                            <span class="pe-2">Paylas:</span>
                             <ul class="ps-0 mb-0 d-flex">
                                 <li class="px-2"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <li class="px-2"><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li class="px-2"><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                <li class="px-2"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
                             </ul>
                         </div>
                         <span class="date">
@@ -845,27 +585,18 @@
                             <i class="far fa-times-circle"></i>
                         </button>
                     </div>
-                    <span class="pop-info">Blog-Details
-                        <a href="#">Design</a>
-                    </span>
-                    <img src="images/blog/blog3.jpg" alt="blog image">
+                    <span class="pop-info">Eglence</span>
+                    <img src="images/blog/football-tournament.jpg" alt="blog image">
                     <div class="modal-body">
-                        <h3 class="blog-title">Attractive designs</h3>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque</p>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic</p>
-                        <div class="blog-quote">
-                            <q>The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab</q>
-                        </div>
-                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in</p>
+                        <h3 class="blog-title">Futbol Turnuvasi Duzenledik</h3>
+                        <p>Aciklama</p>
                     </div>
                     <div class="modal-footer d-flex justify-content-between">
                         <div class="blog-share d-flex">
-                            <span class="pe-2">Share:</span>
+                            <span class="pe-2">Paylas:</span>
                             <ul class="ps-0 mb-0 d-flex">
                                 <li class="px-2"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <li class="px-2"><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li class="px-2"><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                <li class="px-2"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
                             </ul>
                         </div>
                         <span class="date">
@@ -877,10 +608,10 @@
             </div>
         </div>
     </div>
-    <!-- End pop -->
+    <!-- End popup -->
 
     <!-- Start Cursor -->
-    <div class="fancy-cursor-dot"></div>
+    <!--<div class="fancy-cursor-dot"></div>-->
     <!-- End Cursor -->
 
     <!-- JS Files -->

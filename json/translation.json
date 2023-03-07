@@ -1,0 +1,235 @@
+{
+  "menu": {
+    "home": {
+      "de": "Startseite",
+      "en": "Home",
+      "tr": "Anasayfa"
+    },
+    "about": {
+      "de": "Über Uns",
+      "en": "About",
+      "tr": "Hakkımızda"
+    },
+    "activities": {
+      "de": "Aktivitäten ",
+      "en": "Activities",
+      "tr": "Faaliyetler"
+    },
+    "gallery": {
+      "de": "Galerie",
+      "en": "Gallery",
+      "tr": "Galeri"
+    },
+    "trainers": {
+      "de": "Unsere Trainer",
+      "en": "Our trainers",
+      "tr": "Eğitmenlerimiz"
+    },
+    "contact": {
+      "de": "Kontakt",
+      "en": "Contact",
+      "tr": "İletişim"
+    }
+  },
+  "banner": {
+    "title": {
+      "de": "Kultur- und Bildungshaus BS",
+      "en": "Cultural and Educational Center BS",
+      "tr": "Kultur ve Eğitim Merkezi BS"
+    },
+    "text1": {
+      "de": "Soziale Aktivitäten",
+      "en": "Social Activities",
+      "tr": "Sosyal Faaliyetler"
+    },
+    "text2": {
+      "de": "Deutschsprachigen Raum",
+      "en": "German Speaking Club",
+      "tr": "Almanca Konuşma Kulübü"
+    },
+    "text3": {
+      "de": "Tage der türkische Küche",
+      "en": "Turkish Cuisine Days",
+      "tr": "Türk Mutfağı Günleri"
+    }
+  },
+  "about": {
+    "title": {
+      "de": "ÜBER UNS",
+      "en": "ABOUT US",
+      "tr": "HAKKIMIZDA"
+    },
+    "text": {
+      "de": "ÜBER UNS",
+      "en": "ABOUT US",
+      "tr": "HAKKIMIZDA"
+    }
+  },
+  "activity": {
+    "title": {
+      "de": "AKTIVITÄTEN",
+      "en": "ACTIVITIES",
+      "tr": "FAALİYETLER"
+    },
+    "a1title": {
+      "de": "Programme der kindlichen Entwicklung",
+      "en": "Child Development Programs",
+      "tr": "Çocuk Gelişimi Programı"
+    },
+    "a1description": {
+      "de": "Beschreibung ",
+      "en": "Description",
+      "tr": "Açıklama"
+    },
+    "a2title": {
+      "de": "Kunstverein",
+      "en": "Art Club",
+      "tr": "Güzel Sanatlar Kulübü"
+    },
+    "a2description": {
+      "de": "Beschreibung ",
+      "en": "Description",
+      "tr": "Açıklama"
+    },
+    "a3title": {
+      "de": "Leseclub",
+      "en": "Reading Club",
+      "tr": "Kitap Okuma Kulübü"
+    },
+    "a3description": {
+      "de": "Beschreibung ",
+      "en": "Description",
+      "tr": "Açıklama"
+    },
+    "a4title": {
+      "de": "Deutschen Sprachraums",
+      "en": "German Speaking Club",
+      "tr": "Almanca Konuşma Kulübü"
+    },
+    "a4description": {
+      "de": "Beschreibung ",
+      "en": "Description",
+      "tr": "Açıklama"
+    },
+    "a5title": {
+      "de": "Gitarrenclub",
+      "en": "Guitar Club",
+      "tr": "Gitar Kulübü"
+    },
+    "a5description": {
+      "de": "Beschreibung ",
+      "en": "Description",
+      "tr": "Açıklama"
+    },
+    "a6title": {
+      "de": "Tage der türkische Küche",
+      "en": "Turkish Cuisine Days",
+      "tr": "Türk Mutfağı Günleri"
+    },
+    "a6description": {
+      "de": "Beschreibung ",
+      "en": "Description",
+      "tr": "Açıklama"
+    }
+  },
+  "gallery": {
+    "title": {
+      "de": "GALERIE ",
+      "en": "GALLERY",
+      "tr": "GALERİ"
+    },
+    "all": {
+      "de": "Alle",
+      "en": "All",
+      "tr": "Hepsi"
+    },
+    "education": {
+      "de": "Bildung",
+      "en": "Education",
+      "tr": "Eğitim"
+    },
+    "activity": {
+      "de": "Aktivität",
+      "en": "Activity",
+      "tr": "Etkinlik"
+    },
+    "entertainment": {
+      "de": "Unterhaltung",
+      "en": "Entertainment",
+      "tr": "Eğlence"
+    },
+    "images": {
+      "description1": {
+        "de": "Programme der kindlichen Entwicklung",
+        "en": "Child Development Programs",
+        "tr": "Çocuk Gelişimi Programı"
+      },
+      "description2": {
+        "de": "Ramadan Iftar",
+        "en": "Ramadan Iftar",
+        "tr": "Ramazan İftarı"
+      },
+      "description3": {
+        "de": "Gitarrenclub",
+        "en": "Guitar Club",
+        "tr": "Gitar Kulübü"
+      },
+      "description4": {
+        "de": "PlayStationturnier",
+        "en": "PlayStation Tournament",
+        "tr": "PlayStation Turnuvası"
+      },
+      "description5": {
+        "de": "Geburtstagsfeier",
+        "en": "Birthday Party",
+        "tr": "Doğum Günü Partisi"
+      },
+      "description6": {
+        "de": "Fußballturnier",
+        "en": "Football Tournament",
+        "tr": "Futbol Turnuvası"
+      }
+    }
+  },
+  "trainers": {
+    "title": {
+      "de": "UNSERE TRAINER",
+      "en": "OUR TRAINERS",
+      "tr": "EĞİTMENLERİMİZ"
+    },
+    "profession1": {
+      "de": "Çocuk Gelişimi Uzmanı [German]",
+      "en": "Çocuk Gelişimi Uzmanı [English]",
+      "tr": "Çocuk Gelişimi Uzmanı"
+    }
+  },
+  "contact": {
+    "title": {
+      "de": "KONTAKT",
+      "en": "CONTACT",
+      "tr": "İLETİŞİM"
+    },
+    "form": {
+      "name": {
+        "de": "Ihre Name",
+        "en": "Your name",
+        "tr": "Adınız"
+      },
+      "email": {
+        "de": "Ihre Email",
+        "en": "Your email",
+        "tr": "E-postanız"
+      },
+      "message": {
+        "de": "Ihre Nachricht",
+        "en": "Your message",
+        "tr": "Mesajınız"
+      },
+      "send": {
+        "de": "Senden",
+        "en": "Send",
+        "tr": "Gönder"
+      }
+    }
+  }
+}
