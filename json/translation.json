@@ -33,9 +33,9 @@
   },
   "banner": {
     "title": {
-      "de": "Kultur- und Bildungshaus BS",
-      "en": "Cultural and Educational Center BS",
-      "tr": "Kultur ve Eğitim Merkezi BS"
+      "de": "Braunschweiger Kultur und Bildungshaus",
+      "en": "Braunschweig Cultural and Educational Center",
+      "tr": "Braunschweig Kültür ve Eğitim Merkezi"
     },
     "text1": {
       "de": "Soziale Aktivitäten",
@@ -60,9 +60,9 @@
       "tr": "HAKKIMIZDA"
     },
     "text": {
-      "de": "ÜBER UNS",
-      "en": "ABOUT US",
-      "tr": "HAKKIMIZDA"
+      "de": "Der Braunschweiger Kultur- und Bildungshaus e.V. ist eine gemeinnützige Organisation, die sich zum Ziel gesetzt hat, Menschen jeden Alters und jeder Herkunft zu fördern und zu unterstützen. Der Verein engagiert sich in kulturellen, künstlerischen, sprachlichen, sozialen und religiösen Bereichen und bietet sowohl Kurse als auch verschiedene Bildungsprogramme an. Dazu können das Erlernen der orientalischen Kunstarten, das Erlernen von wichtigen Sprachen in der Gesellschaft, kulturelle Studienreisen ins In- und Ausland, das Erlernen von Musikinstrumenten, das Besuchen von Kunstausstellungen sowie Kurse in Ethik etc. gezählt werden.",
+      "en": "The Braunschweiger Kultur- und Bildungshaus e.V. is a non-profit organization that aims to promote and support people of all ages and backgrounds. The association is involved in cultural, artistic, linguistic, social and religious areas and offers both courses and various educational programs. This can include learning oriental arts, learning important languages in society, cultural study trips at home and abroad, learning to play musical instruments, visiting art exhibitions and courses in ethics, etc.",
+      "tr": "Braunschweiger Kultur- und Bildungshaus e.V., her yaştan ve geçmişten insanı tanıtmayı ve desteklemeyi amaçlayan kar amacı gütmeyen bir kuruluştur. Dernek kültürel, sanatsal, dilsel, sosyal ve dini alanlarda faaliyet göstermekte ve hem kurslar hem de çeşitli eğitim programları sunmaktadır. Bu, doğu sanatlarını öğrenmeyi, toplumdaki önemli dilleri öğrenmeyi, yurtiçinde ve yurtdışında kültürel çalışma gezilerini, müzik aletlerini çalmayı öğrenmeyi, sanat sergilerini ve etik kurslarını ziyaret etmeyi vb. içerebilir."
     }
   },
   "activity": {
