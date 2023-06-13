@@ -72,24 +72,24 @@
       "tr": "FAALİYETLER"
     },
     "a1title": {
-      "de": "Programme der kindlichen Entwicklung",
-      "en": "Child Development Programs",
-      "tr": "Çocuk Gelişimi Programı"
+      "de": "Musikklub",
+      "en": "Music Club",
+      "tr": "Müzik Kulübü"
     },
     "a1description": {
-      "de": "Beschreibung ",
-      "en": "Description",
-      "tr": "Açıklama"
+      "de": "Ab Juli bietet unser Musikclub für unsere Mitglieder und deren Kinder kostenlose Gitarrenkurse an. ",
+      "en": "Starting from July, our music club will provide free guitar courses for our members and their children.",
+      "tr": "Temmuz ayından itibaren müzik kulübümüz üyelerimize ve çocuklarına ücretsiz gitar kursları vermeye başlayacak."
     },
     "a2title": {
-      "de": "Kunstverein",
-      "en": "Art Club",
-      "tr": "Güzel Sanatlar Kulübü"
+      "de": "Sportklub",
+      "en": "Sport Club",
+      "tr": "Spor Kulübü"
     },
     "a2description": {
-      "de": "Beschreibung ",
-      "en": "Description",
-      "tr": "Açıklama"
+      "de": "Unser Sportverein Sportklub Sportveranstaltungen und Turniere in den Bereichen Fußball, Volleyball, Tischtennis, Bowling, Billard und eSport.",
+      "en": "Our sport club organizes sports event and tournaments in football, volleyball, table tennis, bowling, billiard, eSport.",
+      "tr": "Spor kulübümüz futbol, voleybol, masa tenisi, bowling, bilardo, eSpor branşlarında spor etkinlikleri ve turnuvalar düzenlemektedir."
     },
     "a3title": {
       "de": "Leseclub",
@@ -112,9 +112,9 @@
       "tr": "Açıklama"
     },
     "a5title": {
-      "de": "Gitarrenclub",
-      "en": "Guitar Club",
-      "tr": "Gitar Kulübü"
+      "de": "Kunstverein",
+      "en": "Art Club",
+      "tr": "Güzel Sanatlar Kulübü"
     },
     "a5description": {
       "de": "Beschreibung ",
