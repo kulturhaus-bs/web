@@ -9,7 +9,7 @@
 /* Small */
 @media (min-width: 768px) {
     .contact .contact-field .contact-info-field {
-        border-right: 1px solid var(--main-color);
+        /*border-right: 1px solid var(--main-color);*/
     }
 }
 @media (max-width: 576px) {
