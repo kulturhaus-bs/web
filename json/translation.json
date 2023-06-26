@@ -43,14 +43,14 @@
       "tr": "Sosyal Faaliyetler"
     },
     "text2": {
-      "de": "Deutschsprachigen Raum",
-      "en": "German Speaking Club",
-      "tr": "Almanca Konuşma Kulübü"
+      "de": "Bildungsprogramme",
+      "en": "Educational programs",
+      "tr": "Eğitim programları"
     },
     "text3": {
-      "de": "Tage der türkische Küche",
-      "en": "Turkish Cuisine Days",
-      "tr": "Türk Mutfağı Günleri"
+      "de": "Kulturelle Aktivitäten",
+      "en": "Cultural activities",
+      "tr": "Kültürel aktiviteler"
     }
   },
   "about": {
@@ -77,9 +77,9 @@
       "tr": "Müzik Kulübü"
     },
     "a1description": {
-      "de": "Ab Juli bietet unser Musikclub für unsere Mitglieder und deren Kinder kostenlose Gitarrenkurse an. ",
-      "en": "Starting from July, our music club will provide free guitar courses for our members and their children.",
-      "tr": "Temmuz ayından itibaren müzik kulübümüz üyelerimize ve çocuklarına ücretsiz gitar kursları vermeye başlayacak."
+      "de": "Unser Musikclub bietet Unterricht auf verschiedenen Instrumenten und organisiert Konzertbesuche mit Gruppen.",
+      "en": "Our music club provides lessons on various instruments, organizes concert visiting with groups.",
+      "tr": "Müzik kulübümüz çeşitli enstrümanlar üzerine dersler vermekte, gruplarla konser gezileri düzenlemektedir."
     },
     "a2title": {
       "de": "Sportklub",
@@ -87,19 +87,19 @@
       "tr": "Spor Kulübü"
     },
     "a2description": {
-      "de": "Unser Sportverein Sportklub Sportveranstaltungen und Turniere in den Bereichen Fußball, Volleyball, Tischtennis, Bowling, Billard und eSport.",
+      "de": "Unser Sportklub Sportveranstaltungen und Turniere in den Bereichen Fußball, Volleyball, Tischtennis, Bowling, Billard und eSport.",
       "en": "Our sport club organizes sports event and tournaments in football, volleyball, table tennis, bowling, billiard, eSport.",
       "tr": "Spor kulübümüz futbol, voleybol, masa tenisi, bowling, bilardo, eSpor branşlarında spor etkinlikleri ve turnuvalar düzenlemektedir."
     },
     "a3title": {
-      "de": "Leseclub",
-      "en": "Reading Club",
-      "tr": "Kitap Okuma Kulübü"
+      "de": "Deutschland Club",
+      "en": "Deutschland Club",
+      "tr": "Deutschland Kulübü"
     },
     "a3description": {
-      "de": "Beschreibung ",
-      "en": "Description",
-      "tr": "Açıklama"
+      "de": "Unser Deutschland-Club trägt dazu bei, die Integration in das deutsche Leben zu erleichtern.",
+      "en": "Our Deutschland club helps to make it easy to getting integrated in German life.",
+      "tr": "Deutschland kulübümüz, Almanya yaşamına entegre olmayı kolaylaştırmaya yardımcı olur."
     },
     "a4title": {
       "de": "Deutschen Sprachraums",
@@ -160,9 +160,9 @@
     },
     "images": {
       "description1": {
-        "de": "Programme der kindlichen Entwicklung",
-        "en": "Child Development Programs",
-        "tr": "Çocuk Gelişimi Programı"
+        "de": "PS FIFA Turniere | Summer Cup 2023",
+        "en": "PS FIFA Tournament | Summer Cup 2023",
+        "tr": "PS FIFA Turnuva | Summer Cup 2023"
       },
       "description2": {
         "de": "Ramadan Iftar",
@@ -197,10 +197,77 @@
       "en": "OUR TRAINERS",
       "tr": "EĞİTMENLERİMİZ"
     },
-    "profession1": {
-      "de": "Çocuk Gelişimi Uzmanı [German]",
-      "en": "Çocuk Gelişimi Uzmanı [English]",
-      "tr": "Çocuk Gelişimi Uzmanı"
+    "trainer1": {
+      "profession": {
+        "de": "Der Koran | Kinderentwicklung",
+        "en": "Quran | Child Development",
+        "tr": "Kuran-i Kerim | Çocuk Gelişimi"
+      },
+      "description": {
+        "de": "Şeyma unterrichtet mehr als 20 Kinder im Koran. Gleichzeitig organisiert sie Aktivitäten zur Kinderentwicklung.",
+        "en": "Şeyma teaches Quran to more than 20 children. At the same time she organizes child development activities.",
+        "tr": "Şeyma, 20'den fazla çocuğa Kuran öğretiyor. Aynı zamanda çocuk gelişimi etkinlikleri düzenlemektedir."
+      }
+    },
+    "trainer2": {
+      "profession": {
+        "de": "Gitarre",
+        "en": "Guitar",
+        "tr": "Gitar"
+      },
+      "description": {
+        "de": "Berra bringt Mädchen das Gitarrespielen bei.",
+        "en": "Berra teachs girls how to play guitar.",
+        "tr": "Berra kızlara gitar çalmayı öğretiyor."
+      }
+    },
+    "trainer3": {
+      "profession": {
+        "de": "Schach | Origami",
+        "en": "Chess | Origami",
+        "tr": "Satranç | Origami"
+      },
+      "description": {
+        "de": "Ibrahim hat gute Erfahrung im Unterrichten. Er unterrichtet Schach und Origami.",
+        "en": "Ibrahim has good experience in teaching. He teaches chess and origami.",
+        "tr": "İbrahim öğretmenlik konusunda iyi bir deneyime sahiptir. Satranç ve origami öğretiyor."
+      }
+    },
+    "trainer4": {
+      "profession": {
+        "de": "Gitarre | Schach",
+        "en": "Guitar | Chess",
+        "tr": "Gitar | Satranç"
+      },
+      "description": {
+        "de": "Nurbek unterrichtet Kinder im Gitarrenspiel und unterstützt Ibrahim im Schachunterricht.",
+        "en": "Nurbek teaches children guitar and assists Ibrahim in chess class.",
+        "tr": "Nurbek, çocuklara gitar öğretiyor ve İbrahim'e satranç dersinde yardımcı oluyor."
+      }
+    }
+  },
+  "blogs": {
+    "blog1": {
+      "type": {
+        "de": "Unterhaltung",
+        "en": "Entertainment",
+        "tr": "Eğlence"
+      },
+      "title": {
+        "de": "PS FIFA Turniere | Summer Cup 2023",
+        "en": "PS FIFA Tournament | Summer Cup 2023",
+        "tr": "PS FIFA Turnuva | Summer Cup 2023"
+      },
+      "shortDescription": {
+        "de": "Unser Sportklub hat ein PlayStation 4 FIFA23-Turnier organisiert.",
+        "en": "Our Sport Club organized PlayStation 4 FIFA23 tournament.",
+        "tr": "Spor Kulübümüz PlayStation 4 FIFA23 turnuvası düzenledi."
+      },
+      "description": {
+        "de": "Unser Sportklub hat ein PlayStation 4 FIFA23-Turnier organisiert. Das Turnier begann mit dem Frühstück, das wir für 20 Teilnehmer und ihre Eltern vorbereiteten, die kamen, um ihre Kinder zu unterstützen. Insgesamt wurden 38 Spiele ausgetragen, um den 1., 2. und 3. Platz zu ermitteln. Die Kinder hatten dort viel Spaß. Die Spieler lernten die Bedeutung von kompetitivem eSport und Fairplay-Regeln kennen. Den Gewinnern des Turniers wurden Medaillen und Geschenkgutscheine verliehen. Weitere Fotos finden Sie in unserer Turniergalerie.",
+        "en": "Our Sport Club organized PlayStation 4 FIFA23 tournament. The tournament started with the breakfast that we prepared for 20 participants and their parents who came to support thier kids. In total, 38 matches were played to determine 1st, 2d and 3rd places. Children had a lot of fun there. Players learned about importance of competitive eSport and Fair Play rules. Medals and gift cards were awards to the winners of the tournament. Please visit our tournament <a href=\"#gallery-summercup2023-1\">gallery</a> for more photos.",
+        "tr": "Spor Kulübümüz PlayStation 4 FIFA23 turnuvası düzenledi. Turnuva, çocuklarına destek olmaya gelen 20 katılımcı ve velileri için hazırladığımız kahvaltı ile başladı. 1., 2. ve 3. sırayı belirlemek için toplam 38 maç oynandı. Çocuklar orada çok eğlendiler. Oyuncular, rekabetçi eSpor ve Fair Play kurallarının önemini öğrendiler. Turnuvada dereceye girenlere madalya ve hediye çekleri verildi. Daha fazla fotoğraf için lütfen turnuva galerimizi ziyaret edin."
+      }
     }
   },
   "contact": {

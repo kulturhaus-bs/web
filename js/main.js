@@ -243,15 +243,27 @@ function translate(lang) {
       document.getElementById("menu-gallery").textContent = translations.menu.gallery[lang];
       document.getElementById("menu-trainers").textContent = translations.menu.trainers[lang];
       document.getElementById("menu-contact").textContent = translations.menu.contact[lang];
+    } catch (error) {
+        console.log("Menu translation to " + lang + ", error: " + error);
+    }
 
+    try {
       document.getElementById("banner-title").textContent = translations.banner.title[lang];
       document.getElementById("banner-text-1").textContent = translations.banner.text1[lang];
       document.getElementById("banner-text-2").textContent = translations.banner.text2[lang];
       document.getElementById("banner-text-3").textContent = translations.banner.text3[lang];
+    } catch (error) {
+        console.log("Banner translation to " + lang + ", error: " + error);
+    }
 
+    try {
       document.getElementById("about-title").innerHTML = translations.about.title[lang];
       document.getElementById("about-text").textContent = translations.about.text[lang];
+    } catch (error) {
+        console.log("About translation to " + lang + ", error: " + error);
+    }
 
+    try {
       document.getElementById("activity-title").innerHTML = translations.activity.title[lang];
       document.getElementById("a1-title").textContent = translations.activity.a1title[lang];
       document.getElementById("a1-description").textContent = translations.activity.a1description[lang];
@@ -259,41 +271,65 @@ function translate(lang) {
       document.getElementById("a2-description").textContent = translations.activity.a2description[lang];
       document.getElementById("a3-title").textContent = translations.activity.a3title[lang];
       document.getElementById("a3-description").textContent = translations.activity.a3description[lang];
-      document.getElementById("a4-title").textContent = translations.activity.a4title[lang];
+      /*document.getElementById("a4-title").textContent = translations.activity.a4title[lang];
       document.getElementById("a4-description").textContent = translations.activity.a4description[lang];
       document.getElementById("a5-title").textContent = translations.activity.a5title[lang];
       document.getElementById("a5-description").textContent = translations.activity.a5description[lang];
       document.getElementById("a6-title").textContent = translations.activity.a6title[lang];
-      document.getElementById("a6-description").textContent = translations.activity.a6description[lang];
+      document.getElementById("a6-description").textContent = translations.activity.a6description[lang];*/
+    } catch (error) {
+        console.log("Activities translation to " + lang + ", error: " + error);
+    }
 
+    try {
       document.getElementById("gallery-title").innerHTML = translations.gallery.title[lang];
-      document.getElementById("gallery-all").textContent = translations.gallery.all[lang];
+      /*document.getElementById("gallery-all").textContent = translations.gallery.all[lang];
       document.getElementById("gallery-education").textContent = translations.gallery.education[lang];
       document.getElementById("gallery-activity").textContent = translations.gallery.activity[lang];
-      document.getElementById("gallery-entertainment").textContent = translations.gallery.entertainment[lang];
-      document.getElementById("gallery-title1").innerHTML  = translations.gallery.education[lang];
+      document.getElementById("gallery-entertainment").textContent = translations.gallery.entertainment[lang];*/
+      document.getElementById("gallery-title1").innerHTML  = translations.gallery.entertainment[lang];
       document.getElementById("gallery-description1").innerHTML  = translations.gallery.images.description1[lang];
       document.getElementById("gallery-title2").innerHTML  = translations.gallery.activity[lang];
       document.getElementById("gallery-description2").innerHTML  = translations.gallery.images.description2[lang];
       document.getElementById("gallery-title3").innerHTML  = translations.gallery.education[lang];
       document.getElementById("gallery-description3").innerHTML  = translations.gallery.images.description3[lang];
-      document.getElementById("gallery-title4").innerHTML  = translations.gallery.entertainment[lang];
+      /*document.getElementById("gallery-title4").innerHTML  = translations.gallery.entertainment[lang];
       document.getElementById("gallery-description4").innerHTML  = translations.gallery.images.description4[lang];
       document.getElementById("gallery-title5").innerHTML  = translations.gallery.activity[lang];
       document.getElementById("gallery-description5").innerHTML  = translations.gallery.images.description5[lang];
       document.getElementById("gallery-title6").innerHTML  = translations.gallery.entertainment[lang];
-      document.getElementById("gallery-description6").innerHTML  = translations.gallery.images.description6[lang];
+      document.getElementById("gallery-description6").innerHTML  = translations.gallery.images.description6[lang];*/
+    } catch (error) {
+        console.log("Gallery translation to " + lang + ", error: " + error);
+    }
 
+    try {
       document.getElementById("trainers-title").innerHTML = translations.trainers.title[lang];
-      document.getElementById("trainer1-profession").innerHTML = translations.trainers.profession1[lang];
+      document.getElementById("trainer1-profession").innerHTML = translations.trainers.trainer1.profession[lang];
+      document.getElementById("trainer1-description").innerHTML = translations.trainers.trainer1.description[lang];
+      document.getElementById("trainer2-profession").innerHTML = translations.trainers.trainer2.profession[lang];
+      document.getElementById("trainer2-description").innerHTML = translations.trainers.trainer2.description[lang];
+      document.getElementById("trainer3-profession").innerHTML = translations.trainers.trainer3.profession[lang];
+      document.getElementById("trainer3-description").innerHTML = translations.trainers.trainer3.description[lang];
+      document.getElementById("trainer4-profession").innerHTML = translations.trainers.trainer4.profession[lang];
+      document.getElementById("trainer4-description").innerHTML = translations.trainers.trainer4.description[lang];
+    } catch (error) {
+        console.log("Trainers translation to " + lang + ", error: " + error);
+    }
 
-      document.getElementById("contact-title").innerHTML = translations.contact.title[lang];
+    try {
+      document.getElementById("blog1-type").innerHTML = translations.blogs.blog1.type[lang];
+      document.getElementById("blog1-title").innerHTML = translations.blogs.blog1.title[lang];
+      document.getElementById("blog1-short-description").innerHTML = translations.blogs.blog1.shortDescription[lang];
+      document.getElementById("blog1-modal-description").innerHTML = translations.blogs.blog1.description[lang];
+
+      /*document.getElementById("contact-title").innerHTML = translations.contact.title[lang];
       document.getElementById("name-input").placeholder = translations.contact.form.name[lang];
       document.getElementById("email-input").placeholder = translations.contact.form.email[lang];
       document.getElementById("message-ta").placeholder = translations.contact.form.message[lang];
-      document.getElementById("send-btn").innerText = translations.contact.form.send[lang];
+      document.getElementById("send-btn").innerText = translations.contact.form.send[lang];*/
     } catch (error) {
-      console.error("translate(" + lang + "): " + error);
+      console.log("Blog translation to " + lang + ", error: " + error);
     }
 
 }
