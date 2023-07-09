@@ -323,6 +323,14 @@ function translate(lang) {
       document.getElementById("blog1-short-description").innerHTML = translations.blogs.blog1.shortDescription[lang];
       document.getElementById("blog1-modal-description").innerHTML = translations.blogs.blog1.description[lang];
 
+      document.getElementById("blog2-type").innerHTML = translations.blogs.blog2.type[lang];
+      document.getElementById("blog2-title").innerHTML = translations.blogs.blog2.title[lang];
+      document.getElementById("blog2-short-description").innerHTML = translations.blogs.blog2.shortDescription[lang];
+      document.getElementById("blog2-modal-description").innerHTML = translations.blogs.blog2.description[lang];
+
+      document.getElementById("blog3-title").innerHTML = translations.blogs.blog3.title[lang];
+      document.getElementById("blog3-short-description").innerHTML = translations.blogs.blog3.shortDescription[lang];
+
       /*document.getElementById("contact-title").innerHTML = translations.contact.title[lang];
       document.getElementById("name-input").placeholder = translations.contact.form.name[lang];
       document.getElementById("email-input").placeholder = translations.contact.form.email[lang];

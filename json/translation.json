@@ -259,14 +259,58 @@
         "tr": "PS FIFA Turnuva | Summer Cup 2023"
       },
       "shortDescription": {
-        "de": "Unser Sportklub hat ein PlayStation 4 FIFA23-Turnier organisiert.",
-        "en": "Our Sport Club organized PlayStation 4 FIFA23 tournament.",
-        "tr": "Spor Kulübümüz PlayStation 4 FIFA23 turnuvası düzenledi."
+        "de": "Unser Sportklub hat ein PS4 FIFA23-Turnier organisiert.",
+        "en": "Our Sport Club organized PS4 FIFA23 tournament.",
+        "tr": "Spor Kulübümüz PS4 FIFA23 turnuvası düzenledi."
       },
       "description": {
         "de": "Unser Sportklub hat ein PlayStation 4 FIFA23-Turnier organisiert. Das Turnier begann mit dem Frühstück, das wir für 20 Teilnehmer und ihre Eltern vorbereiteten, die kamen, um ihre Kinder zu unterstützen. Insgesamt wurden 38 Spiele ausgetragen, um den 1., 2. und 3. Platz zu ermitteln. Die Kinder hatten dort viel Spaß. Die Spieler lernten die Bedeutung von kompetitivem eSport und Fairplay-Regeln kennen. Den Gewinnern des Turniers wurden Medaillen und Geschenkgutscheine verliehen. Weitere Fotos finden Sie in unserer Turniergalerie.",
         "en": "Our Sport Club organized PlayStation 4 FIFA23 tournament. The tournament started with the breakfast that we prepared for 20 participants and their parents who came to support thier kids. In total, 38 matches were played to determine 1st, 2d and 3rd places. Children had a lot of fun there. Players learned about importance of competitive eSport and Fair Play rules. Medals and gift cards were awards to the winners of the tournament. Please visit our tournament <a href=\"#gallery-summercup2023-1\">gallery</a> for more photos.",
         "tr": "Spor Kulübümüz PlayStation 4 FIFA23 turnuvası düzenledi. Turnuva, çocuklarına destek olmaya gelen 20 katılımcı ve velileri için hazırladığımız kahvaltı ile başladı. 1., 2. ve 3. sırayı belirlemek için toplam 38 maç oynandı. Çocuklar orada çok eğlendiler. Oyuncular, rekabetçi eSpor ve Fair Play kurallarının önemini öğrendiler. Turnuvada dereceye girenlere madalya ve hediye çekleri verildi. Daha fazla fotoğraf için lütfen turnuva galerimizi ziyaret edin."
+      }
+    },
+    "blog2": {
+      "type": {
+        "de": "Bildungs",
+        "en": "Education",
+        "tr": "Eğitim"
+      },
+      "title": {
+        "de": "Gitarre lernen",
+        "en": "Guitar course",
+        "tr": "Gitar kursu"
+      },
+      "shortDescription": {
+        "de": "Unser Musikclub bietet kostenlose Gitarrenkurse an.",
+        "en": "Our Music Club provides free guitar courses.",
+        "tr": "Müzik Kulübümüz ücretsiz gitar kursları vermektedir."
+      },
+      "description": {
+        "de": "",
+        "en": "",
+        "tr": ""
+      }
+    },
+    "blog3": {
+      "type": {
+        "de": "",
+        "en": "",
+        "tr": ""
+      },
+      "title": {
+        "de": "Weitere Blogs",
+        "en": "More blogs",
+        "tr": "Daha fazla blog"
+      },
+      "shortDescription": {
+        "de": "Besuchen Sie unsere Blog-Seite, um mehr zu sehen",
+        "en": "Visit our blog page to see more.",
+        "tr": "Daha fazlasını görmek için blog sayfamızı ziyaret edin."
+      },
+      "description": {
+        "de": "",
+        "en": "",
+        "tr": ""
       }
     }
   },
