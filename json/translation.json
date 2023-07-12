@@ -204,12 +204,12 @@
     },
     "trainer1": {
       "profession": {
-        "de": "Religionsunterricht | Kinderentwicklung",
+        "de": "Religionsunterricht | Soziale Arbeit mit Kindern",
         "en": "Religious Education | Child Development",
         "tr": "Dinî eğitim | Çocuk Gelişimi"
       },
       "description": {
-        "de": "Şeyma unterrichtet mehr als 20 Kinder im Koran. Gleichzeitig organisiert sie Aktivitäten zur Kinderentwicklung.",
+        "de": "Şeyma unterrichtet mehr als 50 Kinder in Religion. Gleichzeitig engagiert sie sich in der sozialen Arbeit mit Kindern und organisiert entsprechende Aktivitäten.",
         "en": "Şeyma teaches Quran to more than 20 children. At the same time she organizes child development activities.",
         "tr": "Şeyma, 20'den fazla çocuğa Kuran öğretiyor. Aynı zamanda çocuk gelişimi etkinlikleri düzenlemektedir."
       }
