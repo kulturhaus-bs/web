@@ -350,6 +350,8 @@ function translateTrainers(lang) {
         document.getElementById("trainer3-description").innerHTML = translations.trainers.trainer3.description[lang];
         document.getElementById("trainer4-profession").innerHTML = translations.trainers.trainer4.profession[lang];
         document.getElementById("trainer4-description").innerHTML = translations.trainers.trainer4.description[lang];
+        document.getElementById("trainer5-profession").innerHTML = translations.trainers.trainer5.profession[lang];
+        document.getElementById("trainer5-description").innerHTML = translations.trainers.trainer5.description[lang];
     } catch (error) {
         console.log("Trainers translation to " + lang + ", error: " + error);
     }

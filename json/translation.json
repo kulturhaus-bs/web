@@ -249,6 +249,18 @@
         "en": "Nurbek teaches children guitar and assists Ibrahim in chess class.",
         "tr": "Nurbek, çocuklara gitar öğretiyor ve İbrahim'e satranç dersinde yardımcı oluyor."
       }
+    },
+    "trainer5": {
+      "profession": {
+        "de": "Orientalische (Ney) Flöte und IT-Sicherheit",
+        "en": "Oriental (ney) flute and IT security",
+        "tr": "Ney flüt ve bilişim güvenliği"
+      },
+      "description": {
+        "de": "Ich bin ein IT Security Engineer mit einer Leidenschaft für orientalische Musik und IT-Sicherheit. Mein Ziel ist es, Menschen sowohl in der wunderbaren Welt der orientalischen Flöte, insbesondere der Ney-Flöte, als auch in den wichtigen Aspekten der IT-Sicherheit zu schulen und zu unterstützen.",
+        "en": "I'm an IT security engineer with a passion for oriental music and IT security. My goal is to train and support people both in the wonderful world of the oriental flute, especially the ney flute, and in the important aspects of IT security.",
+        "tr": "Doğu müziği ve BT güvenliği tutkusu olan bir BT güvenlik mühendisiyim. Amacım hem doğu flütünün, özellikle ney flütünün harika dünyasında hem de bilişim güvenliğinin önemli yönlerinde insanları eğitmek ve desteklemektir."
+      }
     }
   },
   "blogs": {
