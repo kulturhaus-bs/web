@@ -327,12 +327,8 @@ function translateGallery(lang) {
         document.getElementById("gallery-description2").innerHTML  = translations.gallery.images.description2[lang];
         document.getElementById("gallery-title3").innerHTML  = translations.gallery.education[lang];
         document.getElementById("gallery-description3").innerHTML  = translations.gallery.images.description3[lang];
-        /*document.getElementById("gallery-title4").innerHTML  = translations.gallery.entertainment[lang];
+        document.getElementById("gallery-title4").innerHTML  = translations.gallery.entertainment[lang];
         document.getElementById("gallery-description4").innerHTML  = translations.gallery.images.description4[lang];
-        document.getElementById("gallery-title5").innerHTML  = translations.gallery.activity[lang];
-        document.getElementById("gallery-description5").innerHTML  = translations.gallery.images.description5[lang];
-        document.getElementById("gallery-title6").innerHTML  = translations.gallery.entertainment[lang];
-        document.getElementById("gallery-description6").innerHTML  = translations.gallery.images.description6[lang];*/
         gallery-see-more-title
     } catch (error) {
         console.log("Gallery translation to " + lang + ", error: " + error);
@@ -371,8 +367,8 @@ function translateBlogs(lang) {
         document.getElementById("blog2-modal-title").innerHTML = translations.blogs.blog2.title[lang];
         document.getElementById("blog2-modal-description").innerHTML = translations.blogs.blog2.description[lang];
 
-        document.getElementById("blog3-title").innerHTML = translations.blogs.blog3.title[lang];
-        document.getElementById("blog3-short-description").innerHTML = translations.blogs.blog3.shortDescription[lang];
+        document.getElementById("blog3-title").innerHTML = translations.blogs.moreBlogs.title[lang];
+        document.getElementById("blog3-short-description").innerHTML = translations.blogs.moreBlogs.shortDescription[lang];
     } catch (error) {
         console.log("Blog translation to " + lang + ", error: " + error);
     }

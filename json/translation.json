@@ -170,29 +170,19 @@
         "tr": "PS FIFA Turnuva | Summer Cup 2023"
       },
       "description2": {
-        "de": "Ramadan Iftar",
-        "en": "Ramadan Iftar",
-        "tr": "Ramazan İftarı"
+        "de": "Gitarre lernen",
+        "en": "Guitar course",
+        "tr": "Gitar kursu"
       },
       "description3": {
-        "de": "Gitarrenclub",
-        "en": "Guitar Club",
-        "tr": "Gitar Kulübü"
+        "de": "Schach lernen",
+        "en": "Chess course",
+        "tr": "Satranç dersi"
       },
       "description4": {
-        "de": "PlayStationturnier",
-        "en": "PlayStation Tournament",
-        "tr": "PlayStation Turnuvası"
-      },
-      "description5": {
-        "de": "Geburtstagsfeier",
-        "en": "Birthday Party",
-        "tr": "Doğum Günü Partisi"
-      },
-      "description6": {
-        "de": "Fußballturnier",
-        "en": "Football Tournament",
-        "tr": "Futbol Turnuvası"
+        "de": "Origami lernen",
+        "en": "Origami course",
+        "tr": "Origami dersi"
       }
     }
   },
@@ -308,12 +298,7 @@
         "tr": "Temmuz ayından itibaren Müzik Kulübümüz gitar kursları vermeye başlayacak. Bu derste katılımcılar gitarın temellerini, notaları, tabloları, akorları öğreneceklerdir. Bethooven, Bach, Pachelbel ve Mozart gibi Renesanse ve Klasik dönem Alman bestecilerinin bestelerini inceleyecekler. Ayrıca İspanyol klasik gitar bestelerini de çalışacaklar."
       }
     },
-    "blog3": {
-      "type": {
-        "de": "",
-        "en": "",
-        "tr": ""
-      },
+    "moreBlogs": {
       "title": {
         "de": "Weitere Blogs",
         "en": "More blogs",
@@ -323,11 +308,6 @@
         "de": "Besuchen Sie unsere Blog-Seite, um mehr zu sehen",
         "en": "Visit our blog page to see more.",
         "tr": "Daha fazlasını görmek için blog sayfamızı ziyaret edin."
-      },
-      "description": {
-        "de": "",
-        "en": "",
-        "tr": ""
       }
     }
   },
@@ -336,28 +316,6 @@
       "de": "KONTAKT",
       "en": "CONTACT",
       "tr": "İLETİŞİM"
-    },
-    "form": {
-      "name": {
-        "de": "Ihre Name",
-        "en": "Your name",
-        "tr": "Adınız"
-      },
-      "email": {
-        "de": "Ihre Email",
-        "en": "Your email",
-        "tr": "E-postanız"
-      },
-      "message": {
-        "de": "Ihre Nachricht",
-        "en": "Your message",
-        "tr": "Mesajınız"
-      },
-      "send": {
-        "de": "Senden",
-        "en": "Send",
-        "tr": "Gönder"
-      }
     }
   }
 }
