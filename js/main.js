@@ -367,8 +367,18 @@ function translateBlogs(lang) {
         document.getElementById("blog2-modal-title").innerHTML = translations.blogs.blog2.title[lang];
         document.getElementById("blog2-modal-description").innerHTML = translations.blogs.blog2.description[lang];
 
-        document.getElementById("blog3-title").innerHTML = translations.blogs.moreBlogs.title[lang];
-        document.getElementById("blog3-short-description").innerHTML = translations.blogs.moreBlogs.shortDescription[lang];
+        document.getElementById("blog3-type").innerHTML = translations.blogs.blog3.type[lang];
+        document.getElementById("blog3-title").innerHTML = translations.blogs.blog3.title[lang];
+        document.getElementById("blog3-short-description").innerHTML = translations.blogs.blog3.shortDescription[lang];
+        document.getElementById("blog3-modal-title").innerHTML = translations.blogs.blog3.title[lang];
+        document.getElementById("blog3-modal-description").innerHTML = translations.blogs.blog3.description[lang];
+    } catch (error) {
+        console.log("Blog translation to " + lang + ", error: " + error);
+    }
+
+    try {
+        document.getElementById("blog-more-title").innerHTML = translations.blogs.moreBlogs.title[lang];
+        document.getElementById("blog-more-short-description").innerHTML = translations.blogs.moreBlogs.shortDescription[lang];
     } catch (error) {
         console.log("Blog translation to " + lang + ", error: " + error);
     }

@@ -298,6 +298,28 @@
         "tr": "Temmuz ayından itibaren Müzik Kulübümüz gitar kursları vermeye başlayacak. Bu derste katılımcılar gitarın temellerini, notaları, tabloları, akorları öğreneceklerdir. Bethooven, Bach, Pachelbel ve Mozart gibi Renesanse ve Klasik dönem Alman bestecilerinin bestelerini inceleyecekler. Ayrıca İspanyol klasik gitar bestelerini de çalışacaklar."
       }
     },
+    "blog3": {
+      "type": {
+        "de": "Bildungs",
+        "en": "Education",
+        "tr": "Eğitim"
+      },
+      "title": {
+        "de": "Schach lernen",
+        "en": "Chess course",
+        "tr": "Satranç kursu"
+      },
+      "shortDescription": {
+        "de": "Unser Sportclub bietet Schachkurse an.",
+        "en": "Our Sport Club provides chess courses.",
+        "tr": "Spor Kulübümüz satranç kursu vermektedir."
+      },
+      "description": {
+        "de": "Ab Juli bietet unser Sportclub jedes Wochenende Schachkurse an. In diesem Kurs lernen unsere Schüler die Grundlagen des Schachs, Eröffnungen, Taktiken, Schachstrategien und die Erstellung einer Partieanalyse. Nach dem Unterricht haben die Schüler Spaß daran, gegeneinander zu spielen.",
+        "en": "Starting from July, our Sport Club started to provide chess courses every weekend. In this course our students will learn basics of chess, openings, tactics, chess strategy, making game analyse. After the lessons student are having fun by playing against each other.",
+        "tr": "Temmuz ayından itibaren Spor Kulübümüz her hafta sonu satranç kursları vermeye başlamıştır. Bu derste öğrencilerimiz satrancın temellerini, açılışları, taktikleri, satranç stratejisini, oyun analizi yapmayı öğreneceklerdir. Derslerin ardından öğrenciler birbirlerine karşı oynayarak eğleniyor."
+      }
+    },
     "moreBlogs": {
       "title": {
         "de": "Weitere Blogs",
