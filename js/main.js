@@ -247,17 +247,29 @@ function translate(lang) {
     translateGallery(lang);
     translateTrainers(lang);
     translateBlogs(lang);
+    translateCalendar(lang);
     translateContact(lang);
 }
 
 function translateMenu(lang) {
     try {
         document.getElementById("menu-home").textContent = translations.menu.home[lang];
+        document.getElementById("menu-contact").textContent = translations.menu.contact[lang];
         document.getElementById("menu-about").textContent = translations.menu.about[lang];
         document.getElementById("menu-activities").textContent = translations.menu.activities[lang];
-        document.getElementById("menu-gallery").textContent = translations.menu.gallery[lang];
         document.getElementById("menu-trainers").textContent = translations.menu.trainers[lang];
-        document.getElementById("menu-contact").textContent = translations.menu.contact[lang];
+    } catch (error) {
+        console.log("Menu translation to " + lang + ", error: " + error);
+    }
+
+    try {
+        document.getElementById("menu-gallery").textContent = translations.menu.gallery[lang];
+    } catch (error) {
+        console.log("Menu translation to " + lang + ", error: " + error);
+    }
+
+    try {
+        document.getElementById("menu-calendar").textContent = translations.menu.calendar[lang];
     } catch (error) {
         console.log("Menu translation to " + lang + ", error: " + error);
     }
@@ -329,7 +341,6 @@ function translateGallery(lang) {
         document.getElementById("gallery-description3").innerHTML  = translations.gallery.images.description3[lang];
         document.getElementById("gallery-title4").innerHTML  = translations.gallery.entertainment[lang];
         document.getElementById("gallery-description4").innerHTML  = translations.gallery.images.description4[lang];
-        gallery-see-more-title
     } catch (error) {
         console.log("Gallery translation to " + lang + ", error: " + error);
     }
@@ -384,6 +395,14 @@ function translateBlogs(lang) {
     }
 }
 
+function translateCalendar(lang) {
+    try {
+        document.getElementById("calendar-title").innerHTML = translations.menu.calendar[lang];
+    } catch (error) {
+        console.log("Calendar translation to " + lang + ", error: " + error);
+    }
+}
+
 function translateContact(lang) {
     try {
         document.getElementById("contact-title").innerHTML = translations.contact.title[lang];
@@ -394,4 +413,15 @@ function translateContact(lang) {
     } catch (error) {
         console.log("Contact translation to " + lang + ", error: " + error);
     }
+}
+
+function calendarLoaded() {
+    /*let calendarElement = document.getElementById("iframe-calendar");
+    try {
+        let calendarTable = calendarElement.contentWindow.document.getElementById("tgTable");
+        console.log(calendarTable);
+    } catch (error) {
+        console.log(error);
+    }
+    console.log("calendar loaded");*/
 }

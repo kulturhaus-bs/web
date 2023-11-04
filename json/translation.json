@@ -29,6 +29,11 @@
       "de": "Kontakt",
       "en": "Contact",
       "tr": "İletişim"
+    },
+    "calendar": {
+      "de": "Kalender",
+      "en": "Calendar",
+      "tr": "Takvim"
     }
   },
   "banner": {
