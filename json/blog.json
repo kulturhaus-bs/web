@@ -1,0 +1,36 @@
+{
+  "fifaSummerCup2023": {
+    "images": [
+      "images/blog/fifa-summer-cup-2023/00-ps-fifa-summer-cup-2023.png",
+      "images/blog/fifa-summer-cup-2023/01.jpg",
+      "images/blog/fifa-summer-cup-2023/02.jpg",
+      "images/blog/fifa-summer-cup-2023/03.jpg",
+      "images/blog/fifa-summer-cup-2023/04.jpg",
+      "images/blog/fifa-summer-cup-2023/05.jpg",
+      "images/blog/fifa-summer-cup-2023/06.jpg",
+      "images/blog/fifa-summer-cup-2023/07.jpg",
+      "images/blog/fifa-summer-cup-2023/08.jpg",
+      "images/blog/fifa-summer-cup-2023/09.jpg",
+      "images/blog/fifa-summer-cup-2023/10.jpg"
+    ]
+  },
+  "guitarCourse": {
+    "images": [
+      "images/blog/guitar-course/00-guitar-course.png",
+      "images/blog/guitar-course/01.jpg",
+      "images/blog/guitar-course/02.jpg",
+      "images/blog/guitar-course/03.jpg"
+    ]
+  },
+  "chessCourse": {
+    "images": [
+      "images/blog/chess-course/00-chess-course.png",
+      "images/blog/chess-course/01.jpg",
+      "images/blog/chess-course/02.jpg",
+      "images/blog/chess-course/03.jpg",
+      "images/blog/chess-course/04.jpg",
+      "images/blog/chess-course/05.jpg",
+      "images/blog/chess-course/06.jpg"
+    ]
+  }
+}

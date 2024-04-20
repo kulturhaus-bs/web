@@ -1,0 +1,314 @@
+{
+  "menu": {
+    "home": {
+      "de": "Startseite",
+      "en": "Home",
+      "tr": "Anasayfa"
+    },
+    "about": {
+      "de": "Über Uns",
+      "en": "About",
+      "tr": "Hakkımızda"
+    },
+    "activities": {
+      "de": "Aktivitäten ",
+      "en": "Activities",
+      "tr": "Faaliyetler"
+    },
+    "gallery": {
+      "de": "Galerie",
+      "en": "Gallery",
+      "tr": "Galeri"
+    },
+    "trainers": {
+      "de": "Unsere Trainer",
+      "en": "Our trainers",
+      "tr": "Eğitmenlerimiz"
+    },
+    "contact": {
+      "de": "Kontakt",
+      "en": "Contact",
+      "tr": "İletişim"
+    },
+    "calendar": {
+      "de": "Kalender",
+      "en": "Calendar",
+      "tr": "Takvim"
+    }
+  },
+  "banner": {
+    "title": {
+      "de": "Braunschweiger Kultur und Bildungshaus",
+      "en": "Braunschweig Cultural and Educational Center",
+      "tr": "Braunschweig Kültür ve Eğitim Merkezi"
+    },
+    "text1": {
+      "de": "Soziale Aktivitäten",
+      "en": "Social Activities",
+      "tr": "Sosyal Faaliyetler"
+    },
+    "text2": {
+      "de": "Bildungsprogramme",
+      "en": "Educational programs",
+      "tr": "Eğitim programları"
+    },
+    "text3": {
+      "de": "Kulturelle Aktivitäten",
+      "en": "Cultural activities",
+      "tr": "Kültürel aktiviteler"
+    }
+  },
+  "about": {
+    "title": {
+      "de": "ÜBER UNS",
+      "en": "ABOUT US",
+      "tr": "HAKKIMIZDA"
+    },
+    "text": {
+      "de": "Der Braunschweiger Kultur- und Bildungshaus e.V. ist eine gemeinnützige Organisation, die sich zum Ziel gesetzt hat, Menschen jeden Alters und jeder Herkunft zu fördern und zu unterstützen. Der Verein engagiert sich in kulturellen, künstlerischen, sprachlichen, sozialen und religiösen Bereichen und bietet sowohl Kurse als auch verschiedene Bildungsprogramme an. Dazu können das Erlernen der orientalischen Kunstarten, das Erlernen von wichtigen Sprachen in der Gesellschaft, kulturelle Studienreisen ins In- und Ausland, das Erlernen von Musikinstrumenten, das Besuchen von Kunstausstellungen sowie Kurse in Ethik etc. gezählt werden.",
+      "en": "The Braunschweiger Kultur- und Bildungshaus e.V. is a non-profit organization that aims to promote and support people of all ages and backgrounds. The association is involved in cultural, artistic, linguistic, social and religious areas and offers both courses and various educational programs. This can include learning oriental arts, learning important languages in society, cultural study trips at home and abroad, learning to play musical instruments, visiting art exhibitions and courses in ethics, etc.",
+      "tr": "Braunschweiger Kultur- und Bildungshaus e.V., her yaştan ve geçmişten insanı tanıtmayı ve desteklemeyi amaçlayan kar amacı gütmeyen bir kuruluştur. Dernek kültürel, sanatsal, dilsel, sosyal ve dini alanlarda faaliyet göstermekte ve hem kurslar hem de çeşitli eğitim programları sunmaktadır. Bu, doğu sanatlarını öğrenmeyi, toplumdaki önemli dilleri öğrenmeyi, yurtiçinde ve yurtdışında kültürel çalışma gezilerini, müzik aletlerini çalmayı öğrenmeyi, sanat sergilerini ve etik kurslarını ziyaret etmeyi vb. içerebilir."
+    }
+  },
+  "activity": {
+    "title": {
+      "de": "AKTIVITÄTEN",
+      "en": "ACTIVITIES",
+      "tr": "FAALİYETLER"
+    },
+    "a1title": {
+      "de": "Musikklub",
+      "en": "Music Club",
+      "tr": "Müzik Kulübü"
+    },
+    "a1description": {
+      "de": "Unser Musikclub bietet Unterricht auf verschiedenen Instrumenten und organisiert Konzertbesuche mit Gruppen.",
+      "en": "Our music club provides lessons on various instruments, organizes concert visiting with groups.",
+      "tr": "Müzik kulübümüz çeşitli enstrümanlar üzerine dersler vermekte, gruplarla konser gezileri düzenlemektedir."
+    },
+    "a2title": {
+      "de": "Sportklub",
+      "en": "Sport Club",
+      "tr": "Spor Kulübü"
+    },
+    "a2description": {
+      "de": "Unser Sportklub Sportveranstaltungen und Turniere in den Bereichen Fußball, Volleyball, Tischtennis, Bowling, Billard und eSport.",
+      "en": "Our sport club organizes sports event and tournaments in football, volleyball, table tennis, bowling, billiard, eSport.",
+      "tr": "Spor kulübümüz futbol, voleybol, masa tenisi, bowling, bilardo, eSpor branşlarında spor etkinlikleri ve turnuvalar düzenlemektedir."
+    },
+    "a3title": {
+      "de": "Deutschland Club",
+      "en": "Deutschland Club",
+      "tr": "Deutschland Kulübü"
+    },
+    "a3description": {
+      "de": "Unser Deutschland-Club trägt dazu bei, die Integration in das deutsche Leben zu erleichtern.",
+      "en": "Our Deutschland club helps to make it easy to getting integrated in German life.",
+      "tr": "Deutschland kulübümüz, Almanya yaşamına entegre olmayı kolaylaştırmaya yardımcı olur."
+    },
+    "a4title": {
+      "de": "Deutschen Sprachraums",
+      "en": "German Speaking Club",
+      "tr": "Almanca Konuşma Kulübü"
+    },
+    "a4description": {
+      "de": "Beschreibung ",
+      "en": "Description",
+      "tr": "Açıklama"
+    },
+    "a5title": {
+      "de": "Kunstverein",
+      "en": "Art Club",
+      "tr": "Güzel Sanatlar Kulübü"
+    },
+    "a5description": {
+      "de": "Beschreibung ",
+      "en": "Description",
+      "tr": "Açıklama"
+    },
+    "a6title": {
+      "de": "Tage der türkische Küche",
+      "en": "Turkish Cuisine Days",
+      "tr": "Türk Mutfağı Günleri"
+    },
+    "a6description": {
+      "de": "Beschreibung ",
+      "en": "Description",
+      "tr": "Açıklama"
+    }
+  },
+  "trainers": {
+    "title": {
+      "de": "UNSERE TRAINER",
+      "en": "OUR TRAINERS",
+      "tr": "EĞİTMENLERİMİZ"
+    },
+    "trainer1": {
+      "profession": {
+        "de": "Religionsunterricht | Soziale Arbeit mit Kindern",
+        "en": "Religious Education | Child Development",
+        "tr": "Dinî eğitim | Çocuk Gelişimi"
+      },
+      "description": {
+        "de": "Şeyma unterrichtet mehr als 50 Kinder in Religion. Gleichzeitig engagiert sie sich in der sozialen Arbeit mit Kindern und organisiert entsprechende Aktivitäten.",
+        "en": "Şeyma teaches Quran to more than 20 children. At the same time she organizes child development activities.",
+        "tr": "Şeyma, 20'den fazla çocuğa Kuran öğretiyor. Aynı zamanda çocuk gelişimi etkinlikleri düzenlemektedir."
+      }
+    },
+    "trainer2": {
+      "profession": {
+        "de": "Gitarre",
+        "en": "Guitar",
+        "tr": "Gitar"
+      },
+      "description": {
+        "de": "Berra bringt Mädchen das Gitarrespielen bei.",
+        "en": "Berra teachs girls how to play guitar.",
+        "tr": "Berra kızlara gitar çalmayı öğretiyor."
+      }
+    },
+    "trainer3": {
+      "profession": {
+        "de": "Schach | Origami",
+        "en": "Chess | Origami",
+        "tr": "Satranç | Origami"
+      },
+      "description": {
+        "de": "Ibrahim hat gute Erfahrung im Unterrichten. Er unterrichtet Schach und Origami.",
+        "en": "Ibrahim has good experience in teaching. He teaches chess and origami.",
+        "tr": "İbrahim öğretmenlik konusunda iyi bir deneyime sahiptir. Satranç ve origami öğretiyor."
+      }
+    },
+    "trainer4": {
+      "profession": {
+        "de": "Gitarre | Schach",
+        "en": "Guitar | Chess",
+        "tr": "Gitar | Satranç"
+      },
+      "description": {
+        "de": "Nurbek unterrichtet Kinder im Gitarrenspiel und unterstützt Ibrahim im Schachunterricht.",
+        "en": "Nurbek teaches children guitar and assists Ibrahim in chess class.",
+        "tr": "Nurbek, çocuklara gitar öğretiyor ve İbrahim'e satranç dersinde yardımcı oluyor."
+      }
+    },
+    "trainer5": {
+      "profession": {
+        "de": "Orientalische (Ney) Flöte und IT-Sicherheit",
+        "en": "Oriental (ney) flute and IT security",
+        "tr": "Ney flüt ve bilişim güvenliği"
+      },
+      "description": {
+        "de": "Ich bin ein IT Security Engineer mit einer Leidenschaft für orientalische Musik und IT-Sicherheit. Mein Ziel ist es, Menschen sowohl in der wunderbaren Welt der orientalischen Flöte, insbesondere der Ney-Flöte, als auch in den wichtigen Aspekten der IT-Sicherheit zu schulen und zu unterstützen.",
+        "en": "I'm an IT security engineer with a passion for oriental music and IT security. My goal is to train and support people both in the wonderful world of the oriental flute, especially the ney flute, and in the important aspects of IT security.",
+        "tr": "Doğu müziği ve BT güvenliği tutkusu olan bir BT güvenlik mühendisiyim. Amacım hem doğu flütünün, özellikle ney flütünün harika dünyasında hem de bilişim güvenliğinin önemli yönlerinde insanları eğitmek ve desteklemektir."
+      }
+    }
+  },
+  "blogs": {
+    "title": {
+      "de": "BLOG & GALERIE",
+      "en": "BLOG & GALLERY",
+      "tr": "BLOG & GALERİ"
+    },
+    "fifaSummerCup2023": {
+      "type": {
+        "de": "Unterhaltung",
+        "en": "Entertainment",
+        "tr": "Eğlence"
+      },
+      "title": {
+        "de": "PS FIFA Turniere | Summer Cup 2023",
+        "en": "PS FIFA Tournament | Summer Cup 2023",
+        "tr": "PS FIFA Turnuva | Summer Cup 2023"
+      },
+      "shortDescription": {
+        "de": "Unser Sportklub hat ein PS4 FIFA23-Turnier organisiert.",
+        "en": "Our Sport Club organized PS4 FIFA23 tournament.",
+        "tr": "Spor Kulübümüz PS4 FIFA23 turnuvası düzenledi."
+      },
+      "description": {
+        "de": "Unser Sportklub hat ein PlayStation 4 FIFA23-Turnier organisiert. Das Turnier begann mit dem Frühstück, das wir für 20 Teilnehmer und ihre Eltern vorbereiteten, die kamen, um ihre Kinder zu unterstützen. Insgesamt wurden 38 Spiele ausgetragen, um den 1., 2. und 3. Platz zu ermitteln. Die Kinder hatten dort viel Spaß. Die Spieler lernten die Bedeutung von kompetitivem eSport und Fairplay-Regeln kennen. Den Gewinnern des Turniers wurden Medaillen und Geschenkgutscheine verliehen.",
+        "en": "Our Sport Club organized PlayStation 4 FIFA23 tournament. The tournament started with the breakfast that we prepared for 20 participants and their parents who came to support thier kids. In total, 38 matches were played to determine 1st, 2d and 3rd places. Children had a lot of fun there. Players learned about importance of competitive eSport and Fair Play rules. Medals and gift cards were awards to the winners of the tournament.",
+        "tr": "Spor Kulübümüz PlayStation 4 FIFA23 turnuvası düzenledi. Turnuva, çocuklarına destek olmaya gelen 20 katılımcı ve velileri için hazırladığımız kahvaltı ile başladı. 1., 2. ve 3. sırayı belirlemek için toplam 38 maç oynandı. Çocuklar orada çok eğlendiler. Oyuncular, rekabetçi eSpor ve Fair Play kurallarının önemini öğrendiler. Turnuvada dereceye girenlere madalya ve hediye çekleri verildi."
+      },
+      "date": {
+        "de": "18 Juni 2023",
+        "en": "18 June 2023",
+        "tr": "18 Haziran 2023"
+      }
+    },
+    "guitarCourse": {
+      "type": {
+        "de": "Bildungs",
+        "en": "Education",
+        "tr": "Eğitim"
+      },
+      "title": {
+        "de": "Gitarre lernen",
+        "en": "Guitar course",
+        "tr": "Gitar kursu"
+      },
+      "shortDescription": {
+        "de": "Unser Musikclub bietet kostenlose Gitarrenkurse an.",
+        "en": "Our Music Club provides free guitar courses.",
+        "tr": "Müzik Kulübümüz ücretsiz gitar kursları vermektedir."
+      },
+      "description": {
+        "de": "Ab Juli bietet unser Musikclub Gitarrenkurse an. In diesem Kurs lernen die Teilnehmer die Grundlagen der Gitarre, Noten, Tabulatur und Akkorde. Sie werden Kompositionen deutscher Komponisten aus der Renaissance und der Klassik wie Bethooven, Bach, Pachelbel und Mozart studieren. Sie werden auch spanische klassische Gitarrenkompositionen studieren.",
+        "en": "Starting from July, our Music Club will provide guitar courses. In this class participants will learn basics of guitar, notes, tablature, chords. They will study compositions of german compositors from Renesanse and Classical era like Bethooven, Bach, Pachelbel and Mozart. They also will study spanish classical guitar compositions.",
+        "tr": "Temmuz ayından itibaren Müzik Kulübümüz gitar kursları vermeye başlayacak. Bu derste katılımcılar gitarın temellerini, notaları, tabloları, akorları öğreneceklerdir. Bethooven, Bach, Pachelbel ve Mozart gibi Renesanse ve Klasik dönem Alman bestecilerinin bestelerini inceleyecekler. Ayrıca İspanyol klasik gitar bestelerini de çalışacaklar."
+      },
+      "date": {
+        "de": "Juli 2023",
+        "en": "July 2023",
+        "tr": "Temmuz 2023"
+      }
+    },
+    "chessCourse": {
+      "type": {
+        "de": "Bildungs",
+        "en": "Education",
+        "tr": "Eğitim"
+      },
+      "title": {
+        "de": "Schach lernen",
+        "en": "Chess course",
+        "tr": "Satranç kursu"
+      },
+      "shortDescription": {
+        "de": "Unser Sportclub bietet Schachkurse an.",
+        "en": "Our Sport Club provides chess courses.",
+        "tr": "Spor Kulübümüz satranç kursu vermektedir."
+      },
+      "description": {
+        "de": "Ab Juli bietet unser Sportclub jedes Wochenende Schachkurse an. In diesem Kurs lernen unsere Schüler die Grundlagen des Schachs, Eröffnungen, Taktiken, Schachstrategien und die Erstellung einer Partieanalyse. Nach dem Unterricht haben die Schüler Spaß daran, gegeneinander zu spielen.",
+        "en": "Starting from July, our Sport Club started to provide chess courses every weekend. In this course our students will learn basics of chess, openings, tactics, chess strategy, making game analyse. After the lessons student are having fun by playing against each other.",
+        "tr": "Temmuz ayından itibaren Spor Kulübümüz her hafta sonu satranç kursları vermeye başlamıştır. Bu derste öğrencilerimiz satrancın temellerini, açılışları, taktikleri, satranç stratejisini, oyun analizi yapmayı öğreneceklerdir. Derslerin ardından öğrenciler birbirlerine karşı oynayarak eğleniyor."
+      },
+      "date": {
+        "de": "Juli 2023",
+        "en": "July 2023",
+        "tr": "Temmuz 2023"
+      }
+    },
+    "moreBlogs": {
+      "title": {
+        "de": "Weitere Blogs",
+        "en": "More blogs",
+        "tr": "Daha fazla blog"
+      },
+      "shortDescription": {
+        "de": "Besuchen Sie unsere Blog-Seite, um mehr zu sehen",
+        "en": "Visit our blog page to see more.",
+        "tr": "Daha fazlasını görmek için blog sayfamızı ziyaret edin."
+      }
+    }
+  },
+  "contact": {
+    "title": {
+      "de": "KONTAKT",
+      "en": "CONTACT",
+      "tr": "İLETİŞİM"
+    }
+  }
+}
