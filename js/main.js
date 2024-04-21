@@ -147,41 +147,6 @@ $(document).ready(function () {
     review_image.controller.control = review_text;
     review_text.controller.control = review_image;
     // ---------------
-
-    // Contact Form Validation & Activation
-    $("form.contact-form").submit(function (e) { 
-        e.preventDefault(e);
-        $.ajax({
-        type: 'POST',
-        url: $(this).attr('action'),
-        data: $(this).serialize()
-        })
-        .done(function(response) {
-            // Make sure that the formMessages div has the 'success' class.
-            $('.contact-message').fadeIn();
-            $('.contact-message').text(response);
-            $("form").find("input:not(input[type='submit'])").val('');
-            $("form").find("textarea").val('');
-            $('.contact-message').delay(3000).fadeOut()
-        })
-        .fail(function(data) {
-            // Set the message text.
-            if (data.responseText !== '') {
-                $('.contact-message').fadeIn();
-                $('.contact-message').text(data.responseText);
-                $("form").find("input:not(input[type='submit'])").val('');
-                $("form").find("textarea").val('');
-                $('.contact-message').delay(3000).fadeOut()
-            } else {
-                $('.contact-message').fadeIn();
-                $('.contact-message').text('Oops! An error occured and your message could not be sent.');
-                $("form").find("input:not(input[type='submit'])").val('');
-                $("form").find("textarea").val('');
-                $('.contact-message').delay(3000).fadeOut()
-            }
-        });
-    });
-    // ---------------
     
     // Fancy cursor
     var is_mobile = 'No';
@@ -351,6 +316,10 @@ function translateBlogs(lang) {
         document.getElementById("blog3-type").innerHTML = translations.blogs.chessCourse.type[lang];
         document.getElementById("blog3-title").innerHTML = translations.blogs.chessCourse.title[lang];
         document.getElementById("blog3-short-description").innerHTML = translations.blogs.chessCourse.shortDescription[lang];
+
+        document.getElementById("blog4-type").innerHTML = translations.blogs.origamiCourse.type[lang];
+        document.getElementById("blog4-title").innerHTML = translations.blogs.origamiCourse.title[lang];
+        document.getElementById("blog4-short-description").innerHTML = translations.blogs.origamiCourse.shortDescription[lang];
     } catch (error) {
         console.log("Blog translation to " + lang + ", error: " + error);
     }

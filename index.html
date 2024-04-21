@@ -71,11 +71,8 @@
                         <li class="nav-item mx-1">
                             <a class="nav-link" href="#activities" data-scroll="activities"><span id="menu-activities">Aktivitäten</span></a>
                         </li>
-                        <!--<li class="nav-item mx-1">
-                            <a class="nav-link" href="#gallery" data-scroll="gallery"><span id="menu-gallery">Galerie</span></a>
-                        </li>-->
                         <li class="nav-item mx-1">
-                            <a class="nav-link" href="#blog" data-scroll="blog">Blog & Galerie</a>
+                            <a class="nav-link" href="#blog" data-scroll="blog"><span id="menu-blog">Blog & Galerie</span></a>
                         </li>
                         <li class="nav-item mx-1">
                             <a class="nav-link" href="#trainers" data-scroll="trainers"><span id="menu-trainers">Unsere Trainer</span></a>
@@ -164,7 +161,7 @@
                             <i class="fas fa-futbol"></i>
                         </div>
                         <h3 class="text-center pt-4 pb-2"><span id="a2-title">Sportklub</span></h3>
-                        <p class="text-center"><span id="a2-description">Unser Sportverein Sportklub Sportveranstaltungen und Turniere in den Bereichen Fußball, Volleyball, Tischtennis, Bowling, Billard und eSport.</span></p>
+                        <p class="text-center"><span id="a2-description">Unser Sportverein organisiert Sportveranstaltungen und Turniere in verschiedenen Sportarten und im E-Sport.</span></p>
                     </div>
                 </div>
                 <div class="serv-box mb-2 mt-5 col-12 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
@@ -218,16 +215,16 @@
                         <p id="blog3-short-description" class="blog-text mb-3 px-2">Unser Sportclub bietet Schachkurse an.</p>
                     </div>
                 </div>
-                <!--<div class="wow fadeInDown blog-box mb-4 col-12 col-md-6 col-lg-4" data-wow-delay="0.9s">
+                <div class="wow fadeInDown blog-box mb-4 col-12 col-md-6 col-lg-4" data-wow-delay="0.9s">
                     <div class="blog-content">
-                        <a href="#" onclick="onBlogClick('guitarCourse')" data-bs-toggle="modal" data-bs-target="#blogModal" class="image d-block position-relative overflow-hidden">
-                            <img class="img-fluid w-100 d-block" src="images/blog/guitar-course/00-guitar-course.png" alt="blog image">
+                        <a href="#" onclick="onBlogClick('origamiCourse')" data-bs-toggle="modal" data-bs-target="#blogModal" class="image d-block position-relative overflow-hidden">
+                            <img class="img-fluid w-100 d-block" src="images/blog/origami-course/00-origami-course.png" alt="Image by pch.vector on Freepik">
                             <span id="blog4-type" class="blog-title">Bildungs</span>
                         </a>
-                        <h3 id="blog4-title" class="blog-head my-2 px-2">Gitarre lernen</h3>
-                        <p id="blog4-short-description" class="blog-text mb-3 px-2">Unser Musikclub bietet kostenlose Gitarrenkurse an.</p>
+                        <h3 id="blog4-title" class="blog-head my-2 px-2">Origami lernen</h3>
+                        <p id="blog4-short-description" class="blog-text mb-3 px-2">Wir haben Origami-Kurse für Kinder angeboten.</p>
                     </div>
-                </div>-->
+                </div>
             </div>
         </div>
     </section>
@@ -417,13 +414,18 @@
                     </div>
                     <span id="blog-modal-type" class="pop-info"></span>
                     <img id="blog-modal-image" src="" alt="blog image">
-                    <div style="margin-top: 10px">
-                        <div class="float-start">
-                            <button type="button" class="btn btn-outline-dark" onclick="showPrevBlogImage()"><<<</button>
-                        </div>
-                        <div class="float-end">
-                            <button type="button" class="btn btn-outline-dark" onclick="showNextBlogImage()">>>></button>
-                        </div>
+                    <div class="d-flex justify-content-between" style="margin-top: 10px">
+                        <button type="button" class="btn btn-outline-dark" onclick="showPrevBlogImage()">
+                            <i class="fas fa-angle-left"></i>
+                            <i class="fas fa-angle-left"></i>
+                            <i class="fas fa-angle-left"></i>
+                        </button>
+                        <h4 id="image-number"></h4>
+                        <button type="button" class="btn btn-outline-dark" onclick="showNextBlogImage()">
+                            <i class="fas fa-angle-right"></i>
+                            <i class="fas fa-angle-right"></i>
+                            <i class="fas fa-angle-right"></i>
+                        </button>
                     </div>
                     <div class="modal-body">
                         <h3 id="blog-modal-title" class="blog-title"></h3>
@@ -448,17 +450,16 @@
     <!-- End Cursor -->
 
     <!-- JS Files -->
-    <script src="js/jQuery.js"></script>
-    <script src="js/jquery.appear.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/jquery.animatedheadline.js"></script>
-    <script src="js/swiper.js"></script>
-    <script src="js/wow.js"></script>
-    <script src="js/odometer.js"></script>
-    <script src="js/mixitup.js"></script>
-    <script src="js/fancybox.umd.js"></script>
+    <script src="js/lib/jQuery.js"></script>
+    <script src="js/lib/jquery.appear.js"></script>
+    <script src="js/lib/bootstrap.js"></script>
+    <script src="js/lib/jquery.animatedheadline.js"></script>
+    <script src="js/lib/swiper.js"></script>
+    <script src="js/lib/wow.js"></script>
+    <script src="js/lib/odometer.js"></script>
+    <script src="js/lib/mixitup.js"></script>
+    <script src="js/lib/fancybox.umd.js"></script>
     <script src="js/blog.js"></script>
     <script src="js/main.js"></script>
-    <!-- - - - -->
 </body>
 </html>

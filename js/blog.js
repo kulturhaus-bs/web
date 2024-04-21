@@ -21,10 +21,11 @@ function changeBlogContent() {
     const currentBlogContent = translations["blogs"][currentBlogName];
 
     document.getElementById("blog-modal-type").textContent = currentBlogContent["type"][language];
-    document.getElementById("blog-modal-image").src= currentBlogImages[currentImageIndex];
     document.getElementById("blog-modal-title").textContent = currentBlogContent["title"][language];
     document.getElementById("blog-modal-description").textContent = currentBlogContent["description"][language];
     document.getElementById("blog-modal-date").textContent = currentBlogContent["date"][language];
+
+    showImage();
 }
 
 function showPrevBlogImage() {
@@ -33,7 +34,7 @@ function showPrevBlogImage() {
         currentImageIndex = currentBlogImages.length - 1;
     }
 
-    document.getElementById("blog-modal-image").src= currentBlogImages[currentImageIndex];
+    showImage();
 }
 
 function showNextBlogImage() {
@@ -42,7 +43,12 @@ function showNextBlogImage() {
         currentImageIndex = 0;
     }
 
+    showImage();
+}
+
+function showImage() {
     document.getElementById("blog-modal-image").src= currentBlogImages[currentImageIndex];
+    document.getElementById("image-number").textContent = (currentImageIndex + 1) + "/" + currentBlogImages.length;
 }
 
 function onBlogClose() {

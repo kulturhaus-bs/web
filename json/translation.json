@@ -82,7 +82,7 @@
       "tr": "Müzik Kulübü"
     },
     "a1description": {
-      "de": "Unser Musikclub bietet Unterricht auf verschiedenen Instrumenten und organisiert Konzertbesuche mit Gruppen.",
+      "de": "Ab Juli bietet unser Musikclub für unsere Mitglieder und deren Kinder kostenlose Gitarrenkurse an.",
       "en": "Our music club provides lessons on various instruments, organizes concert visiting with groups.",
       "tr": "Müzik kulübümüz çeşitli enstrümanlar üzerine dersler vermekte, gruplarla konser gezileri düzenlemektedir."
     },
@@ -92,9 +92,9 @@
       "tr": "Spor Kulübü"
     },
     "a2description": {
-      "de": "Unser Sportklub Sportveranstaltungen und Turniere in den Bereichen Fußball, Volleyball, Tischtennis, Bowling, Billard und eSport.",
-      "en": "Our sport club organizes sports event and tournaments in football, volleyball, table tennis, bowling, billiard, eSport.",
-      "tr": "Spor kulübümüz futbol, voleybol, masa tenisi, bowling, bilardo, eSpor branşlarında spor etkinlikleri ve turnuvalar düzenlemektedir."
+      "de": "Unser Sportverein organisiert Sportveranstaltungen und Turniere in verschiedenen Sportarten und im E-Sport.",
+      "en": "Our sport club organizes sports event and tournaments in various types of sport and e-sport.",
+      "tr": "Spor kulübümüz, çeşitli spor ve e-spor dallarında spor etkinlikleri ve turnuvalar düzenlemektedir."
     },
     "a3title": {
       "de": "Deutschland Club",
@@ -291,16 +291,31 @@
         "tr": "Temmuz 2023"
       }
     },
-    "moreBlogs": {
+    "origamiCourse": {
+      "type": {
+        "de": "Bildungs",
+        "en": "Education",
+        "tr": "Eğitim"
+      },
       "title": {
-        "de": "Weitere Blogs",
-        "en": "More blogs",
-        "tr": "Daha fazla blog"
+        "de": "Origami lernen",
+        "en": "Origami course",
+        "tr": "Origami kursu"
       },
       "shortDescription": {
-        "de": "Besuchen Sie unsere Blog-Seite, um mehr zu sehen",
-        "en": "Visit our blog page to see more.",
-        "tr": "Daha fazlasını görmek için blog sayfamızı ziyaret edin."
+        "de": "Wir haben Origami-Kurse für Kinder angeboten.",
+        "en": "We offered origami courses for children.",
+        "tr": "Çocuklara origami kursları verdik."
+      },
+      "description": {
+        "de": "Wir haben Origami-Workshops für Kinder angeboten, in denen sie die Grundlagen erlernen, verschiedene Faltmethoden ausprobieren und verschiedene für Origami geeignete Papiersorten entdecken können. Unser Ziel war es, eine einladende Umgebung zu schaffen, die das Lernen fördert und die Kreativität, Fantasie und Konzentration der Kinder fördert.",
+        "en": "We have offered origami workshops for children, allowing them to grasp the fundamentals, explore diverse folding methods, and discover different types of paper suitable for origami. Our aim was to cultivate a welcoming environment conducive to learning, nurturing children's creativity, imagination, and focus.",
+        "tr": "Çocuklara origami atölyeleri sunarak temel prensipleri kavramalarını, çeşitli katlama yöntemlerini keşfetmelerini ve origami için uygun farklı kağıt türlerini keşfetmelerini sağladık. Amacımız öğrenmeye yardımcı olan, çocukların yaratıcılığını, hayal gücünü ve odaklanmasını besleyen sıcak bir ortam oluşturmaktı."
+      },
+      "date": {
+        "de": "Juli 2023",
+        "en": "July 2023",
+        "tr": "Temmuz 2023"
       }
     }
   },

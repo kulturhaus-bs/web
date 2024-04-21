@@ -32,5 +32,22 @@
       "images/blog/chess-course/05.jpg",
       "images/blog/chess-course/06.jpg"
     ]
+  },
+  "origamiCourse": {
+    "images": [
+      "images/blog/origami-course/00-origami-course.png",
+      "images/blog/origami-course/01.jpg",
+      "images/blog/origami-course/02.jpg",
+      "images/blog/origami-course/03.jpg",
+      "images/blog/origami-course/04.jpg",
+      "images/blog/origami-course/05.jpg",
+      "images/blog/origami-course/06.jpg",
+      "images/blog/origami-course/07.jpg",
+      "images/blog/origami-course/08.jpg",
+      "images/blog/origami-course/09.jpg",
+      "images/blog/origami-course/10.jpg",
+      "images/blog/origami-course/11.jpg",
+      "images/blog/origami-course/12.png"
+    ]
   }
 }
