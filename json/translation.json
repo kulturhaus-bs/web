@@ -371,6 +371,87 @@
         "en": "29 July 2023",
         "tr": "29 Temmuz 2023"
       }
+    },
+    "drivingCourse": {
+      "type": {
+        "de": "Bildungs",
+        "en": "Education",
+        "tr": "Eğitim"
+      },
+      "title": {
+        "de": "Fahren Lernen Im Simulator",
+        "en": "Simulator Driving Course",
+        "tr": "Simülatör Sürüş Kursu"
+      },
+      "shortDescription": {
+        "de": "Wir haben Simulator-Fahrstunden angeboten.",
+        "en": "We have provided simulator driving lessons.",
+        "tr": "Simülatör sürüş dersleri verdik."
+      },
+      "description": {
+        "de": "Wir boten einen Simulator-Fahrkurs an, in dem die Teilnehmer grundlegende Kenntnisse über Fahrtechniken, Parktechniken sowie Verkehrsregeln und Beschilderungen erlangten. Dieser Kurs ist besonders für Kinder von Nutzen, da er die Bedeutung des Erlernens von Verkehrsregeln schon in jungen Jahren betont. Darüber hinaus dient es als wertvolle Vorbereitung für diejenigen, die vor ihrer Fahrprüfung in Deutschland Selbstvertrauen aufbauen möchten.",
+        "en": "We offered a simulator driving course where participants acquired foundational knowledge on driving essentials, parking techniques, and traffic regulations and signage. This course is particularly beneficial for children, emphasizing the significance of learning traffic rules from a young age. Moreover, it serves as valuable preparation for those aiming to build confidence ahead of their driving examinations in Germany.",
+        "tr": "Katılımcıların sürüşle ilgili temel bilgiler, park etme teknikleri, trafik düzenlemeleri ve tabelalar hakkında temel bilgileri edindiği bir simülatör sürüş kursu sunduk. Trafik kurallarını küçük yaşlardan itibaren öğrenmenin önemini vurgulayan bu kurs özellikle çocuklar için faydalıdır. Ayrıca, Almanya'daki ehliyet sınavları öncesinde güven oluşturmayı hedefleyenler için değerli bir hazırlık görevi görmektedir."
+      },
+      "date": {
+        "de": "Oktober 2023 - Dezember 2023",
+        "en": "October 2023 - December 2023",
+        "tr": "Ekim 2023 - Aralık 2023"
+      }
+    },
+    "gridWinterCup2023": {
+      "type": {
+        "de": "Unterhaltung",
+        "en": "Entertainment",
+        "tr": "Eğlence"
+      },
+      "title": {
+        "de": "Grid | Winter Cup 2023",
+        "en": "Grid | Winter Cup 2023",
+        "tr": "Grid | Winter Cup 2023"
+      },
+      "shortDescription": {
+        "de": "Wir haben ein Rennturnier für Jungen organisiert.",
+        "en": "We organized a car racing tournament for boys.",
+        "tr": "Erkeklere yönelik araba yarışı turnuvası düzenledik."
+      },
+      "description": {
+        "de": "Wir haben separate Rennturniere für Mädchen und Jungen veranstaltet, bei denen sie dieses Mal auf derselben Online-Rennstrecke gegeneinander antreten können. Es war für alle Beteiligten eine erfreuliche Erfahrung. Unser Ziel war es, ein freundliches Umfeld für die Teilnehmer zu schaffen, in dem sie etwas über E-Sport-Wettbewerbe, Sportlichkeit und die Bedeutung von Fairplay lernen konnten.",
+        "en": "We've arranged separate racing tournaments for girls and boys, this time allowing them to compete against each other on the same online racing track. It was an enjoyable experience for all involved. Our goal was to foster a friendly environment for participants, where they could learn about e-sport competitions, sportsmanship, and the importance of fair play.",
+        "tr": "Kızlar ve erkekler için ayrı yarış turnuvaları düzenledik ve bu kez onların aynı çevrimiçi yarış pistinde birbirleriyle rekabet etmelerine olanak sağladık. Katılan herkes için keyifli bir deneyimdi. Amacımız katılımcılara e-spor müsabakaları, sportmenlik ve adil oyunun önemi hakkında bilgi edinebilecekleri dostane bir ortam oluşturmaktı."
+      },
+      "date": {
+        "de": "9 Dezember 2023",
+        "en": "9 December 2023",
+        "tr": "9 Aralık 2023"
+      }
+    },
+    "gridGirlsWinterCup2023": {
+      "type": {
+        "de": "Unterhaltung",
+        "en": "Entertainment",
+        "tr": "Eğlence"
+      },
+      "title": {
+        "de": "Grid | Girls Winter Cup 2023",
+        "en": "Grid | Girls Winter Cup 2023",
+        "tr": "Grid | Girls Winter Cup 2023"
+      },
+      "shortDescription": {
+        "de": "Wir haben ein Rennturnier für Mädchen organisiert.",
+        "en": "We organized a car racing tournament for girls.",
+        "tr": "Kızlara yönelik araba yarışı turnuvası düzenledik."
+      },
+      "description": {
+        "de": "Wir haben separate Rennturniere für Mädchen und Jungen veranstaltet, bei denen sie dieses Mal auf derselben Online-Rennstrecke gegeneinander antreten können. Es war für alle Beteiligten eine erfreuliche Erfahrung. Unser Ziel war es, ein freundliches Umfeld für die Teilnehmer zu schaffen, in dem sie etwas über E-Sport-Wettbewerbe, Sportlichkeit und die Bedeutung von Fairplay lernen konnten.",
+        "en": "We've arranged separate racing tournaments for girls and boys, this time allowing them to compete against each other on the same online racing track. It was an enjoyable experience for all involved. Our goal was to foster a friendly environment for participants, where they could learn about e-sport competitions, sportsmanship, and the importance of fair play.",
+        "tr": "Kızlar ve erkekler için ayrı yarış turnuvaları düzenledik ve bu kez onların aynı çevrimiçi yarış pistinde birbirleriyle rekabet etmelerine olanak sağladık. Katılan herkes için keyifli bir deneyimdi. Amacımız katılımcılara e-spor müsabakaları, sportmenlik ve adil oyunun önemi hakkında bilgi edinebilecekleri dostane bir ortam oluşturmaktı."
+      },
+      "date": {
+        "de": "16 Dezember 2023",
+        "en": "16 December 2023",
+        "tr": "16 Aralık 2023"
+      }
     }
   },
   "contact": {

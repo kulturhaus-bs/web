@@ -330,6 +330,18 @@ function translateBlogs(lang) {
         document.getElementById("blog6-type").innerHTML = translations.blogs.acSummerCup2023.type[lang];
         document.getElementById("blog6-title").innerHTML = translations.blogs.acSummerCup2023.title[lang];
         document.getElementById("blog6-short-description").innerHTML = translations.blogs.acSummerCup2023.shortDescription[lang];
+
+        document.getElementById("blog7-type").innerHTML = translations.blogs.drivingCourse.type[lang];
+        document.getElementById("blog7-title").innerHTML = translations.blogs.drivingCourse.title[lang];
+        document.getElementById("blog7-short-description").innerHTML = translations.blogs.drivingCourse.shortDescription[lang];
+
+        document.getElementById("blog8-type").innerHTML = translations.blogs.gridWinterCup2023.type[lang];
+        document.getElementById("blog8-title").innerHTML = translations.blogs.gridWinterCup2023.title[lang];
+        document.getElementById("blog8-short-description").innerHTML = translations.blogs.gridWinterCup2023.shortDescription[lang];
+
+        document.getElementById("blog9-type").innerHTML = translations.blogs.gridGirlsWinterCup2023.type[lang];
+        document.getElementById("blog9-title").innerHTML = translations.blogs.gridGirlsWinterCup2023.title[lang];
+        document.getElementById("blog9-short-description").innerHTML = translations.blogs.gridGirlsWinterCup2023.shortDescription[lang];
     } catch (error) {
         console.log("Blog translation to " + lang + ", error: " + error);
     }
