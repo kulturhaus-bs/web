@@ -259,9 +259,9 @@
         "tr": "Temmuz ayından itibaren Müzik Kulübümüz gitar kursları vermeye başlayacak. Bu derste katılımcılar gitarın temellerini, notaları, tabloları, akorları öğreneceklerdir. Bethooven, Bach, Pachelbel ve Mozart gibi Renesanse ve Klasik dönem Alman bestecilerinin bestelerini inceleyecekler. Ayrıca İspanyol klasik gitar bestelerini de çalışacaklar."
       },
       "date": {
-        "de": "Juli 2023",
-        "en": "July 2023",
-        "tr": "Temmuz 2023"
+        "de": "Juli 2023 - Dezember 2023",
+        "en": "July 2023 - December 2023",
+        "tr": "Temmuz 2023 - Aralık 2023"
       }
     },
     "chessCourse": {
@@ -286,9 +286,9 @@
         "tr": "Temmuz ayından itibaren Spor Kulübümüz her hafta sonu satranç kursları vermeye başlamıştır. Bu derste öğrencilerimiz satrancın temellerini, açılışları, taktikleri, satranç stratejisini, oyun analizi yapmayı öğreneceklerdir. Derslerin ardından öğrenciler birbirlerine karşı oynayarak eğleniyor."
       },
       "date": {
-        "de": "Juli 2023",
-        "en": "July 2023",
-        "tr": "Temmuz 2023"
+        "de": "Juli 2023 - Dezember 2023",
+        "en": "July 2023 - December 2023",
+        "tr": "Temmuz 2023 - Aralık 2023"
       }
     },
     "origamiCourse": {
@@ -313,9 +313,63 @@
         "tr": "Çocuklara origami atölyeleri sunarak temel prensipleri kavramalarını, çeşitli katlama yöntemlerini keşfetmelerini ve origami için uygun farklı kağıt türlerini keşfetmelerini sağladık. Amacımız öğrenmeye yardımcı olan, çocukların yaratıcılığını, hayal gücünü ve odaklanmasını besleyen sıcak bir ortam oluşturmaktı."
       },
       "date": {
-        "de": "Juli 2023",
-        "en": "July 2023",
-        "tr": "Temmuz 2023"
+        "de": "Juli 2023 - Dezember 2023",
+        "en": "July 2023 - December 2023",
+        "tr": "Temmuz 2023 - Aralık 2023"
+      }
+    },
+    "acGirlsSummerCup2023": {
+      "type": {
+        "de": "Unterhaltung",
+        "en": "Entertainment",
+        "tr": "Eğlence"
+      },
+      "title": {
+        "de": "Asetto Corsa | Girls Summer Cup 2023",
+        "en": "Asetto Corsa | Girls Summer Cup 2023",
+        "tr": "Asetto Corsa | Girls Summer Cup 2023"
+      },
+      "shortDescription": {
+        "de": "Wir haben ein Rennturnier für Mädchen organisiert.",
+        "en": "We organized a car racing tournament for girls.",
+        "tr": "Kızlara yönelik araba yarışı turnuvası düzenledik."
+      },
+      "description": {
+        "de": "Wir veranstalteten separate Rennsimulator-Turniere für Jungen und Mädchen, bei denen sie im Zeitangriffsmodus gegeneinander antraten. Den Teilnehmern hat die Veranstaltung viel Spaß gemacht und sie konnten wertvolle Einblicke in die Wichtigkeit der Einhaltung der Fahrvorschriften gewinnen. Darüber hinaus lernten sie die potenziellen Gefahren des Hochgeschwindigkeitsfahrens kennen, selbst in einer Simulatorumgebung.",
+        "en": "We hosted separate racing simulator tournaments for boys and girls, where they competed in time-attack mode. Participants thoroughly enjoyed the event and gained valuable insights into the importance of adhering to driving regulations. Additionally, they learned about the potential dangers of high-speed driving, even within a simulator environment.",
+        "tr": "Erkekler ve kızlar için, zamanlı saldırı modunda yarıştıkları ayrı yarış simülatörü turnuvalarına ev sahipliği yaptık. Katılımcılar etkinlikten büyük keyif aldılar ve sürüş kurallarına uymanın önemi konusunda değerli bilgiler edindiler. Ek olarak, simülatör ortamında bile yüksek hızda araç kullanmanın potansiyel tehlikelerini öğrendiler."
+      },
+      "date": {
+        "de": "22 Juli 2023",
+        "en": "22 July 2023",
+        "tr": "22 Temmuz 2023"
+      }
+    },
+    "acSummerCup2023": {
+      "type": {
+        "de": "Unterhaltung",
+        "en": "Entertainment",
+        "tr": "Eğlence"
+      },
+      "title": {
+        "de": "Asetto Corsa | Summer Cup 2023",
+        "en": "Asetto Corsa | Summer Cup 2023",
+        "tr": "Asetto Corsa | Summer Cup 2023"
+      },
+      "shortDescription": {
+        "de": "Wir haben ein Rennturnier für Jungen organisiert.",
+        "en": "We organized a car racing tournament for boys.",
+        "tr": "Erkeklere yönelik araba yarışı turnuvası düzenledik."
+      },
+      "description": {
+        "de": "Wir veranstalteten separate Rennsimulator-Turniere für Jungen und Mädchen, bei denen sie im Zeitangriffsmodus gegeneinander antraten. Den Teilnehmern hat die Veranstaltung viel Spaß gemacht und sie konnten wertvolle Einblicke in die Wichtigkeit der Einhaltung der Fahrvorschriften gewinnen. Darüber hinaus lernten sie die potenziellen Gefahren des Hochgeschwindigkeitsfahrens kennen, selbst in einer Simulatorumgebung.",
+        "en": "We hosted separate racing simulator tournaments for boys and girls, where they competed in time-attack mode. Participants thoroughly enjoyed the event and gained valuable insights into the importance of adhering to driving regulations. Additionally, they learned about the potential dangers of high-speed driving, even within a simulator environment.",
+        "tr": "Erkekler ve kızlar için, zamanlı saldırı modunda yarıştıkları ayrı yarış simülatörü turnuvalarına ev sahipliği yaptık. Katılımcılar etkinlikten büyük keyif aldılar ve sürüş kurallarına uymanın önemi konusunda değerli bilgiler edindiler. Ek olarak, simülatör ortamında bile yüksek hızda araç kullanmanın potansiyel tehlikelerini öğrendiler."
+      },
+      "date": {
+        "de": "29 Juli 2023",
+        "en": "29 July 2023",
+        "tr": "29 Temmuz 2023"
       }
     }
   },

@@ -49,5 +49,24 @@
       "images/blog/origami-course/11.jpg",
       "images/blog/origami-course/12.png"
     ]
+  },
+  "acGirlsSummerCup2023": {
+    "images": [
+      "images/blog/ac-girls-summer-cup-2023/00-ac-girls-summer-cup-2023.png",
+      "images/blog/ac-girls-summer-cup-2023/01.png",
+      "images/blog/ac-girls-summer-cup-2023/02.png",
+      "images/blog/ac-girls-summer-cup-2023/03.jpg",
+      "images/blog/ac-girls-summer-cup-2023/04.jpg",
+      "images/blog/ac-girls-summer-cup-2023/05.jpg"
+    ]
+  },
+  "acSummerCup2023": {
+    "images": [
+      "images/blog/ac-summer-cup-2023/00-ac-summer-cup-2023.png",
+      "images/blog/ac-summer-cup-2023/01.jpg",
+      "images/blog/ac-summer-cup-2023/02.png",
+      "images/blog/ac-summer-cup-2023/03.jpg",
+      "images/blog/ac-summer-cup-2023/04.jpg"
+    ]
   }
 }

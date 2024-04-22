@@ -305,6 +305,8 @@ function translateTrainers(lang) {
 
 function translateBlogs(lang) {
     try {
+        document.getElementById("blog-title").innerHTML = translations.blogs.title[lang];
+
         document.getElementById("blog1-type").innerHTML = translations.blogs.fifaSummerCup2023.type[lang];
         document.getElementById("blog1-title").innerHTML = translations.blogs.fifaSummerCup2023.title[lang];
         document.getElementById("blog1-short-description").innerHTML = translations.blogs.fifaSummerCup2023.shortDescription[lang];
@@ -317,9 +319,17 @@ function translateBlogs(lang) {
         document.getElementById("blog3-title").innerHTML = translations.blogs.chessCourse.title[lang];
         document.getElementById("blog3-short-description").innerHTML = translations.blogs.chessCourse.shortDescription[lang];
 
-        document.getElementById("blog4-type").innerHTML = translations.blogs.origamiCourse.type[lang];
-        document.getElementById("blog4-title").innerHTML = translations.blogs.origamiCourse.title[lang];
-        document.getElementById("blog4-short-description").innerHTML = translations.blogs.origamiCourse.shortDescription[lang];
+        document.getElementById("blog4-type").innerHTML = translations.blogs.acGirlsSummerCup2023.type[lang];
+        document.getElementById("blog4-title").innerHTML = translations.blogs.acGirlsSummerCup2023.title[lang];
+        document.getElementById("blog4-short-description").innerHTML = translations.blogs.acGirlsSummerCup2023.shortDescription[lang];
+
+        document.getElementById("blog5-type").innerHTML = translations.blogs.origamiCourse.type[lang];
+        document.getElementById("blog5-title").innerHTML = translations.blogs.origamiCourse.title[lang];
+        document.getElementById("blog5-short-description").innerHTML = translations.blogs.origamiCourse.shortDescription[lang];
+
+        document.getElementById("blog6-type").innerHTML = translations.blogs.acSummerCup2023.type[lang];
+        document.getElementById("blog6-title").innerHTML = translations.blogs.acSummerCup2023.title[lang];
+        document.getElementById("blog6-short-description").innerHTML = translations.blogs.acSummerCup2023.shortDescription[lang];
     } catch (error) {
         console.log("Blog translation to " + lang + ", error: " + error);
     }
