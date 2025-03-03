@@ -1,535 +1,497 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Braunschweiger Kultur- & Bildungshaus e.V.</title>
-    <!-- Meta Tags -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="NT">
-    <meta name="description" content="Braunschweiger Kultur- & Bildungshaus">
-    <meta name="keywords" content="Braunschweiger Kultur- & Bildungshaus">
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <!-- - - - -->
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
-    <!-- - - - -->
-    <!-- CSS Plugins -->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/all.css">
-    <link rel="stylesheet" href="css/jquery.animatedheadline.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/swiper.css">
-    <link rel="stylesheet" href="css/fancybox.css">
-    <link rel="stylesheet" href="css/odometer-theme-minimal.css">
-    <!-- - - - -->
-    <!-- Main CSS Files -->
-    <link rel="stylesheet" href="css/style_light.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <!-- - - - -->
-</head>
-<body>
-    <!-- Preloader -->
-    <div class="preloader">
-        <div class="load-splitter"></div>
-        <div class="load-splitter"></div>
-        <div class="loader">
-            <p class="text">Willkommen</p>
-            <p class="text">Welcome</p>
-            <p class="text">Hoş geldiniz</p>
-            <div class="loading-bar">
-                <span></span>
-            </div>
-        </div>
-    </div>
-    <!-- - - - -->
-
-    <!-- Start Header -->
-    <header class="header-sliding">
-        <nav class="navbar w-100 navbar-expand-lg">
+<html lang="de">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="NT" />
+        <title>Braunschweiger Kultur- und Bildungshaus e.V.</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="images/favicon.png" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
-                <a style="font-size: 20px; text-decoration: none; color: inherit" href="#home">
-                    <img src="images/logo.png" style="border: 0; float: left; margin-right: 15px" width="30" height="60" alt=""/>
-                    <span><strong>Braunschweiger Kultur- und <br>Bildungshaus e.V.</strong></span>
+                <a class="navbar-brand text-white" style="font-size: small" href="#page-top">
+                    <img src="images/logo.png" style="border: 0; float: left; margin-right: 15px" alt="">
+                    <span>Braunschweiger Kultur- <br>und Bildungshaus e.V.</span>
                 </a>
-                <button id="nav-button" class="navbar-toggler menu-toggle-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="header-nav-icon"></span>
-                    <span class="header-nav-icon"></span>
-                    <span class="header-nav-icon"></span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars ms-1"></i>
                 </button>
-                <div class="ul-cont collapse navbar-collapse ms-0 ms-lg-auto" id="navbarSupportedContent">
-                    <ul class="navbar-nav navbar-right ms-0 ms-lg-auto mb-2 mb-lg-0">
-                        <li class="nav-item mx-1">
-                            <a class="nav-link active" href="#home" data-scroll="home"><span id="menu-home">Startseite</span></a>
-                        </li>
-                        <li class="nav-item mx-1">
-                            <a class="nav-link" href="#about" data-scroll="about"><span id="menu-about">Über Uns</span></a>
-                        </li>
-                        <li class="nav-item mx-1">
-                            <a class="nav-link" href="#activities" data-scroll="activities"><span id="menu-activities">Aktivitäten</span></a>
-                        </li>
-                        <li class="nav-item mx-1">
-                            <a class="nav-link" href="#blog" data-scroll="blog"><span id="menu-blog">Blog & Galerie</span></a>
-                        </li>
-                        <li class="nav-item mx-1">
-                            <a class="nav-link" href="#trainers" data-scroll="trainers"><span id="menu-trainers">Unsere Trainer</span></a>
-                        </li>
-                        <li class="nav-item mx-1">
-                            <a class="nav-link" href="#contact" data-scroll="contact"><span id="menu-contact">Kontakt</span></a>
-                        </li>
-                        <li class="nav-item mx-1">
-                            <a class="nav-link" href="calendar.html"><span id="menu-calendar">Kalender</span></a>
-                        </li>
-                        <li class="nav-item mx-1">
-                            <select id="language-select" class="form-select nav-item mx-1" style="width: 90px; font-weight: bold; border: none; margin-top: 2px; visibility: hidden">
-                                <option selected value="de">🇩🇪 DE</option>
-                                <option value="en">🇬🇧 EN</option>
-                                <option value="tr">🇹🇷 TR</option>
-                            </select>
-                        </li>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#about">Über Uns</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#activity">Aktivitäten</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Blog & Galerie</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#trainers">Trainer</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Kontakt</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
-    </header>
-    <!-- End Header -->
-
-    <!-- Start Home -->
-    <section class="home d-flex align-items-center" id="home">
-        <div class="container">
-            <div class="home-text text-center text-md-start">
-                <p class="name"><span id="banner-title" style="font-weight:bold;">Braunschweiger Kultur- & Bildungshaus e.V.</span></p>
-                <div class="head-text" id="home-text-changer">
-                    <h2 class="ah-headline">
-                        <span class="ah-words-wrapper">
-                            <b class="is-visible"><span id="banner-text-1">Soziale Aktivitäten</span></b>
-                            <b><span id="banner-text-2">Bildungsprogramme</span></b>
-                            <b><span id="banner-text-3">Kulturelle Aktivitäten</span></b>
-                        </span>
-                    </h2>
-                </div>
-                <!--<div class="home-social d-flex justify-content-center justify-content-md-start mt-3">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                </div>-->
-            </div>
-        </div>
-    </section>
-    <!-- End Home -->
-
-    <!-- Start About -->
-    <section class="about section-padding" id="about">
-        <div class="container d-flex flex-column flex-md-row">
-            <div class="image wow fadeInLeft">
-                <img class="img-fluid w-100" src="images/about.jpeg" alt="about">
-                <div class="movable-border">
-                    <span></span>
-                </div>
-            </div>
-            <div class="about-content wow fadeInRight">
-                <div class="main-heading about-main-heading mx-auto mx-md-0">
-                    <h2 id="about-title">ÜBER UNS</h2>
-                </div>
-                <p id="about-text" class="about-text">Der Braunschweiger Kultur- und Bildungshaus e.V. ist eine gemeinnützige Organisation, die sich zum Ziel gesetzt hat, Menschen jeden Alters und jeder Herkunft zu fördern und zu unterstützen. Der Verein engagiert sich in kulturellen, künstlerischen, sprachlichen, sozialen und religiösen Bereichen und bietet sowohl Kurse als auch verschiedene Bildungsprogramme an. Dazu können das Erlernen der orientalischen Kunstarten, das Erlernen von wichtigen Sprachen in der Gesellschaft, kulturelle Studienreisen ins In- und Ausland, das Erlernen von Musikinstrumenten, das Besuchen von Kunstausstellungen sowie Kurse in Ethik etc. gezählt werden.</p>
-            </div>
-        </div>
-    </section>
-    <!-- End About -->
-
-    <!-- Start Activities -->
-    <section class="services section-padding" id="activities">
-        <div class="container">
-            <div class="main-heading mx-auto">
-                <h2 id="activity-title" class="main-head-animation">AKTIVITÄTEN</h2>
-            </div>
-            <div class="services-field mt-4 row">
-                <div class="serv-box mb-2 mt-5 col-12 col-md-6 col-lg-4 wow fadeInUp">
-                    <div class="serv-cont cursor-pointer-hover p-3 position-relative">
-                        <div class="icon">
-                            <i class="fas fa-music"></i>
-                        </div>
-                        <h3 class="text-center pt-4 pb-2"><span id="a1-title">Musikklub</span></h3>
-                        <p class="text-center"><span id="a1-description">Ab Juli bietet unser Musikclub für unsere Mitglieder und deren Kinder kostenlose Gitarrenkurse an.</span></p>
-                    </div>
-                </div>
-                <div class="serv-box mb-2 mt-5 col-12 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="serv-cont cursor-pointer-hover p-3 position-relative">
-                        <div class="icon">
-                            <i class="fas fa-futbol"></i>
-                        </div>
-                        <h3 class="text-center pt-4 pb-2"><span id="a2-title">Sportklub</span></h3>
-                        <p class="text-center"><span id="a2-description">Unser Sportverein organisiert Sportveranstaltungen und Turniere in verschiedenen Sportarten und im E-Sport.</span></p>
-                    </div>
-                </div>
-                <div class="serv-box mb-2 mt-5 col-12 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
-                    <div class="serv-cont cursor-pointer-hover p-3 position-relative">
-                        <div class="icon">
-                            <i class="fas fa-flag"></i>
-                        </div>
-                        <h3 class="text-center pt-4 pb-2"><span id="a3-title">Deutschland Club</span></h3>
-                        <p class="text-center"><span id="a3-description">Unser Deutschland-Club trägt dazu bei, die Integration in das deutsche Leben zu erleichtern.</span></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Activities -->
-
-    <!-- Start Blog -->
-    <section class="blog section-padding" id="blog">
-        <div class="container">
-            <div class="main-heading mx-auto">
-                <h2 id="blog-title" class="main-head-animation">BLOG & GALERIE</h2>
-            </div>
-            <div class="blog-field pt-4 row">
-                <div class="wow fadeInDown blog-box mb-4 col-12 col-md-6 col-lg-4">
-                    <div class="blog-content">
-                        <a href="#" onclick="onBlogClick('fifaSummerCup2023')" data-bs-toggle="modal" data-bs-target="#blogModal" data-popup="first-pop" class="show-pop image d-block position-relative overflow-hidden">
-                            <img class="img-fluid w-100 d-block" src="images/blog/fifa-summer-cup-2023/00-ps-fifa-summer-cup-2023.png" alt="blog image">
-                            <span id="blog1-type" class="blog-title">Unterhaltung</span>
-                        </a>
-                        <h3 id="blog1-title" class="blog-head my-2 px-2">PS FIFA Turniere | Summer Cup 2023</h3>
-                        <p id="blog1-short-description" class="blog-text mb-3 px-2">Unser Sportklub hat ein PS4 FIFA23-Turnier organisiert.</p>
-                    </div>
-                </div>
-                <div class="wow fadeInDown blog-box mb-4 col-12 col-md-6 col-lg-4" data-wow-delay="0.2s">
-                    <div class="blog-content">
-                        <a href="#" onclick="onBlogClick('guitarCourse')" data-bs-toggle="modal" data-bs-target="#blogModal" class="image d-block position-relative overflow-hidden">
-                            <img class="img-fluid w-100 d-block" src="images/blog/guitar-course/00-guitar-course.png" alt="blog image">
-                            <span id="blog2-type" class="blog-title">Bildungs</span>
-                        </a>
-                        <h3 id="blog2-title" class="blog-head my-2 px-2">Gitarre lernen</h3>
-                        <p id="blog2-short-description" class="blog-text mb-3 px-2">Unser Musikclub bietet kostenlose Gitarrenkurse an.</p>
-                    </div>
-                </div>
-                <div class="wow fadeInDown blog-box mb-4 col-12 col-md-6 col-lg-4" data-wow-delay="0.4s">
-                    <div class="blog-content">
-                        <a href="#" onclick="onBlogClick('chessCourse')" data-bs-toggle="modal" data-bs-target="#blogModal" class="image d-block position-relative overflow-hidden">
-                            <img class="img-fluid w-100 d-block" src="images/blog/chess-course/00-chess-course.png" alt="blog image">
-                            <span id="blog3-type" class="blog-title">Bildungs</span>
-                        </a>
-                        <h3 id="blog3-title" class="blog-head my-2 px-2">Schach lernen</h3>
-                        <p id="blog3-short-description" class="blog-text mb-3 px-2">Unser Sportclub bietet Schachkurse an.</p>
-                    </div>
-                </div>
-                <div class="wow fadeInDown blog-box mb-4 col-12 col-md-6 col-lg-4" data-wow-delay="0.6s">
-                    <div class="blog-content">
-                        <a href="#" onclick="onBlogClick('acGirlsSummerCup2023')" data-bs-toggle="modal" data-bs-target="#blogModal" class="image d-block position-relative overflow-hidden">
-                            <img class="img-fluid w-100 d-block" src="images/blog/ac-girls-summer-cup-2023/00-ac-girls-summer-cup-2023.png" alt="blog image">
-                            <span id="blog4-type" class="blog-title">Unterhaltung</span>
-                        </a>
-                        <h3 id="blog4-title" class="blog-head my-2 px-2">Asetto Corsa | Girls Summer Cup 2023</h3>
-                        <p id="blog4-short-description" class="blog-text mb-3 px-2">Wir haben ein Rennturnier für Mädchen organisiert.</p>
-                    </div>
-                </div>
-                <div class="wow fadeInDown blog-box mb-4 col-12 col-md-6 col-lg-4" data-wow-delay="0.8s">
-                    <div class="blog-content">
-                        <a href="#" onclick="onBlogClick('origamiCourse')" data-bs-toggle="modal" data-bs-target="#blogModal" class="image d-block position-relative overflow-hidden">
-                            <img class="img-fluid w-100 d-block" src="images/blog/origami-course/00-origami-course.png" alt="Image by pch.vector on Freepik">
-                            <span id="blog5-type" class="blog-title">Bildungs</span>
-                        </a>
-                        <h3 id="blog5-title" class="blog-head my-2 px-2">Origami lernen</h3>
-                        <p id="blog5-short-description" class="blog-text mb-3 px-2">Wir haben Origami-Kurse für Kinder angeboten.</p>
-                    </div>
-                </div>
-                <div class="wow fadeInDown blog-box mb-4 col-12 col-md-6 col-lg-4" data-wow-delay="1.0s">
-                    <div class="blog-content">
-                        <a href="#" onclick="onBlogClick('acSummerCup2023')" data-bs-toggle="modal" data-bs-target="#blogModal" class="image d-block position-relative overflow-hidden">
-                            <img class="img-fluid w-100 d-block" src="images/blog/ac-summer-cup-2023/00-ac-summer-cup-2023.png" alt="blog image">
-                            <span id="blog6-type" class="blog-title">Unterhaltung</span>
-                        </a>
-                        <h3 id="blog6-title" class="blog-head my-2 px-2">Asetto Corsa | Summer Cup 2023</h3>
-                        <p id="blog6-short-description" class="blog-text mb-3 px-2">Wir haben ein Rennturnier für Jungen organisiert.</p>
-                    </div>
-                </div>
-                <div class="wow fadeInDown blog-box mb-4 col-12 col-md-6 col-lg-4" data-wow-delay="1.2s">
-                    <div class="blog-content">
-                        <a href="#" onclick="onBlogClick('drivingCourse')" data-bs-toggle="modal" data-bs-target="#blogModal" class="image d-block position-relative overflow-hidden">
-                            <img class="img-fluid w-100 d-block" src="images/blog/driving-course/00-driving-simulator.png" alt="blog image">
-                            <span id="blog7-type" class="blog-title">Bildungs</span>
-                        </a>
-                        <h3 id="blog7-title" class="blog-head my-2 px-2">Fahren Lernen Im Simulator</h3>
-                        <p id="blog7-short-description" class="blog-text mb-3 px-2">Wir haben Simulator-Fahrstunden angeboten.</p>
-                    </div>
-                </div>
-                <div class="wow fadeInDown blog-box mb-4 col-12 col-md-6 col-lg-4" data-wow-delay="1.4s">
-                    <div class="blog-content">
-                        <a href="#" onclick="onBlogClick('gridWinterCup2023')" data-bs-toggle="modal" data-bs-target="#blogModal" class="image d-block position-relative overflow-hidden">
-                            <img class="img-fluid w-100 d-block" src="images/blog/grid-winter-cup-2023/00-grid-winter-cup-2023.png" alt="blog image">
-                            <span id="blog8-type" class="blog-title">Unterhaltung</span>
-                        </a>
-                        <h3 id="blog8-title" class="blog-head my-2 px-2">Grid | Winter Cup 2023</h3>
-                        <p id="blog8-short-description" class="blog-text mb-3 px-2">Wir haben ein Rennturnier für Jungen organisiert.</p>
-                    </div>
-                </div>
-                <div class="wow fadeInDown blog-box mb-4 col-12 col-md-6 col-lg-4" data-wow-delay="1.6s">
-                    <div class="blog-content">
-                        <a href="#" onclick="onBlogClick('gridGirlsWinterCup2023')" data-bs-toggle="modal" data-bs-target="#blogModal" class="image d-block position-relative overflow-hidden">
-                            <img class="img-fluid w-100 d-block" src="images/blog/grid-girls-winter-cup-2023/00-grid-girls-winter-cup-2023.png" alt="blog image">
-                            <span id="blog9-type" class="blog-title">Unterhaltung</span>
-                        </a>
-                        <h3 id="blog9-title" class="blog-head my-2 px-2">Grid | Girls Winter Cup 2023</h3>
-                        <p id="blog9-short-description" class="blog-text mb-3 px-2">Wir haben ein Rennturnier für Mädchen organisiert.</p>
-                    </div>
-                </div>
-                <!--<div class="wow fadeInDown blog-box mb-4 col-12 col-md-6 col-lg-4" data-wow-delay="1.8s">
-                    <div class="blog-content">
-                        <a href="#" onclick="onBlogClick('acSummerCup2023')" data-bs-toggle="modal" data-bs-target="#blogModal" class="image d-block position-relative overflow-hidden">
-                            <img class="img-fluid w-100 d-block" src="images/blog/ac-summer-cup-2023/00-ac-summer-cup-2023.png" alt="blog image">
-                            <span id="blog10-type" class="blog-title">Unterhaltung</span>
-                        </a>
-                        <h3 id="blog10-title" class="blog-head my-2 px-2">Asetto Corsa | Summer Cup 2023</h3>
-                        <p id="blog10-short-description" class="blog-text mb-3 px-2">Wir haben ein Rennturnier für Jungen organisiert.</p>
-                    </div>
-                </div>
-                <div class="wow fadeInDown blog-box mb-4 col-12 col-md-6 col-lg-4" data-wow-delay="2.0s">
-                    <div class="blog-content">
-                        <a href="#" onclick="onBlogClick('acSummerCup2023')" data-bs-toggle="modal" data-bs-target="#blogModal" class="image d-block position-relative overflow-hidden">
-                            <img class="img-fluid w-100 d-block" src="images/blog/ac-summer-cup-2023/00-ac-summer-cup-2023.png" alt="blog image">
-                            <span id="blog11-type" class="blog-title">Unterhaltung</span>
-                        </a>
-                        <h3 id="blog11-title" class="blog-head my-2 px-2">Asetto Corsa | Summer Cup 2023</h3>
-                        <p id="blog11-short-description" class="blog-text mb-3 px-2">Wir haben ein Rennturnier für Jungen organisiert.</p>
-                    </div>
-                </div>-->
-            </div>
-        </div>
-    </section>
-    <!-- End Blog -->
-
-    <!-- Start Trainers -->
-    <section class="reviews section-padding" id="trainers">
-        <div class="container">
-            <div class="main-heading mx-auto">
-                <h2 id="trainers-title" class="main-head-animation">UNSERE TRAINER</h2>
-            </div>
-            <div class="review-field row justify-content-between align-items-center">
-                <div class="wow bounceInUp review-swiper-image col-3">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide px-0">
-                            <img class="img-fluid w-100" src="images/trainers/ibrahim.png" alt="trainers">
-                        </div>
-                        <div class="swiper-slide px-0">
-                            <img class="img-fluid w-100" src="images/trainers/seyma.png" alt="trainers">
-                        </div>
-                        <div class="swiper-slide px-0">
-                            <img class="img-fluid w-100" src="images/trainers/berra.jpg" alt="trainers">
-                        </div>
-                        <div class="swiper-slide px-0">
-                            <img class="img-fluid w-100" src="images/trainers/mehmet.png" alt="trainers">
-                        </div>
-                        <div class="swiper-slide px-0">
-                            <img class="img-fluid w-100" src="images/trainers/nt.png" alt="trainers">
-                        </div>
-                    </div>
-                </div>
-                <div class="review-swiper-text position-relative col-12 col-lg-8">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="client-info">
-                                <div class="review-head py-3">
-                                    <img class="text-slider-image mx-auto" src="images/trainers/ibrahim.png" alt="clients reviews">
-                                    <div class="rev-box d-flex align-items-center justify-content-lg-start justify-content-center">
-                                        <i class="fas fa-chevron-circle-right pe-3 pt-2"></i>
-                                        <div class="review-details">
-                                            <h4 class="client-name mb-2" style="margin-top: 0.7rem">Ibrahim</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <q id="trainer3-profession">Schach | Origami</q>
-                                <div class="review-dates d-flex justify-content-between mt-3">
-                                    <div class="client-project"><p id="trainer3-description">Ibrahim hat gute Erfahrung im Unterrichten. Er unterrichtet Schach und Origami.</p></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="client-info">
-                                <div class="review-head py-3">
-                                    <img class="text-slider-image mx-auto" src="images/trainers/seyma.png" alt="clients reviews">
-                                    <div class="rev-box d-flex align-items-center justify-content-lg-start justify-content-center">
-                                        <i class="fas fa-chevron-circle-right pe-3 pt-2"></i>
-                                        <div class="review-details">
-                                            <h4 class="client-name mb-2" style="margin-top: 0.7rem">Şeyma</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <q id="trainer1-profession">Religionsunterricht | Soziale Arbeit mit Kindern</q>
-                                <div class="review-dates d-flex justify-content-between mt-3">
-                                    <div class="client-project"><p id="trainer1-description">Şeyma unterrichtet mehr als 50 Kinder in Religion. Gleichzeitig engagiert sie sich in der sozialen Arbeit mit Kindern und organisiert entsprechende Aktivitäten.</p></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="client-info">
-                                <div class="review-head py-3">
-                                    <img class="text-slider-image mx-auto" src="images/trainers/berra.jpg" alt="clients reviews">
-                                    <div class="rev-box d-flex align-items-center justify-content-lg-start justify-content-center">
-                                        <i class="fas fa-chevron-circle-right pe-3 pt-2"></i>
-                                        <div class="review-details">
-                                            <h4 class="client-name mb-2" style="margin-top: 0.7rem">Berra</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <q id="trainer2-profession">Gitarre</q>
-                                <div class="review-dates d-flex justify-content-between mt-3">
-                                    <div class="client-project"><p id="trainer2-description">Berra bringt Mädchen das Gitarrespielen bei.</p></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="client-info">
-                                <div class="review-head py-3">
-                                    <img class="text-slider-image mx-auto" src="images/trainers/mehmet.png" alt="clients reviews">
-                                    <div class="rev-box d-flex align-items-center justify-content-lg-start justify-content-center">
-                                        <i class="fas fa-chevron-circle-right pe-3 pt-2"></i>
-                                        <div class="review-details">
-                                            <h4 class="client-name mb-2" style="margin-top: 0.7rem">Mehmet</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <q id="trainer5-profession">Orientalische (Ney) Flöte und IT-Sicherheit</q>
-                                <div class="review-dates d-flex justify-content-between mt-3">
-                                    <div class="client-project"><p id="trainer5-description">Ich bin ein IT Security Engineer mit einer Leidenschaft für orientalische Musik und IT-Sicherheit. Mein Ziel ist es, Menschen sowohl in der wunderbaren Welt der orientalischen Flöte, insbesondere der Ney-Flöte, als auch in den wichtigen Aspekten der IT-Sicherheit zu schulen und zu unterstützen.</p></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="client-info">
-                                <div class="review-head py-3">
-                                    <img class="text-slider-image mx-auto" src="images/trainers/nt.png" alt="clients reviews">
-                                    <div class="rev-box d-flex align-items-center justify-content-lg-start justify-content-center">
-                                        <i class="fas fa-chevron-circle-right pe-3 pt-2"></i>
-                                        <div class="review-details">
-                                            <h4 class="client-name mb-2" style="margin-top: 0.7rem">Nurbek</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <q id="trainer4-profession">Schach | Gitarre</q>
-                                <div class="review-dates d-flex justify-content-between mt-3">
-                                    <div class="client-project"><p id="trainer4-description">Nurbek unterrichtet Kinder im Gitarrenspiel und unterstützt Ibrahim im Schachunterricht.</p></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-pagination swiper-pagination-white cursor-pointer-hover"></div>
-                        <div class="swiper-button-next d-none d-sm-flex swiper-button-white cursor-pointer-hover"></div>
-                        <div class="swiper-button-prev d-none d-sm-flex swiper-button-white cursor-pointer-hover"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Trainers -->
-
-    <!-- Start Contact -->
-    <section class="contact section-padding" id="contact">
-        <div class="container">
-            <div class="main-heading mx-auto">
-                <h2 id="contact-title" class="main-head-animation">KONTAKT</h2>
-            </div>
-            <div class="contact-field my-4 row flex-wrap-reverse">
-                <div class="contact-info-field p-2 col-12 col-md-12">
-                    <div class="location">
-                        <i class="fas fa-street-view"></i>
-                        <address class="mb-0">Braunschweig</address>
-                    </div>
-                    <div class="email">
-                        <i class="far fa-envelope"></i>
-                        <a href="mailto:kulturhaus.bs@gmail.com">kulturhaus.bs@gmail.com</a>
-                    </div>
-                    <!--<div class="phone">
-                        <i class="fas fa-phone-alt"></i>
-                        <a href="tel:#">-</a>
-                    </div>
-                    <div class="social">
-                        <i class="fas fa-share-alt"></i>
-                        <div class="social-links pt-2 d-flex align-items-center justify-content-center">
-                            <a class="mx-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="mx-2" href="#"><i class="fab fa-twitter"></i></a>
-                        </div>
-                    </div>-->
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Contact -->
-
-    <!-- Start Footer -->
-    <footer>
-        <div class="container position-relative d-flex flex-column flex-md-row align-items-center justify-content-between">
-            <p class="copy mb-2 mb-md-0">&copy; <span id="year">2023</span> Braunschweiger Kultur- & Bildungshaus e.V.</p>
-            <!--<div class="addition-links">
-                <a href="#">Privacy Policy</a>
-                <span></span>
-                <a href="#">Terms &amp; Conditions</a>
-            </div>-->
-            <a class="scroll-top" href="#">
-                <i class="fas fa-angle-up"></i>
-            </a>
-        </div>
-    </footer>
-    <!-- End Footer -->
-
-    <!-- start popup -->
-    <div class="modal fade" id="blogModal" tabindex="-1">
-        <div class="modal-dialog">
+        <!-- Masthead-->
+        <header class="masthead">
             <div class="container">
-                <div class="modal-content">
-                    <div class="modal-header position-relative">
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onclick="onBlogClose()">
-                            <i class="far fa-times-circle"></i>
-                        </button>
+                <div class="masthead-subheading">Herzliches Willkommen!</div>
+                <div class="masthead-heading text-uppercase">Kulturen Zusammenbringen, Bildung Inspirieren</div>
+                <a class="btn btn-primary btn-xl text-uppercase" href="#about">erzähl mir mehr</a>
+            </div>
+        </header>
+        <!-- About-->
+        <section class="page-section" id="about">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Über Uns</h2>
+                    <div class="timeline-body">
+                        <p class="text-muted">Der Braunschweiger Kultur- und Bildungshaus e.V. ist eine gemeinnützige Organisation, die sich zum Ziel gesetzt hat, Menschen jeden Alters und jeder Herkunft zu fördern und zu unterstützen. Der Verein engagiert sich in kulturellen, künstlerischen, sprachlichen, sozialen und religiösen Bereichen und bietet sowohl Kurse als auch verschiedene Bildungsprogramme an.</p>
                     </div>
-                    <span id="blog-modal-type" class="pop-info"></span>
-                    <img id="blog-modal-image" src="" alt="blog image">
-                    <div class="d-flex justify-content-between" style="margin-top: 10px">
-                        <button type="button" class="btn btn-outline-dark" onclick="showPrevBlogImage()">
-                            <i class="fas fa-angle-left"></i>
-                            <i class="fas fa-angle-left"></i>
-                            <i class="fas fa-angle-left"></i>
-                        </button>
-                        <h4 id="image-number"></h4>
-                        <button type="button" class="btn btn-outline-dark" onclick="showNextBlogImage()">
-                            <i class="fas fa-angle-right"></i>
-                            <i class="fas fa-angle-right"></i>
-                            <i class="fas fa-angle-right"></i>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <h3 id="blog-modal-title" class="blog-title"></h3>
-                        <p id="blog-modal-description"></p>
-                    </div>
-                    <div class="modal-footer d-flex justify-content-between">
-                        <div class="blog-share d-flex">
+                </div>
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-image">
+                            <img class="rounded-circle img-fluid" src="images/logo-full.png" alt="..." />
                         </div>
-                        <span class="date">
-                            <i class="far fa-calendar-alt"></i>
-                            <span id="blog-modal-date"></span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- Services-->
+        <section class="page-section" id="activity">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Aktivitäten</h2>
+                    <div class="timeline-body" style="padding-bottom: 20px">
+                        <p class="text-muted">Unser Verein hat Kurse in Musikinstrumenten, Besuche und Ausstellungen, kulturelle Dialoge, Ethikkurse, Programmierkurse, E-Sport-Turniere und mehr angeboten und bietet diese weiterhin an, alles durch separate Einheiten oder Teams.</p>
+                    </div>
+                </div>
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-image">
+                            <img class="rounded-circle img-fluid" src="images/deutschland-club.png" alt="..." />
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="subheading">Deutschland Club</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Deutschland Club fördert die Integration durch Kultur, Sprachunterstützung und Networking. Er bietet Fahrsimulator-Kurse zur Vorbereitung auf die Prüfung sowie Workshops zu Leben, Kultur und Dialog in Deutschland.</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="images/sport-club.png" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="subheading">Sport Club</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Sport Club fördert Sport und E-Sport für Kinder und Jugendliche. Wir bieten Schachtraining an und veranstalten Turniere wie PlayStation FIFA und Rennwettbewerbe mit Fahrsimulator, um Fähigkeiten, Spaß, Teamgeist und Wettbewerb zu fördern.</p></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="images/music-club.png" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="subheading">Music Club</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Music Club bietet Kurse für klassische und akustische Gitarre an. Unsere Band mit Violine, Elektro-, Klassik- und Bassgitarre tritt live bei Kultur- und Dialogevents auf und fördert musikalischen Ausdruck sowie kulturellen Austausch.</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <h4 style="color: #1a1e21">
+                                Und
+                                <br />
+                                vieles
+                                <br />
+                                mehr
+                            </h4>
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="subheading">Weitere Aktivitäten</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Zusätzlich bieten wir Programmier- und Origamikurse für Kinder und Jugendliche an. Zudem organisieren wir Veranstaltungen zu Ethik, Kultur, Wissenschaft und Bildung, um Wissen und persönliche Entwicklung zu fördern.</p></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- Portfolio Grid-->
+        <section class="page-section bg-light" id="portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Blog & Galerie</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 1-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" onclick="onBlogClick('guitarCourse')" data-bs-toggle="modal" href="#portfolioModal">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="images/blog/guitar-course/00-guitar-course.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Gitarre Lernen</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 2-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" onclick="onBlogClick('chessCourse')" data-bs-toggle="modal" href="#portfolioModal">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="images/blog/chess-course/00-chess-course.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Schach Lernen</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 3-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" onclick="onBlogClick('drivingCourse')" data-bs-toggle="modal" href="#portfolioModal">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="images/blog/driving-course/00-driving-simulator.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Fahren Lernen Im Simulator</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        <!-- Portfolio item 4-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" onclick="onBlogClick('origamiCourse')" data-bs-toggle="modal" href="#portfolioModal">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="images/blog/origami-course/00-origami-course.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Origami Lernen</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                        <!-- Portfolio item 5-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" onclick="onBlogClick('fifaSummerCup2023')" data-bs-toggle="modal" href="#portfolioModal">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="images/blog/fifa-summer-cup-2023/00-ps-fifa-summer-cup-2023.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">FIFA Summer Cup 2023</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <!-- Portfolio item 6-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" onclick="onBlogClick('acSummerCup2023')" data-bs-toggle="modal" href="#portfolioModal">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="images/blog/ac-summer-cup-2023/00-ac-summer-cup-2023.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">AC Summer Cup 2023</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        <!-- Portfolio item 4-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" onclick="onBlogClick('acGirlsSummerCup2023')" data-bs-toggle="modal" href="#portfolioModal">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="images/blog/ac-girls-summer-cup-2023/00-ac-girls-summer-cup-2023.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">AC Girls Summer Cup 2023</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                        <!-- Portfolio item 5-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" onclick="onBlogClick('gridWinterCup2023')" data-bs-toggle="modal" href="#portfolioModal">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="images/blog/grid-winter-cup-2023/00-grid-winter-cup-2023.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Grid Winter Cup 2023</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <!-- Portfolio item 6-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" onclick="onBlogClick('gridGirlsWinterCup2023')" data-bs-toggle="modal" href="#portfolioModal">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="images/blog/grid-girls-winter-cup-2023/00-grid-girls-winter-cup-2023.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Grid Girls Winter Cup 2023</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Team-->
+        <section class="page-section bg-light" id="trainers">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">UNSERE TRAINER</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="images/trainers/ibrahim.png" alt="..." />
+                            <h4>Ibrahim</h4>
+                            <p class="text-muted">Origami, Schach</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="images/trainers/berra.jpg" alt="..." />
+                            <h4>Berra</h4>
+                            <p class="text-muted">Gitarre, Musik</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="images/trainers/kan.jpg" alt="..." />
+                            <h4>Okan</h4>
+                            <p class="text-muted">Ethik</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="images/trainers/nt.png" alt="..." />
+                            <h4>Nurbek</h4>
+                            <p class="text-muted">Programmierung, Fahrsimulator</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="images/trainers/seyma.png" alt="..." />
+                            <h4>Seyma</h4>
+                            <p class="text-muted">Ethik</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="images/trainers/mehmet.png" alt="..." />
+                            <h4>Mehmet</h4>
+                            <p class="text-muted">(Ney) Flöte, IT-Sicherheit</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact-->
+        <section class="page-section" id="contact">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">KONTAKT</h2>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-location-dot fa-stack-1x fa-inverse"></i>
                         </span>
+                        <h4 class="my-3 text-white">Braunschweig</h4>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-phone fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3 text-white">+49 --- --- -- --</h4>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-at fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3 text-white">kulturhaus.bs@gmail.com</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-start">&copy; <span id="year">2025</span> Braunschweiger Kultur- und Bildungshaus e.V.</div>
+                    <div class="col-lg-4 my-3 my-lg-0">
+                        <!--<a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>-->
+                    </div>
+                    <div class="col-lg-4 text-lg-end">
+                        <a class="link-dark text-decoration-none me-3" data-bs-toggle="modal" href="#satzungModal">Satzung</a>
+                        <a class="link-dark text-decoration-none me-3" data-bs-toggle="modal" href="#datenschutzModal">Datenschutz</a>
+                        <a class="link-dark text-decoration-none" data-bs-toggle="modal" href="#impressumModal">Impressum</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- MODALS --------------------------------------------------------------------------------------------------->
+
+        <!-- Blog & Gallery modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal" style="z-index: 1; position: absolute;">
+                        <img src="images/close-icon.svg" alt="Close modal" />
+                    </div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <h2 id="blog-modal-title" class="text-uppercase"></h2>
+                                    <img id="blog-modal-image" class="img-fluid d-block mx-auto" src="" alt="..." />
+                                    <div class="d-flex justify-content-between" style="margin-bottom: 1rem">
+                                        <button type="button" class="btn btn-outline-dark" onclick="showPrevBlogImage()">
+                                            <i class="fas fa-angle-left"></i>
+                                            <i class="fas fa-angle-left"></i>
+                                            <i class="fas fa-angle-left"></i>
+                                        </button>
+                                        <h4 id="image-number"></h4>
+                                        <button type="button" class="btn btn-outline-dark" onclick="showNextBlogImage()">
+                                            <i class="fas fa-angle-right"></i>
+                                            <i class="fas fa-angle-right"></i>
+                                            <i class="fas fa-angle-right"></i>
+                                        </button>
+                                    </div>
+                                    <p id="blog-modal-description"></p>
+                                    <div class="modal-footer d-flex justify-content-between">
+                                        <div class="blog-share d-flex"></div>
+                                        <span class="date">
+                                            <i class="far fa-calendar-alt"></i>
+                                            <span id="blog-modal-date"></span>
+                                        </span>
+                                    </div>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Schließen
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- End popup -->
 
-    <!-- Start Cursor -->
-    <!--<div class="fancy-cursor-dot"></div>-->
-    <!-- End Cursor -->
+        <!-- Satzung modal popup-->
+        <div class="portfolio-modal modal fade" id="satzungModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal">
+                        <img src="images/close-icon.svg" alt="Close modal" />
+                    </div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <h2 class="text-uppercase">Satzung</h2>
+                                    <p>---</p>
+                                    <h3>§1</h3>
+                                    <h3>---</h3>
+                                    <p><strong>1.</strong> ---<br>
+                                        <strong>2</strong>. ---<br>
+                                    </p>
+                                    <h3>§2</h3>
+                                    <h3>---</h3>
+                                    <p>---</p>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        schließen
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    <!-- JS Files -->
-    <script src="js/lib/jQuery.js"></script>
-    <script src="js/lib/jquery.appear.js"></script>
-    <script src="js/lib/bootstrap.js"></script>
-    <script src="js/lib/jquery.animatedheadline.js"></script>
-    <script src="js/lib/swiper.js"></script>
-    <script src="js/lib/wow.js"></script>
-    <script src="js/lib/odometer.js"></script>
-    <script src="js/lib/mixitup.js"></script>
-    <script src="js/lib/fancybox.umd.js"></script>
-    <script src="js/blog.js"></script>
-    <script src="js/main.js"></script>
-</body>
+        <!-- Datenschutz modal popup-->
+        <div class="portfolio-modal modal fade" id="datenschutzModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="images/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <h2 class="text-uppercase">Datenschutz</h2>
+                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        schließen
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Impressum modal popup-->
+        <div class="portfolio-modal modal fade" id="impressumModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="images/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <h2 class="text-uppercase">Impressum</h2>
+                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        schließen
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bootstrap core JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core JS -->
+        <script src="js/blog.js"></script>
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+    </body>
 </html>

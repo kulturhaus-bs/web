@@ -1,20 +1,8 @@
 {
-  "fifaSummerCup2023": {
-    "images": [
-      "images/blog/fifa-summer-cup-2023/00-ps-fifa-summer-cup-2023.png",
-      "images/blog/fifa-summer-cup-2023/01.jpg",
-      "images/blog/fifa-summer-cup-2023/02.jpg",
-      "images/blog/fifa-summer-cup-2023/03.jpg",
-      "images/blog/fifa-summer-cup-2023/04.jpg",
-      "images/blog/fifa-summer-cup-2023/05.jpg",
-      "images/blog/fifa-summer-cup-2023/06.jpg",
-      "images/blog/fifa-summer-cup-2023/07.jpg",
-      "images/blog/fifa-summer-cup-2023/08.jpg",
-      "images/blog/fifa-summer-cup-2023/09.jpg",
-      "images/blog/fifa-summer-cup-2023/10.jpg"
-    ]
-  },
   "guitarCourse": {
+    "title": "Gitarre lernen",
+    "description": "Ab Juli bietet unser Musikclub Gitarrenkurse an. In diesem Kurs lernen die Teilnehmer die Grundlagen der Gitarre, Noten, Tabulatur und Akkorde. Sie werden Kompositionen deutscher Komponisten aus der Renaissance und der Klassik wie Bethooven, Bach, Pachelbel und Mozart studieren. Sie werden auch spanische klassische Gitarrenkompositionen studieren.",
+    "date": "Juli 2023 - Dezember 2023 | August 2024 - heutzutage",
     "images": [
       "images/blog/guitar-course/00-guitar-course.png",
       "images/blog/guitar-course/01.jpg",
@@ -23,6 +11,9 @@
     ]
   },
   "chessCourse": {
+    "title": "Schach lernen",
+    "description": "Ab Juli bietet unser Sportclub jedes Wochenende Schachkurse an. In diesem Kurs lernen unsere Schüler die Grundlagen des Schachs, Eröffnungen, Taktiken, Schachstrategien und die Erstellung einer Partieanalyse. Nach dem Unterricht haben die Schüler Spaß daran, gegeneinander zu spielen.",
+    "date": "Juli 2023 - Dezember 2023",
     "images": [
       "images/blog/chess-course/00-chess-course.png",
       "images/blog/chess-course/01.jpg",
@@ -33,7 +24,23 @@
       "images/blog/chess-course/06.jpg"
     ]
   },
+  "drivingCourse": {
+    "title": "Fahren Lernen Im Simulator",
+    "description": "Wir boten einen Simulator-Fahrkurs an, in dem die Teilnehmer grundlegende Kenntnisse über Fahrtechniken, Parktechniken sowie Verkehrsregeln und Beschilderungen erlangten. Dieser Kurs ist besonders für Kinder von Nutzen, da er die Bedeutung des Erlernens von Verkehrsregeln schon in jungen Jahren betont. Darüber hinaus dient es als wertvolle Vorbereitung für diejenigen, die vor ihrer Fahrprüfung in Deutschland Selbstvertrauen aufbauen möchten.",
+    "date": "Oktober 2023 - heutzutage",
+    "images": [
+      "images/blog/driving-course/00-driving-simulator.png",
+      "images/blog/driving-course/01.png",
+      "images/blog/driving-course/02.png",
+      "images/blog/driving-course/03.png",
+      "images/blog/driving-course/04.png",
+      "images/blog/driving-course/05.png"
+    ]
+  },
   "origamiCourse": {
+    "title": "Origami lernen",
+    "description": "Wir haben Origami-Workshops für Kinder angeboten, in denen sie die Grundlagen erlernen, verschiedene Faltmethoden ausprobieren und verschiedene für Origami geeignete Papiersorten entdecken können. Unser Ziel war es, eine einladende Umgebung zu schaffen, die das Lernen fördert und die Kreativität, Fantasie und Konzentration der Kinder fördert.",
+    "date": "Juli 2023 - Dezember 2023",
     "images": [
       "images/blog/origami-course/00-origami-course.png",
       "images/blog/origami-course/01.jpg",
@@ -50,7 +57,40 @@
       "images/blog/origami-course/12.png"
     ]
   },
+  "fifaSummerCup2023": {
+    "title": "FIFA Summer Cup 2023",
+    "description": "Unser Sportklub hat ein PlayStation 4 FIFA23-Turnier organisiert. Das Turnier begann mit dem Frühstück, das wir für 20 Teilnehmer und ihre Eltern vorbereiteten, die kamen, um ihre Kinder zu unterstützen. Insgesamt wurden 38 Spiele ausgetragen, um den 1., 2. und 3. Platz zu ermitteln. Die Kinder hatten dort viel Spaß. Die Spieler lernten die Bedeutung von kompetitivem eSport und Fairplay-Regeln kennen. Den Gewinnern des Turniers wurden Medaillen und Geschenkgutscheine verliehen.",
+    "date": "18 Juni 2023",
+    "images": [
+      "images/blog/fifa-summer-cup-2023/00-ps-fifa-summer-cup-2023.png",
+      "images/blog/fifa-summer-cup-2023/01.jpg",
+      "images/blog/fifa-summer-cup-2023/02.jpg",
+      "images/blog/fifa-summer-cup-2023/03.jpg",
+      "images/blog/fifa-summer-cup-2023/04.jpg",
+      "images/blog/fifa-summer-cup-2023/05.jpg",
+      "images/blog/fifa-summer-cup-2023/06.jpg",
+      "images/blog/fifa-summer-cup-2023/07.jpg",
+      "images/blog/fifa-summer-cup-2023/08.jpg",
+      "images/blog/fifa-summer-cup-2023/09.jpg",
+      "images/blog/fifa-summer-cup-2023/10.jpg"
+    ]
+  },
+  "acSummerCup2023": {
+    "title": "AC Summer Cup 2023",
+    "description": "Wir veranstalteten separate Rennsimulator-Turniere für Jungen und Mädchen, bei denen sie im Zeitangriffsmodus gegeneinander antraten. Den Teilnehmern hat die Veranstaltung viel Spaß gemacht und sie konnten wertvolle Einblicke in die Wichtigkeit der Einhaltung der Fahrvorschriften gewinnen. Darüber hinaus lernten sie die potenziellen Gefahren des Hochgeschwindigkeitsfahrens kennen, selbst in einer Simulatorumgebung.",
+    "date": "29 Juli 2023",
+    "images": [
+      "images/blog/ac-summer-cup-2023/00-ac-summer-cup-2023.png",
+      "images/blog/ac-summer-cup-2023/01.jpg",
+      "images/blog/ac-summer-cup-2023/02.png",
+      "images/blog/ac-summer-cup-2023/03.jpg",
+      "images/blog/ac-summer-cup-2023/04.jpg"
+    ]
+  },
   "acGirlsSummerCup2023": {
+    "title": "AC Girls Summer Cup 2023",
+    "description": "Wir veranstalteten separate Rennsimulator-Turniere für Jungen und Mädchen, bei denen sie im Zeitangriffsmodus gegeneinander antraten. Den Teilnehmern hat die Veranstaltung viel Spaß gemacht und sie konnten wertvolle Einblicke in die Wichtigkeit der Einhaltung der Fahrvorschriften gewinnen. Darüber hinaus lernten sie die potenziellen Gefahren des Hochgeschwindigkeitsfahrens kennen, selbst in einer Simulatorumgebung.",
+    "date": "22 Juli 2023",
     "images": [
       "images/blog/ac-girls-summer-cup-2023/00-ac-girls-summer-cup-2023.png",
       "images/blog/ac-girls-summer-cup-2023/01.png",
@@ -60,26 +100,10 @@
       "images/blog/ac-girls-summer-cup-2023/05.jpg"
     ]
   },
-  "acSummerCup2023": {
-    "images": [
-      "images/blog/ac-summer-cup-2023/00-ac-summer-cup-2023.png",
-      "images/blog/ac-summer-cup-2023/01.jpg",
-      "images/blog/ac-summer-cup-2023/02.png",
-      "images/blog/ac-summer-cup-2023/03.jpg",
-      "images/blog/ac-summer-cup-2023/04.jpg"
-    ]
-  },
-  "drivingCourse": {
-    "images": [
-      "images/blog/driving-course/00-driving-simulator.png",
-      "images/blog/driving-course/01.png",
-      "images/blog/driving-course/02.png",
-      "images/blog/driving-course/03.png",
-      "images/blog/driving-course/04.png",
-      "images/blog/driving-course/05.png"
-    ]
-  },
   "gridWinterCup2023": {
+    "title": "Grid Winter Cup 2023",
+    "description": "Wir haben separate Rennturniere für Mädchen und Jungen veranstaltet, bei denen sie dieses Mal auf derselben Online-Rennstrecke gegeneinander antreten können. Es war für alle Beteiligten eine erfreuliche Erfahrung. Unser Ziel war es, ein freundliches Umfeld für die Teilnehmer zu schaffen, in dem sie etwas über E-Sport-Wettbewerbe, Sportlichkeit und die Bedeutung von Fairplay lernen konnten.",
+    "date": "9 Dezember 2023",
     "images": [
       "images/blog/grid-winter-cup-2023/00-grid-winter-cup-2023.png",
       "images/blog/grid-winter-cup-2023/01.png",
@@ -88,6 +112,9 @@
     ]
   },
   "gridGirlsWinterCup2023": {
+    "title": "Grid Girls Winter Cup 2023",
+    "description": "Wir haben separate Rennturniere für Mädchen und Jungen veranstaltet, bei denen sie dieses Mal auf derselben Online-Rennstrecke gegeneinander antreten können. Es war für alle Beteiligten eine erfreuliche Erfahrung. Unser Ziel war es, ein freundliches Umfeld für die Teilnehmer zu schaffen, in dem sie etwas über E-Sport-Wettbewerbe, Sportlichkeit und die Bedeutung von Fairplay lernen konnten.",
+    "date": "16 Dezember 2023",
     "images": [
       "images/blog/grid-girls-winter-cup-2023/00-grid-girls-winter-cup-2023.png",
       "images/blog/grid-girls-winter-cup-2023/01.png"
