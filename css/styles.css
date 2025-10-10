@@ -11046,7 +11046,7 @@ header.masthead .masthead-heading {
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 .portfolio-modal .modal-content p {
-  margin-bottom: 2rem;
+  
 }
 .portfolio-modal .modal-content ul.list-inline {
   margin-bottom: 2rem;
@@ -11314,4 +11314,5 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .modal-content p {
   text-align: justify;
+
 }
