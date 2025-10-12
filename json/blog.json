@@ -122,10 +122,18 @@
   },
   "porscheCupGirls2025": {
     "title": "Porsche Cup Girls 2025",
-    "description": "Wir haben ein Simulationsrennturnier speziell für Mädchen organisiert. Bevor der Hauptwettbewerb begann, erhielten die Teilnehmerinnen eine Präsentation über Porsche – über die Geschichte des Unternehmens, seine Kultur, Vision, Fahrzeugmodelle und die verschiedenen Berufsfelder innerhalb der Marke. Alle Rennen wurden ausschließlich mit Porsche-Fahrzeugen gefahren, und die Gewinnerinnen erhielten originale Porsche-Geschenke: eine Porsche Cup Tasse, eine Porsche Trinkflasche und einen Porsche Kugelschreiber. Alle Teilnehmerinnen hatten großen Spaß und konnten mehr über die Marke Porsche erfahren. Unser Hauptziel war es – wie immer – eine freundliche und angenehme Atmosphäre zu schaffen, die Sportsgeist, Fairplay und sicheres Fahren fördert, selbst im Rennsimulator, damit die Veranstaltung sowohl unvergesslich als auch unterhaltsam war.",
+    "description": "Wir haben ein Simulationsrennturnier speziell für Mädchen organisiert. Bevor der Hauptwettbewerb begann, erhielten die Teilnehmerinnen eine Präsentation über Porsche - über die Geschichte des Unternehmens, seine Kultur, Vision, Fahrzeugmodelle und die verschiedenen Berufsfelder innerhalb der Marke. Alle Rennen wurden ausschließlich mit Porsche-Fahrzeugen gefahren, und die Gewinnerinnen erhielten originale Porsche-Geschenke: eine Porsche Cup Tasse, eine Porsche Trinkflasche und einen Porsche Kugelschreiber. Alle Teilnehmerinnen hatten großen Spaß und konnten mehr über die Marke Porsche erfahren. Unser Hauptziel war es, wie immer, eine freundliche und angenehme Atmosphäre zu schaffen, die Sportsgeist, Fairplay und sicheres Fahren fördert, selbst im Rennsimulator, damit die Veranstaltung sowohl unvergesslich als auch unterhaltsam war.",
     "date": "12 April 2025",
     "images": [
       "images/blog/porsche-cup-girls-2025/00-porsche-cup-girls.png"
+    ]
+  },
+  "kulturfest2025": {
+    "title": "Anatolisches Kulturfest",
+    "description": "Wir haben ein lebendiges Kulturfestival im Herzen von Braunschweig organisiert, um die reichen Traditionen, Aromen und die Kunst der Türkei zu feiern. Die Besucherinnen und Besucher genossen ein abwechslungsreiches Food-Festival mit köstlicher türkischer Küche wie Döner, Sarma, İçli Köfte, Lahmacun und einer Vielzahl traditioneller Desserts. Die Veranstaltung wurde von Musik und Tanz begleitet, mit Live-Auftritten moderner Pop- und traditioneller Volksmusik sowie folkloristischen Kindertänzen. Ein Zelt war im authentischen türkischen Stil gestaltet, in dem die Gäste mehr über die Kultur, Geschichte und Traditionen der Türkei erfahren konnten. Ein weiteres Highlight war das Kunstzelt, das die Schönheit der Ebru- (Marmorierkunst) und der Kalligrafie präsentierte, bei der Besucherinnen und Besucher eigene Kunstwerke gestalten konnten. Für die jüngsten Gäste gab es lustige Aktivitäten und Kinderschminken, sodass der Tag für alle - ob Groß oder Klein - voller Kultur, Musik und Freude war.",
+    "date": "24 Mai 2025",
+    "images": [
+      "images/blog/kulturfest-2025/00-kulturfest.png"
     ]
   }
 }
