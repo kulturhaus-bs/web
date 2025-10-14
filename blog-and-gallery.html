@@ -15,6 +15,23 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <!-- === Security & Privacy Meta Tags === -->
+        <!-- Content Security Policy: restrict external resources -->
+        <meta http-equiv="Content-Security-Policy"
+              content="
+                default-src 'self';
+                script-src 'self' https://use.fontawesome.com https://cdn.jsdelivr.net https://fonts.googleapis.com https://fonts.gstatic.com;
+                style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://fonts.gstatic.com;
+                font-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com https://use.fontawesome.com;
+                img-src 'self' data: https:;
+                frame-ancestors 'none';
+              ">
+        
+        <!-- Referrer Policy: don't leak page URLs -->
+        <meta name="referrer" content="no-referrer">
+        
+        <!-- Permissions Policy: disable powerful browser features -->
+        <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), accelerometer=(), payment=()">
     </head>
     <body id="page-top">
         <!-- Navigation-->
