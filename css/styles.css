@@ -10946,7 +10946,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../images/banner.png");
+  background-image: url("../images/banner.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -11325,3 +11325,4 @@ section#contact form#contactForm :-ms-input-placeholder {
   text-align: justify;
 
 }
+
