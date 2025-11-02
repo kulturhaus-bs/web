@@ -140,7 +140,15 @@
     "description": "Wir haben ein lebendiges Kulturfestival im Herzen von Braunschweig organisiert, um die reichen Traditionen, Aromen und die Kunst der Türkei zu feiern. Die Besucherinnen und Besucher genossen ein abwechslungsreiches Food-Festival mit köstlicher türkischer Küche wie Döner, Sarma, İçli Köfte, Lahmacun und einer Vielzahl traditioneller Desserts. Die Veranstaltung wurde von Musik und Tanz begleitet, mit Live-Auftritten moderner Pop- und traditioneller Volksmusik sowie folkloristischen Kindertänzen. Ein Zelt war im authentischen türkischen Stil gestaltet, in dem die Gäste mehr über die Kultur, Geschichte und Traditionen der Türkei erfahren konnten. Ein weiteres Highlight war das Kunstzelt, das die Schönheit der Ebru- (Marmorierkunst) und der Kalligrafie präsentierte, bei der Besucherinnen und Besucher eigene Kunstwerke gestalten konnten. Für die jüngsten Gäste gab es lustige Aktivitäten und Kinderschminken, sodass der Tag für alle - ob Groß oder Klein - voller Kultur, Musik und Freude war.",
     "date": "24 Mai 2025",
     "images": [
-      "images/blog/kulturfest-2025/00-kulturfest.png"
+      "images/blog/kulturfest-2025/00-kulturfest.png",
+      "images/blog/kulturfest-2025/01.jpg",
+      "images/blog/kulturfest-2025/02.jpg",
+      "images/blog/kulturfest-2025/03.jpg",
+      "images/blog/kulturfest-2025/04.jpg",
+      "images/blog/kulturfest-2025/05.jpg",
+      "images/blog/kulturfest-2025/06.jpg",
+      "images/blog/kulturfest-2025/07.jpg",
+      "images/blog/kulturfest-2025/08.jpg"
     ]
   },
   "meetAndEat2025": {
@@ -176,5 +184,6 @@
     ]
   }
 }
+
 
 
