@@ -42,13 +42,29 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
-    fetch('json/blog.json')  // Ensure data.json is in the same directory
+    blogJsonPromise = fetch('json/blog.json')
         .then(response => response.json()) // Convert response to JSON
         .then(data => {
-            //console.log("json data:" + JSON.stringify(data, null, 2));
             blogJson = data;
+            return data;
         })
-        .catch(error => console.error('Error loading JSON:', error));
+        .catch(error => {
+            console.error('Error loading blog JSON:', error);
+            return null;
+        });
+
+    if (typeof youthJsonPromise !== 'undefined') {
+        youthJsonPromise = fetch('json/jugendabteilung.json')
+            .then(response => response.json())
+            .then(data => {
+                setYouthActivities(data);
+                return data;
+            })
+            .catch(error => {
+                console.error('Error loading youth JSON:', error);
+                return null;
+            });
+    }
 
     document.getElementById("year").innerHTML = String(new Date().getFullYear());
 
