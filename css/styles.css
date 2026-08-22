@@ -10906,6 +10906,19 @@ p {
   color: #ffc800;
 }
 
+#mainNav .navbar-nav .nav-item .nav-link.nav-youth-link {
+  display: inline-block;
+  padding: 0.5rem 0.75rem;
+  border: 2px solid #ffc800;
+  border-radius: 0.25rem;
+  color: #ffc800;
+}
+#mainNav .navbar-nav .nav-item .nav-link.nav-youth-link:hover,
+#mainNav .navbar-nav .nav-item .nav-link.nav-youth-link:focus {
+  color: #212529;
+  background-color: #ffc800;
+}
+
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 1.5rem;
@@ -11040,6 +11053,193 @@ header.masthead .masthead-heading {
   aspect-ratio: 3 / 2;      /* every activity image gets the same height */
   object-fit: contain;
   background-color: #fff;
+}
+
+#youth .youth-flyer {
+  width: 100%;
+  max-width: 18rem;
+}
+
+#youth .youth-carousel .portfolio-item {
+  max-width: 43rem;
+}
+
+#youth .youth-activities-toggle svg {
+  transition: transform 0.2s ease-in-out;
+}
+
+#youth .youth-toggle-hide,
+#youth .youth-activities-toggle[aria-expanded="true"] .youth-toggle-show {
+  display: none;
+}
+
+#youth .youth-activities-toggle[aria-expanded="true"] .youth-toggle-hide {
+  display: inline;
+}
+
+#youth .youth-activities-toggle[aria-expanded="true"] svg {
+  transform: rotate(180deg);
+}
+
+#youth .youth-timeline {
+  position: relative;
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+#youth .youth-timeline-line {
+  position: absolute;
+  top: -1.25rem;
+  bottom: -1.25rem;
+  left: 50%;
+  width: 2px;
+  background-color: #ffc800;
+  transform: translateX(-50%);
+}
+
+#youth .youth-timeline-item:first-child .youth-timeline-line {
+  top: 50%;
+}
+
+#youth .youth-timeline-item:last-child .youth-timeline-line {
+  bottom: 50%;
+}
+
+#youth .youth-timeline-item:only-child .youth-timeline-line {
+  display: none;
+}
+
+#youth .youth-timeline-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 7rem;
+  margin-bottom: 2.5rem;
+}
+
+#youth .youth-timeline-item:last-child {
+  margin-bottom: 0;
+}
+
+#youth .youth-timeline-item::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 6rem;
+  height: 2px;
+  background-color: #ffc800;
+}
+
+#youth .youth-timeline-item-left::before {
+  right: 50%;
+}
+
+#youth .youth-timeline-item-right::before {
+  left: 50%;
+}
+
+#youth .youth-timeline-item::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0.9rem;
+  height: 0.9rem;
+  border: 3px solid #ffc800;
+  border-radius: 50%;
+  background-color: #f8f9fa;
+  transform: translate(-50%, -50%);
+}
+
+#youth .youth-timeline-card {
+  display: block;
+  width: calc(50% - 6rem);
+  color: inherit;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+}
+
+#youth .youth-timeline-card:hover,
+#youth .youth-timeline-card:focus {
+  color: inherit;
+  border-color: #ffc800;
+}
+
+#youth .youth-timeline-description {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+#youth .youth-timeline-item-left .youth-timeline-card {
+  margin-right: calc(50% + 6rem);
+}
+
+#youth .youth-timeline-item-right .youth-timeline-card {
+  margin-left: calc(50% + 6rem);
+}
+
+#youth .youth-timeline-date {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  padding: 0.15rem 0.35rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  white-space: nowrap;
+  background-color: #f8f9fa;
+  transform: translate(-50%, -50%);
+}
+
+#youth .youth-timeline-item-left .youth-timeline-date {
+  left: calc(50% - 3rem);
+}
+
+#youth .youth-timeline-item-right .youth-timeline-date {
+  left: calc(50% + 3rem);
+}
+
+#youth .youth-activity-thumbnail {
+  width: 7rem;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+}
+
+@media (max-width: 767.98px) {
+  #youth .youth-timeline-line,
+  #youth .youth-timeline-item::after {
+    left: 1rem;
+  }
+
+  #youth .youth-timeline-item-left::before,
+  #youth .youth-timeline-item-right::before {
+    right: auto;
+    left: 1rem;
+    width: 6rem;
+  }
+
+  #youth .youth-timeline-card {
+    width: calc(100% - 7rem);
+  }
+
+  #youth .youth-timeline-item-left .youth-timeline-card,
+  #youth .youth-timeline-item-right .youth-timeline-card {
+    margin-right: 0;
+    margin-left: 7rem;
+  }
+
+  #youth .youth-timeline-item-left .youth-timeline-date,
+  #youth .youth-timeline-item-right .youth-timeline-date {
+    left: 4rem;
+  }
+
+  #youth .youth-activity-thumbnail {
+    width: 5rem;
+  }
 }
 
 .portfolio-caption a,

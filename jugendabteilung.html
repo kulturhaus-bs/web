@@ -37,49 +37,93 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand text-white" style="font-size: small" href="#page-top">
+                <a class="navbar-brand text-white" style="font-size: small" href="index.html">
                     <img src="images/logo.png" style="border: 0; float: left; margin-right: 15px" alt="">
                     <span>Braunschweiger Kultur- <br>und Bildungshaus e.V.</span>
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fas fa-bars ms-1"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="index.html">Zur Startseite</a></li>
-                    </ul>
-                </div>
             </div>
         </nav>
         <!-- Masthead-->
         <header class="masthead">
         </header>
-        <!-- Jugendabteilung Grid-->
+        <!-- Jugendabteilung-->
         <section class="page-section bg-light" id="youth">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Jugendabteilung</h2>
                     <div class="timeline-body" style="padding-bottom: 20px">
-                        <p class="text-muted">In unserer Jugendabteilung treffen sich Kinder und Jugendliche regelmäßig zu Kursen, Turnieren und gemeinsamen Veranstaltungen. Weitere Aktivitäten folgen in Kürze.</p>
+                        <p class="text-muted">In unserer Jugendabteilung treffen sich Kinder und Jugendliche regelmäßig zu Kursen, Ausflügen und gemeinsamen Veranstaltungen.</p>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-4 col-sm-6 mb-4" id="fontaenejugend">
-                        <!-- Jugendabteilung item 1-->
+
+                <div class="row justify-content-center g-4 mb-5">
+                    <div class="col-6 col-lg-3 text-center">
+                        <img class="img-fluid youth-flyer" src="images/flyer.svg" alt="Flyer der Jugendabteilung 1" />
+                    </div>
+                    <div class="col-6 col-lg-3 text-center">
+                        <img class="img-fluid youth-flyer" src="images/flyer.svg" alt="Flyer der Jugendabteilung 2" />
+                    </div>
+                    <div class="col-6 col-lg-3 text-center">
+                        <img class="img-fluid youth-flyer" src="images/flyer.svg" alt="Flyer der Jugendabteilung 3" />
+                    </div>
+                    <div class="col-6 col-lg-3 text-center">
+                        <img class="img-fluid youth-flyer" src="images/flyer.svg" alt="Flyer der Jugendabteilung 4" />
+                    </div>
+                </div>
+
+                <div class="text-center mb-4">
+                    <h3 class="text-uppercase">Aktivitäten entdecken</h3>
+                </div>
+                <div class="row align-items-center justify-content-center mb-5 youth-carousel">
+                    <div class="col-2 col-lg-1 text-center">
+                        <button type="button" class="btn btn-outline-dark" onclick="showPrevYouthActivity()" aria-label="Vorherige Aktivität">
+                            <i class="fas fa-angle-left"></i>
+                        </button>
+                    </div>
+                    <div class="col-8 col-lg-10">
                         <div class="portfolio-item">
-                            <a class="portfolio-link" onclick="onYouthClick('fontaenejugend')" data-bs-toggle="modal" href="#portfolioModal">
+                            <a class="portfolio-link" onclick="onCurrentYouthClick()" data-bs-toggle="modal" href="#portfolioModal">
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="images/jugendabteilung/fontänejugend/00-fontänejugend.png" alt="..." />
+                                <img class="img-fluid" id="youth-image" src="images/jugendabteilung/fontänejugend/00-fontänejugend.png" alt="Fontänejugend" />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">
-                                    <a onclick="onYouthClick('fontaenejugend')" data-bs-toggle="modal" href="#portfolioModal">Fontänejugend</a>
+                                    <a id="youth-title" onclick="onCurrentYouthClick()" data-bs-toggle="modal" href="#portfolioModal">Fontänejugend</a>
                                 </div>
+                                <div class="portfolio-caption-subheading text-muted" id="youth-number">1 / 1</div>
                             </div>
                         </div>
                     </div>
+                    <div class="col-2 col-lg-1 text-center">
+                        <button type="button" class="btn btn-outline-dark" onclick="showNextYouthActivity()" aria-label="Nächste Aktivität">
+                            <i class="fas fa-angle-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="text-center mb-4">
+                    <h3 class="text-uppercase">Alle Aktivitäten</h3>
+                    <div class="d-flex flex-wrap justify-content-center gap-2">
+                        <button class="btn btn-outline-dark youth-activities-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#youthActivitiesTimeline" aria-expanded="false" aria-controls="youthActivitiesTimeline">
+                            <span class="youth-toggle-show">Aktivitäten anzeigen</span>
+                            <span class="youth-toggle-hide">Aktivitäten verstecken</span>
+                            <i class="fas fa-angle-down ms-2"></i>
+                        </button>
+                        <div class="dropdown">
+                            <button class="btn btn-outline-dark dropdown-toggle" id="youthProjectYearDropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <span id="youth-project-year-label">Projektjahr 2027</span>
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="youthProjectYearDropdown">
+                                        <li><button class="dropdown-item" type="button" onclick="selectYouthProjectYear('2027')">Projektjahr 2027</button></li>
+                                        <li><button class="dropdown-item" type="button" onclick="selectYouthProjectYear('2026')">Projektjahr 2026</button></li>
+                                    </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="collapse" id="youthActivitiesTimeline">
+                    <div class="youth-timeline" id="youth-activity-list"></div>
                 </div>
             </div>
         </section>
