@@ -11049,10 +11049,18 @@ header.masthead .masthead-heading {
 }
 
 #youth #youth-image {
+  display: block;
   width: 100%;
-  aspect-ratio: 3 / 2;      /* every activity image gets the same height */
-  object-fit: contain;
+  height: clamp(14rem, 42vw, 30rem);
+  object-fit: cover;
   background-color: #fff;
+}
+
+.youth-portfolio-modal #blog-modal-image {
+  display: block;
+  width: 100%;
+  height: clamp(18rem, 55vw, 32rem);
+  object-fit: contain;
 }
 
 #youth .youth-flyer {
@@ -11205,7 +11213,8 @@ header.masthead .masthead-heading {
 
 #youth .youth-activity-thumbnail {
   width: 7rem;
-  aspect-ratio: 3 / 2;
+  height: 4.75rem;
+  flex: 0 0 auto;
   object-fit: cover;
 }
 
@@ -11239,6 +11248,7 @@ header.masthead .masthead-heading {
 
   #youth .youth-activity-thumbnail {
     width: 5rem;
+    height: 3.5rem;
   }
 }
 

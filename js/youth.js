@@ -6,7 +6,9 @@ let currentYouthProjectYear = null;
 
 function setYouthActivities(data) {
     youthJson = data;
-    youthActivityNames = Object.keys(data);
+    youthActivityNames = Object.keys(data).sort((first, second) =>
+        (data[second]["sortDate"] || "").localeCompare(data[first]["sortDate"] || "")
+    );
     currentYouthIndex = 0;
     currentYouthProjectYear = youthActivityNames
         .map(name => getYouthProjectYear(data[name]))
