@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="NT" />
+        <title>Braunschweiger Kultur- und Bildungshaus e.V.</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="images/favicon.png" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <!-- === Security & Privacy Meta Tags === -->
+        <!-- Content Security Policy: restrict external resources -->
+        <meta http-equiv="Content-Security-Policy"
+              content="
+                default-src 'self';
+                script-src 'self' 'unsafe-inline' https://use.fontawesome.com https://cdn.jsdelivr.net https://fonts.googleapis.com https://fonts.gstatic.com;
+                style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://fonts.gstatic.com;
+                font-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://fonts.gstatic.com https://use.fontawesome.com;
+                img-src 'self' data: https:;
+                frame-ancestors 'none';
+              ">
+        
+        <!-- Referrer Policy: don't leak page URLs -->
+        <meta name="referrer" content="no-referrer">
+        
+        <!-- Permissions Policy: disable powerful browser features -->
+        <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), accelerometer=(), payment=()">
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand text-white" style="font-size: small" href="index.html">
+                    <img src="images/logo.png" style="border: 0; float: left; margin-right: 15px" alt="">
+                    <span>Braunschweiger Kultur- <br>und Bildungshaus e.V.</span>
+                </a>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+        </header>
+        <!-- Jugendabteilung-->
+        <section class="page-section bg-light" id="youth">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Jugendabteilung</h2>
+                    <div class="timeline-body" style="padding-bottom: 20px">
+                        <p class="text-muted">In unserer Jugendabteilung treffen sich Kinder und Jugendliche regelmäßig zu Kursen, Ausflügen und gemeinsamen Veranstaltungen.</p>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center g-4 mb-5">
+                    <div class="col-6 col-lg-3 text-center">
+                        <img class="img-fluid youth-flyer" src="images/flyer.svg" alt="Flyer der Jugendabteilung 1" />
+                    </div>
+                    <div class="col-6 col-lg-3 text-center">
+                        <img class="img-fluid youth-flyer" src="images/flyer.svg" alt="Flyer der Jugendabteilung 2" />
+                    </div>
+                    <div class="col-6 col-lg-3 text-center">
+                        <img class="img-fluid youth-flyer" src="images/flyer.svg" alt="Flyer der Jugendabteilung 3" />
+                    </div>
+                    <div class="col-6 col-lg-3 text-center">
+                        <img class="img-fluid youth-flyer" src="images/flyer.svg" alt="Flyer der Jugendabteilung 4" />
+                    </div>
+                </div>
+
+                <div class="text-center mb-4">
+                    <h3 class="text-uppercase">Aktivitäten entdecken</h3>
+                </div>
+                <div class="row align-items-center justify-content-center mb-5 youth-carousel">
+                    <div class="col-2 col-lg-1 text-center">
+                        <button type="button" class="btn btn-outline-dark" onclick="showPrevYouthActivity()" aria-label="Vorherige Aktivität">
+                            <i class="fas fa-angle-left"></i>
+                        </button>
+                    </div>
+                    <div class="col-8 col-lg-10">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" onclick="onCurrentYouthClick()" data-bs-toggle="modal" href="#portfolioModal">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" id="youth-image" src="images/jugendabteilung/fontänejugend/00-fontänejugend.png" alt="Fontänejugend" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">
+                                    <a id="youth-title" onclick="onCurrentYouthClick()" data-bs-toggle="modal" href="#portfolioModal">Fontänejugend</a>
+                                </div>
+                                <div class="portfolio-caption-subheading text-muted" id="youth-number">1 / 1</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2 col-lg-1 text-center">
+                        <button type="button" class="btn btn-outline-dark" onclick="showNextYouthActivity()" aria-label="Nächste Aktivität">
+                            <i class="fas fa-angle-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="text-center mb-4">
+                    <h3 class="text-uppercase">Alle Aktivitäten</h3>
+                    <div class="d-flex flex-wrap justify-content-center gap-2">
+                        <button class="btn btn-outline-dark youth-activities-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#youthActivitiesTimeline" aria-expanded="false" aria-controls="youthActivitiesTimeline">
+                            <span class="youth-toggle-show">Aktivitäten anzeigen</span>
+                            <span class="youth-toggle-hide">Aktivitäten verstecken</span>
+                            <i class="fas fa-angle-down ms-2"></i>
+                        </button>
+                        <div class="dropdown">
+                            <button class="btn btn-outline-dark dropdown-toggle" id="youthProjectYearDropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <span id="youth-project-year-label">Projektjahr 2027</span>
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="youthProjectYearDropdown">
+                                        <li><button class="dropdown-item" type="button" onclick="selectYouthProjectYear('2027')">Projektjahr 2027</button></li>
+                                        <li><button class="dropdown-item" type="button" onclick="selectYouthProjectYear('2026')">Projektjahr 2026</button></li>
+                                    </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="collapse" id="youthActivitiesTimeline">
+                    <div class="youth-timeline" id="youth-activity-list"></div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact-->
+        <section class="page-section" id="contact">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">KONTAKT</h2>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-location-dot fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3 text-white">Braunschweig</h4>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-phone fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3 text-white">+49 173 780 11 87</h4>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-at fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3 text-white">kulturhaus.bs@gmail.com</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-start">&copy; <span id="year">2025</span> Braunschweiger Kultur- und Bildungshaus e.V.</div>
+                    <div class="col-lg-4 my-3 my-lg-0">
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/kulturhaus.bs/" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <div class="col-lg-4 text-lg-end">
+                        
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- MODALS --------------------------------------------------------------------------------------------------->
+
+        <!-- Blog & Gallery modal popup-->
+        <div class="portfolio-modal youth-portfolio-modal modal fade" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal" style="z-index: 1; position: absolute;">
+                        <img src="images/close-icon.svg" alt="Close modal" />
+                    </div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <h2 id="blog-modal-title" class="text-uppercase"></h2>
+                                    <img id="blog-modal-image" class="img-fluid d-block mx-auto" src="" alt="..." />
+                                    <div class="d-flex justify-content-between" style="margin-bottom: 1rem">
+                                        <button type="button" class="btn btn-outline-dark" onclick="showPrevBlogImage()">
+                                            <i class="fas fa-angle-left"></i>
+                                            <i class="fas fa-angle-left"></i>
+                                            <i class="fas fa-angle-left"></i>
+                                        </button>
+                                        <h4 id="image-number"></h4>
+                                        <button type="button" class="btn btn-outline-dark" onclick="showNextBlogImage()">
+                                            <i class="fas fa-angle-right"></i>
+                                            <i class="fas fa-angle-right"></i>
+                                            <i class="fas fa-angle-right"></i>
+                                        </button>
+                                    </div>
+                                    <p id="blog-modal-description"></p>
+                                    <div class="modal-footer d-flex justify-content-between">
+                                        <div class="blog-share d-flex"></div>
+                                        <span class="date">
+                                            <i class="far fa-calendar-alt"></i>
+                                            <span id="blog-modal-date"></span>
+                                        </span>
+                                    </div>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Schließen
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bootstrap core JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core JS -->
+        <script src="js/blog.js"></script>
+        <script src="js/youth.js"></script>
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+    </body>
+</html>

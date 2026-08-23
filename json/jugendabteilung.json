@@ -1,0 +1,66 @@
+{
+  "fontaenejugend": {
+    "title": "Fontänejugend Lesetag & Quiz",
+    "description": "Über mehrere Wochen hinweg lasen 25 Jugendliche im Alter von 13 bis 19 Jahren in festen Gruppen die Ausgaben der Zeitschrift „Fontäne“, die ethische, moralische und humanistische Themen behandelt. Im Mittelpunkt der Sitzungen standen Ethik und Moral im Alltag, Verantwortung gegenüber den Mitmenschen, Respekt und Toleranz sowie Persönlichkeitsentwicklung. Begleitet wurde der Lesekreis von sechs ehrenamtlichen Gruppenleiterinnen und Gruppenleitern. Den Abschluss bildete am 12. April 2026 ein bundesweiter Wissenswettbewerb, bei dem Vereine aus ganz Deutschland dieselben Fragen zu den Inhalten der Zeitschrift bearbeiteten – alle angemeldeten Jugendlichen nahmen geschlossen teil. Nach der gemeinsamen Auswertung klang der Tag bei einem geselligen Beisammensein aus. Die Rückmeldungen von Jugendlichen und Eltern fielen durchweg positiv aus, sodass das Format fortgeführt wird.",
+    "date": "12 April 2026",
+    "sortDate": "2026-04-12",
+    "images": [
+      "images/jugendabteilung/fontänejugend/00-fontänejugend.png"
+    ]
+  },
+  "jugendmentorenWeiterbildung": {
+    "title": "Jugendmentoren Weiterbildung",
+    "description": "Vom 24. bis 26. April 2026 fand die Jugendmentoren-Weiterbildung statt. Die Bilder geben Einblicke in die gemeinsamen Schulungseinheiten und das Beisammensein der Teilnehmenden.",
+    "date": "24.–26. April 2026",
+    "sortDate": "2026-04-24",
+    "images": [
+      "images/jugendabteilung/jugendmentoren-weiterbildung/00-jugendmentoren-weiterbildung.jpeg",
+      "images/jugendabteilung/jugendmentoren-weiterbildung/01-jugendmentoren-weiterbildung.jpeg",
+      "images/jugendabteilung/jugendmentoren-weiterbildung/02-jugendmentoren-weiterbildung.jpeg"
+    ]
+  },
+  "sahabeWorkshop": {
+    "title": "Sahabe Workshop",
+    "description": "Am 24. Mai 2026 fand ein Sahabe-Workshop statt. Mithilfe von Sahabe-Karten beschäftigten sich die Jugendlichen auf anschauliche und spielerische Weise mit dem Leben und den Eigenschaften der Gefährten. Zum Abschluss wurden Preise an Teilnehmende überreicht.",
+    "date": "24. Mai 2026",
+    "sortDate": "2026-05-24",
+    "images": [
+      "images/jugendabteilung/sahabe-workshop/00-sahabe-workshop.png",
+      "images/jugendabteilung/sahabe-workshop/01-sahabe-workshop.jpeg",
+      "images/jugendabteilung/sahabe-workshop/02-sahabe-workshop.jpeg"
+    ]
+  },
+  "bubblesoccer": {
+    "title": "Bubblesoccer",
+    "description": "Am 1. August 2026 trafen sich die Jugendlichen zu einer gemeinsamen Bubblesoccer-Aktivität im Freien. In Teams spielten sie Fußball in den großen Bubble-Bällen und verbrachten einen sportlichen und abwechslungsreichen Tag miteinander.",
+    "date": "1. August 2026",
+    "sortDate": "2026-08-01",
+    "images": [
+      "images/jugendabteilung/bubblesoccer/00-bubblesoccer.jpeg",
+      "images/jugendabteilung/bubblesoccer/01-bubblesoccer.jpeg",
+      "images/jugendabteilung/bubblesoccer/02-bubblesoccer.jpeg",
+      "images/jugendabteilung/bubblesoccer/03-bubblesoccer.jpeg",
+      "images/jugendabteilung/bubblesoccer/04-bubblesoccer.jpeg",
+      "images/jugendabteilung/bubblesoccer/05-bubblesoccer.jpeg",
+      "images/jugendabteilung/bubblesoccer/06-bubblesoccer.jpeg"
+    ]
+  },
+  "sommerGrillfest": {
+    "title": "Sommer Grillfest",
+    "description": "Am 28. Juli 2026 kamen die Jugendlichen zu einem gemeinsamen Sommer-Grillfest zusammen. Bei gutem Essen und Gesprächen verbrachten sie einen geselligen Sommertag miteinander.",
+    "date": "28. Juli 2026",
+    "sortDate": "2026-07-28",
+    "images": [
+      "images/jugendabteilung/sommer-grillfest/00-sommer-grillfest.png"
+    ]
+  },
+  "fontaenejugendLesetagQuiz": {
+    "title": "Fontänejugend Lesetag & Quiz",
+    "description": "Am 14. Juni 2026 trafen sich die Jugendlichen zum Fontänejugend Lesetag & Quiz. Gemeinsam lasen sie Beiträge aus der 22. Ausgabe der Zeitschrift „Fontäne Jugend“ und vertieften die Inhalte anschließend in einem Quiz.",
+    "date": "14. Juni 2026",
+    "sortDate": "2026-06-14",
+    "images": [
+      "images/jugendabteilung/fontaenejugend-lesetag-quiz/00-fontaenejugend-lesetag-quiz.jpg"
+    ]
+  }
+}

@@ -1,4 +1,5 @@
 let blogJson = null;
+let blogJsonPromise = null;
 let currentBlogName;
 let currentBlogTitle;
 let currentBlogDescription;
@@ -6,7 +7,14 @@ let currentBlogDate;
 let currentBlogImages;
 let currentImageIndex;
 
-function onBlogClick(blogName) {
+async function onBlogClick(blogName) {
+    if (blogJson === null) {
+        clearBlogContent();
+        if (blogJsonPromise !== null) {
+            await blogJsonPromise;
+        }
+    }
+
     if (blogJson === null) return;
 
     const jsonData = blogJson[blogName]
@@ -18,6 +26,8 @@ function onBlogClick(blogName) {
         currentBlogImages = jsonData["images"];
 
         changeBlogContent();
+    } else {
+        clearBlogContent();
     }
 }
 
@@ -36,6 +46,8 @@ function changeBlogContent() {
 }
 
 function showPrevBlogImage() {
+    if (!currentBlogImages || currentBlogImages.length === 0) return;
+
     currentImageIndex--;
     if (currentImageIndex < 0) {
         currentImageIndex = currentBlogImages.length - 1;
@@ -45,6 +57,8 @@ function showPrevBlogImage() {
 }
 
 function showNextBlogImage() {
+    if (!currentBlogImages || currentBlogImages.length === 0) return;
+
     currentImageIndex++;
     if (currentImageIndex >= currentBlogImages.length) {
         currentImageIndex = 0;
@@ -58,8 +72,21 @@ function showImage() {
     document.getElementById("image-number").textContent = (currentImageIndex + 1) + " / " + currentBlogImages.length;
 }
 
-function onBlogClose() {
+function clearBlogContent() {
     currentBlogName = null;
+    currentBlogTitle = null;
+    currentBlogDescription = null;
+    currentBlogDate = null;
     currentBlogImages = null;
     currentImageIndex = 0;
+
+    document.getElementById("blog-modal-title").textContent = "";
+    document.getElementById("blog-modal-description").textContent = "";
+    document.getElementById("blog-modal-date").textContent = "";
+    document.getElementById("blog-modal-image").removeAttribute("src");
+    document.getElementById("image-number").textContent = "";
+}
+
+function onBlogClose() {
+    clearBlogContent();
 }
