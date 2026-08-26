@@ -11063,6 +11063,10 @@ header.masthead .masthead-heading {
   object-fit: contain;
 }
 
+.youth-portfolio-modal #blog-modal-description {
+  white-space: pre-line;
+}
+
 #youth .youth-flyer {
   width: 100%;
   max-width: 18rem;
