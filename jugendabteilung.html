@@ -15,6 +15,8 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <!-- Youth page CSS -->
+        <link href="css/jugendabteilung.css?v=5" rel="stylesheet" />
         <!-- === Security & Privacy Meta Tags === -->
         <!-- Content Security Policy: restrict external resources -->
         <meta http-equiv="Content-Security-Policy"
@@ -35,22 +37,28 @@
     </head>
     <body id="page-top">
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand text-white" style="font-size: small" href="index.html">
-                    <img src="images/logo.png" style="border: 0; float: left; margin-right: 15px" alt="">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top youth-main-nav" id="mainNav">
+            <div class="container youth-nav-container">
+                <a class="navbar-brand text-white youth-site-brand" href="index.html">
+                    <img class="youth-site-logo" src="images/logo.png" width="24" height="48" alt="Logo des Braunschweiger Kultur- und Bildungshauses">
                     <span>Braunschweiger Kultur- <br>und Bildungshaus e.V.</span>
                 </a>
+                <div class="youth-nav-identity" aria-label="Jugend">
+                    <img class="youth-nav-logo" src="images/jugendabteilung/logo/jugendabteilung-logo-transparent.png" width="48" height="48" alt="Logo der Jugendabteilung">
+                    <span class="youth-nav-label">JUGEND</span>
+                </div>
             </div>
         </nav>
         <!-- Masthead-->
-        <header class="masthead">
+        <header class="masthead youth-masthead">
+            <div class="container">
+                <h1 class="masthead-heading text-uppercase">Jugendplattform</h1>
+            </div>
         </header>
         <!-- Jugendabteilung-->
         <section class="page-section bg-light" id="youth">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Jugendabteilung</h2>
                     <div class="timeline-body" style="padding-bottom: 20px">
                         <p class="text-muted">In unserer Jugendabteilung treffen sich Kinder und Jugendliche regelmäßig zu Kursen, Ausflügen und gemeinsamen Veranstaltungen.</p>
                     </div>
@@ -58,16 +66,16 @@
 
                 <div class="row justify-content-center g-4 mb-5">
                     <div class="col-6 col-lg-3 text-center">
-                        <img class="img-fluid youth-flyer" src="images/flyer.svg" alt="Flyer der Jugendabteilung 1" />
+                        <img class="img-fluid youth-flyer" src="images/jugendabteilung/flyer-entwuerfe/junioren-sommercamp.png" alt="Flyer-Entwurf für das Junioren Sommercamp" />
                     </div>
                     <div class="col-6 col-lg-3 text-center">
-                        <img class="img-fluid youth-flyer" src="images/flyer.svg" alt="Flyer der Jugendabteilung 2" />
+                        <img class="img-fluid youth-flyer" src="images/jugendabteilung/flyer-entwuerfe/bubble-soccer.png" alt="Flyer-Entwurf für Bubble Soccer" />
                     </div>
                     <div class="col-6 col-lg-3 text-center">
-                        <img class="img-fluid youth-flyer" src="images/flyer.svg" alt="Flyer der Jugendabteilung 3" />
+                        <img class="img-fluid youth-flyer" src="images/jugendabteilung/flyer-entwuerfe/fruehlingsfest-grill.png" alt="Flyer-Entwurf für Frühlingsfest und Grill" />
                     </div>
                     <div class="col-6 col-lg-3 text-center">
-                        <img class="img-fluid youth-flyer" src="images/flyer.svg" alt="Flyer der Jugendabteilung 4" />
+                        <img class="img-fluid youth-flyer" src="images/jugendabteilung/flyer-entwuerfe/lesetag-quiz.png" alt="Flyer-Entwurf für Lesetag und Quiz" />
                     </div>
                 </div>
 
