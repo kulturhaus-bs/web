@@ -1,138 +1,19 @@
 {
-  "guitarCourse": {
-    "title": "Gitarre lernen",
-    "description": "Ab Juli bietet unser Musikclub Gitarrenkurse an. In diesem Kurs lernen die Teilnehmer die Grundlagen der Gitarre, Noten, Tabulatur und Akkorde. Sie werden Kompositionen deutscher Komponisten aus der Renaissance und der Klassik wie Bethooven, Bach, Pachelbel und Mozart studieren. Sie werden auch spanische klassische Gitarrenkompositionen studieren.",
-    "date": "Juli 2023 - Dezember 2023 | August 2024 - heutzutage",
+  "meetAndEat2025": {
+    "title": "Meet & Eat Teilnahme",
+    "description": "Wir freuen uns sehr, bekannt geben zu dürfen, dass unser Verein zur Teilnahme am „Meet & Eat“-Event eingeladen wurde, das von Kulturzelt Braunschweig e.V. organisiert wurde. Wir nahmen diese freundliche Einladung mit großer Freude an und danken Kulturzelt Braunschweig e.V. herzlich für die Möglichkeit, Teil dieser wunderbaren Veranstaltung zu sein. Während des Events präsentierten wir eine vielfältige Auswahl an traditioneller türkischer Küche und Desserts und boten den Besucherinnen und Besuchern einen Einblick in unsere kulinarische Kultur. Unsere Kinder-Folkloregruppe begeisterte das Publikum mit einer lebendigen Aufführung traditioneller türkischer Tänze. Darüber hinaus spielte eine unserer talentierten Schülerinnen ein wunderschönes Stück auf der Violine, und unser Gitarrenlehrer berührte das Publikum mit einer gefühlvollen und emotionalen Darbietung auf seiner Gitarre. Die Veranstaltung war hervorragend organisiert und bot eine großartige Plattform für den kulturellen Austausch. Wir hatten die Gelegenheit, unsere Traditionen und Werte zu teilen und gleichzeitig mehr über die vielfältigen Kulturen der anderen Teilnehmenden zu erfahren. Es war ein Tag voller Begegnung, Kunst und der Feier kultureller Verbundenheit.",
+    "date": "21 September 2025",
     "images": [
-      "images/blog/guitar-course/00-guitar-course.jpg",
-      "images/blog/guitar-course/01.jpg",
-      "images/blog/guitar-course/02.jpg",
-      "images/blog/guitar-course/03.jpg"
-    ]
-  },
-  "chessCourse": {
-    "title": "Schach lernen",
-    "description": "Ab Juli bietet unser Sportclub jedes Wochenende Schachkurse an. In diesem Kurs lernen unsere Schüler die Grundlagen des Schachs, Eröffnungen, Taktiken, Schachstrategien und die Erstellung einer Partieanalyse. Nach dem Unterricht haben die Schüler Spaß daran, gegeneinander zu spielen.",
-    "date": "Juli 2023 - Dezember 2023",
-    "images": [
-      "images/blog/chess-course/00-chess-course.png",
-      "images/blog/chess-course/01.jpg",
-      "images/blog/chess-course/02.jpg",
-      "images/blog/chess-course/03.jpg",
-      "images/blog/chess-course/04.jpg",
-      "images/blog/chess-course/05.jpg",
-      "images/blog/chess-course/06.jpg"
-    ]
-  },
-  "drivingCourse": {
-    "title": "Fahren Lernen Im Simulator",
-    "description": "Wir boten einen Simulator-Fahrkurs an, in dem die Teilnehmer grundlegende Kenntnisse über Fahrtechniken, Parktechniken sowie Verkehrsregeln und Beschilderungen erlangten. Dieser Kurs ist besonders für Kinder von Nutzen, da er die Bedeutung des Erlernens von Verkehrsregeln schon in jungen Jahren betont. Darüber hinaus dient es als wertvolle Vorbereitung für diejenigen, die vor ihrer Fahrprüfung in Deutschland Selbstvertrauen aufbauen möchten.",
-    "date": "Oktober 2023 - heutzutage",
-    "images": [
-      "images/blog/driving-course/00-driving-simulator.png",
-      "images/blog/driving-course/01.png",
-      "images/blog/driving-course/02.png",
-      "images/blog/driving-course/03.png",
-      "images/blog/driving-course/04.png",
-      "images/blog/driving-course/05.png"
-    ]
-  },
-  "origamiCourse": {
-    "title": "Origami lernen",
-    "description": "Wir haben Origami-Workshops für Kinder angeboten, in denen sie die Grundlagen erlernen, verschiedene Faltmethoden ausprobieren und verschiedene für Origami geeignete Papiersorten entdecken können. Unser Ziel war es, eine einladende Umgebung zu schaffen, die das Lernen fördert und die Kreativität, Fantasie und Konzentration der Kinder fördert.",
-    "date": "Juli 2023 - Dezember 2023",
-    "images": [
-      "images/blog/origami-course/00-origami-course.png",
-      "images/blog/origami-course/01.jpg",
-      "images/blog/origami-course/02.jpg",
-      "images/blog/origami-course/03.jpg",
-      "images/blog/origami-course/04.jpg",
-      "images/blog/origami-course/05.jpg",
-      "images/blog/origami-course/06.jpg",
-      "images/blog/origami-course/07.jpg",
-      "images/blog/origami-course/08.jpg",
-      "images/blog/origami-course/09.jpg",
-      "images/blog/origami-course/10.jpg",
-      "images/blog/origami-course/11.jpg",
-      "images/blog/origami-course/12.png"
-    ]
-  },
-  "fifaSummerCup2023": {
-    "title": "FIFA Summer Cup 2023",
-    "description": "Unser Sportklub hat ein PlayStation 4 FIFA23-Turnier organisiert. Das Turnier begann mit dem Frühstück, das wir für 20 Teilnehmer und ihre Eltern vorbereiteten, die kamen, um ihre Kinder zu unterstützen. Insgesamt wurden 38 Spiele ausgetragen, um den 1., 2. und 3. Platz zu ermitteln. Die Kinder hatten dort viel Spaß. Die Spieler lernten die Bedeutung von kompetitivem eSport und Fairplay-Regeln kennen. Den Gewinnern des Turniers wurden Medaillen und Geschenkgutscheine verliehen.",
-    "date": "18 Juni 2023",
-    "images": [
-      "images/blog/fifa-summer-cup-2023/00-ps-fifa-summer-cup-2023.png",
-      "images/blog/fifa-summer-cup-2023/01.jpg",
-      "images/blog/fifa-summer-cup-2023/02.jpg",
-      "images/blog/fifa-summer-cup-2023/03.jpg",
-      "images/blog/fifa-summer-cup-2023/04.jpg",
-      "images/blog/fifa-summer-cup-2023/05.jpg",
-      "images/blog/fifa-summer-cup-2023/06.jpg",
-      "images/blog/fifa-summer-cup-2023/07.jpg",
-      "images/blog/fifa-summer-cup-2023/08.jpg",
-      "images/blog/fifa-summer-cup-2023/09.jpg",
-      "images/blog/fifa-summer-cup-2023/10.jpg"
-    ]
-  },
-  "acSummerCup2023": {
-    "title": "AC Summer Cup 2023",
-    "description": "Wir veranstalteten separate Rennsimulator-Turniere für Jungen und Mädchen, bei denen sie im Zeitangriffsmodus gegeneinander antraten. Den Teilnehmern hat die Veranstaltung viel Spaß gemacht und sie konnten wertvolle Einblicke in die Wichtigkeit der Einhaltung der Fahrvorschriften gewinnen. Darüber hinaus lernten sie die potenziellen Gefahren des Hochgeschwindigkeitsfahrens kennen, selbst in einer Simulatorumgebung.",
-    "date": "29 Juli 2023",
-    "images": [
-      "images/blog/ac-summer-cup-2023/00-ac-summer-cup-2023.png",
-      "images/blog/ac-summer-cup-2023/01.jpg",
-      "images/blog/ac-summer-cup-2023/02.png",
-      "images/blog/ac-summer-cup-2023/03.jpg",
-      "images/blog/ac-summer-cup-2023/04.jpg"
-    ]
-  },
-  "acGirlsSummerCup2023": {
-    "title": "AC Girls Summer Cup 2023",
-    "description": "Wir veranstalteten separate Rennsimulator-Turniere für Jungen und Mädchen, bei denen sie im Zeitangriffsmodus gegeneinander antraten. Den Teilnehmern hat die Veranstaltung viel Spaß gemacht und sie konnten wertvolle Einblicke in die Wichtigkeit der Einhaltung der Fahrvorschriften gewinnen. Darüber hinaus lernten sie die potenziellen Gefahren des Hochgeschwindigkeitsfahrens kennen, selbst in einer Simulatorumgebung.",
-    "date": "22 Juli 2023",
-    "images": [
-      "images/blog/ac-girls-summer-cup-2023/00-ac-girls-summer-cup-2023.png",
-      "images/blog/ac-girls-summer-cup-2023/01.png",
-      "images/blog/ac-girls-summer-cup-2023/02.png",
-      "images/blog/ac-girls-summer-cup-2023/03.jpg",
-      "images/blog/ac-girls-summer-cup-2023/04.jpg",
-      "images/blog/ac-girls-summer-cup-2023/05.jpg"
-    ]
-  },
-  "gridWinterCup2023": {
-    "title": "Grid Winter Cup 2023",
-    "description": "Wir haben separate Rennturniere für Mädchen und Jungen veranstaltet, bei denen sie dieses Mal auf derselben Online-Rennstrecke gegeneinander antreten können. Es war für alle Beteiligten eine erfreuliche Erfahrung. Unser Ziel war es, ein freundliches Umfeld für die Teilnehmer zu schaffen, in dem sie etwas über E-Sport-Wettbewerbe, Sportlichkeit und die Bedeutung von Fairplay lernen konnten.",
-    "date": "9 Dezember 2023",
-    "images": [
-      "images/blog/grid-winter-cup-2023/00-grid-winter-cup-2023.png",
-      "images/blog/grid-winter-cup-2023/01.png",
-      "images/blog/grid-winter-cup-2023/02.png",
-      "images/blog/grid-winter-cup-2023/03.png"
-    ]
-  },
-  "gridGirlsWinterCup2023": {
-    "title": "Grid Girls Winter Cup 2023",
-    "description": "Wir haben separate Rennturniere für Mädchen und Jungen veranstaltet, bei denen sie dieses Mal auf derselben Online-Rennstrecke gegeneinander antreten können. Es war für alle Beteiligten eine erfreuliche Erfahrung. Unser Ziel war es, ein freundliches Umfeld für die Teilnehmer zu schaffen, in dem sie etwas über E-Sport-Wettbewerbe, Sportlichkeit und die Bedeutung von Fairplay lernen konnten.",
-    "date": "16 Dezember 2023",
-    "images": [
-      "images/blog/grid-girls-winter-cup-2023/00-grid-girls-winter-cup-2023.png",
-      "images/blog/grid-girls-winter-cup-2023/01.png"
-    ]
-  },
-  "porscheCupGirls2025": {
-    "title": "Porsche Cup Girls 2025",
-    "description": "Wir haben ein Simulationsrennturnier speziell für Mädchen organisiert. Bevor der Hauptwettbewerb begann, erhielten die Teilnehmerinnen eine Präsentation über Porsche - über die Geschichte des Unternehmens, seine Kultur, Vision, Fahrzeugmodelle und die verschiedenen Berufsfelder innerhalb der Marke. Alle Rennen wurden ausschließlich mit Porsche-Fahrzeugen gefahren, und die Gewinnerinnen erhielten originale Porsche-Geschenke: eine Porsche Cup Tasse, eine Porsche Trinkflasche und einen Porsche Kugelschreiber. Alle Teilnehmerinnen hatten großen Spaß und konnten mehr über die Marke Porsche erfahren. Unser Hauptziel war es, wie immer, eine freundliche und angenehme Atmosphäre zu schaffen, die Sportsgeist, Fairplay und sicheres Fahren fördert, selbst im Rennsimulator, damit die Veranstaltung sowohl unvergesslich als auch unterhaltsam war.",
-    "date": "12 April 2025",
-    "images": [
-      "images/blog/porsche-cup-girls-2025/00-porsche-cup-girls.jpg",
-      "images/blog/porsche-cup-girls-2025/01.jpeg",
-      "images/blog/porsche-cup-girls-2025/02.jpeg",
-      "images/blog/porsche-cup-girls-2025/03.jpeg",
-      "images/blog/porsche-cup-girls-2025/04.jpeg",
-      "images/blog/porsche-cup-girls-2025/05.jpeg",
-      "images/blog/porsche-cup-girls-2025/06.jpeg",
-      "images/blog/porsche-cup-girls-2025/07.jpeg"
+      "images/blog/2025-09-meet-and-eat/00-meet-and-eat.jpg",
+      "images/blog/2025-09-meet-and-eat/01.jpg",
+      "images/blog/2025-09-meet-and-eat/02.jpg",
+      "images/blog/2025-09-meet-and-eat/03.jpg",
+      "images/blog/2025-09-meet-and-eat/04.jpg",
+      "images/blog/2025-09-meet-and-eat/05.jpg",
+      "images/blog/2025-09-meet-and-eat/06.jpg",
+      "images/blog/2025-09-meet-and-eat/07.jpg",
+      "images/blog/2025-09-meet-and-eat/08.jpg",
+      "images/blog/2025-09-meet-and-eat/09.jpg"
     ]
   },
   "kulturfest2025": {
@@ -140,32 +21,30 @@
     "description": "Wir haben ein lebendiges Kulturfestival im Herzen von Braunschweig organisiert, um die reichen Traditionen, Aromen und die Kunst der Türkei zu feiern. Die Besucherinnen und Besucher genossen ein abwechslungsreiches Food-Festival mit köstlicher türkischer Küche wie Döner, Sarma, İçli Köfte, Lahmacun und einer Vielzahl traditioneller Desserts. Die Veranstaltung wurde von Musik und Tanz begleitet, mit Live-Auftritten moderner Pop- und traditioneller Volksmusik sowie folkloristischen Kindertänzen. Ein Zelt war im authentischen türkischen Stil gestaltet, in dem die Gäste mehr über die Kultur, Geschichte und Traditionen der Türkei erfahren konnten. Ein weiteres Highlight war das Kunstzelt, das die Schönheit der Ebru- (Marmorierkunst) und der Kalligrafie präsentierte, bei der Besucherinnen und Besucher eigene Kunstwerke gestalten konnten. Für die jüngsten Gäste gab es lustige Aktivitäten und Kinderschminken, sodass der Tag für alle - ob Groß oder Klein - voller Kultur, Musik und Freude war.",
     "date": "24 Mai 2025",
     "images": [
-      "images/blog/kulturfest-2025/00-kulturfest.jpg",
-      "images/blog/kulturfest-2025/01.jpg",
-      "images/blog/kulturfest-2025/02.jpg",
-      "images/blog/kulturfest-2025/03.jpg",
-      "images/blog/kulturfest-2025/04.jpg",
-      "images/blog/kulturfest-2025/05.jpg",
-      "images/blog/kulturfest-2025/06.jpg",
-      "images/blog/kulturfest-2025/07.jpg",
-      "images/blog/kulturfest-2025/08.jpg"
+      "images/blog/2025-05-kulturfest/00-kulturfest.jpg",
+      "images/blog/2025-05-kulturfest/01.jpg",
+      "images/blog/2025-05-kulturfest/02.jpg",
+      "images/blog/2025-05-kulturfest/03.jpg",
+      "images/blog/2025-05-kulturfest/04.jpg",
+      "images/blog/2025-05-kulturfest/05.jpg",
+      "images/blog/2025-05-kulturfest/06.jpg",
+      "images/blog/2025-05-kulturfest/07.jpg",
+      "images/blog/2025-05-kulturfest/08.jpg"
     ]
   },
-  "meetAndEat2025": {
-    "title": "Meet & Eat Teilnahme",
-    "description": "Wir freuen uns sehr, bekannt geben zu dürfen, dass unser Verein zur Teilnahme am „Meet & Eat“-Event eingeladen wurde, das von Kulturzelt Braunschweig e.V. organisiert wurde. Wir nahmen diese freundliche Einladung mit großer Freude an und danken Kulturzelt Braunschweig e.V. herzlich für die Möglichkeit, Teil dieser wunderbaren Veranstaltung zu sein. Während des Events präsentierten wir eine vielfältige Auswahl an traditioneller türkischer Küche und Desserts und boten den Besucherinnen und Besuchern einen Einblick in unsere kulinarische Kultur. Unsere Kinder-Folkloregruppe begeisterte das Publikum mit einer lebendigen Aufführung traditioneller türkischer Tänze. Darüber hinaus spielte eine unserer talentierten Schülerinnen ein wunderschönes Stück auf der Violine, und unser Gitarrenlehrer berührte das Publikum mit einer gefühlvollen und emotionalen Darbietung auf seiner Gitarre. Die Veranstaltung war hervorragend organisiert und bot eine großartige Plattform für den kulturellen Austausch. Wir hatten die Gelegenheit, unsere Traditionen und Werte zu teilen und gleichzeitig mehr über die vielfältigen Kulturen der anderen Teilnehmenden zu erfahren. Es war ein Tag voller Begegnung, Kunst und der Feier kultureller Verbundenheit.",
-    "date": "21 September 2025",
+  "porscheCupGirls2025": {
+    "title": "Porsche Cup Girls 2025",
+    "description": "Wir haben ein Simulationsrennturnier speziell für Mädchen organisiert. Bevor der Hauptwettbewerb begann, erhielten die Teilnehmerinnen eine Präsentation über Porsche - über die Geschichte des Unternehmens, seine Kultur, Vision, Fahrzeugmodelle und die verschiedenen Berufsfelder innerhalb der Marke. Alle Rennen wurden ausschließlich mit Porsche-Fahrzeugen gefahren, und die Gewinnerinnen erhielten originale Porsche-Geschenke: eine Porsche Cup Tasse, eine Porsche Trinkflasche und einen Porsche Kugelschreiber. Alle Teilnehmerinnen hatten großen Spaß und konnten mehr über die Marke Porsche erfahren. Unser Hauptziel war es, wie immer, eine freundliche und angenehme Atmosphäre zu schaffen, die Sportsgeist, Fairplay und sicheres Fahren fördert, selbst im Rennsimulator, damit die Veranstaltung sowohl unvergesslich als auch unterhaltsam war.",
+    "date": "12 April 2025",
     "images": [
-      "images/blog/meet-and-eat-2025/00-meet-and-eat.jpg",
-      "images/blog/meet-and-eat-2025/01.jpg",
-      "images/blog/meet-and-eat-2025/02.jpg",
-      "images/blog/meet-and-eat-2025/03.jpg",
-      "images/blog/meet-and-eat-2025/04.jpg",
-      "images/blog/meet-and-eat-2025/05.jpg",
-      "images/blog/meet-and-eat-2025/06.jpg",
-      "images/blog/meet-and-eat-2025/07.jpg",
-      "images/blog/meet-and-eat-2025/08.jpg",
-      "images/blog/meet-and-eat-2025/09.jpg"
+      "images/blog/2025-04-porsche-cup-girls/00-porsche-cup-girls.jpg",
+      "images/blog/2025-04-porsche-cup-girls/01.jpeg",
+      "images/blog/2025-04-porsche-cup-girls/02.jpeg",
+      "images/blog/2025-04-porsche-cup-girls/03.jpeg",
+      "images/blog/2025-04-porsche-cup-girls/04.jpeg",
+      "images/blog/2025-04-porsche-cup-girls/05.jpeg",
+      "images/blog/2025-04-porsche-cup-girls/06.jpeg",
+      "images/blog/2025-04-porsche-cup-girls/07.jpeg"
     ]
   },
   "interreligiousIftar2025": {
@@ -173,14 +52,135 @@
     "description": "Im Rahmen unserer Aktivitäten zum kulturellen Dialog organisierten wir ein interreligiöses Iftar und luden Menschen verschiedener Nationalitäten und Glaubensrichtungen ein, diesen besonderen Abend gemeinsam zu erleben. Wir sind der Ev.-Freik. Stephanus-Gemeinde aufrichtig dankbar für ihre freundliche Unterstützung bei der Organisation dieser wunderbaren Veranstaltung und für die Bereitstellung ihrer Räumlichkeiten. Zum Iftar wurden eine Vielzahl köstlicher Speisen und Desserts angeboten, was zu einer warmen und einladenden Atmosphäre beitrug. Im Verlauf des Abends hielten wir eine Präsentation über das Fasten im Ramadan und sprachen über die Ähnlichkeiten zwischen unseren religiösen Traditionen. Unsere Musikgruppe bereicherte den Abend mit einer wunderschönen Live-Performance, die von Pop bis zu klassischen Stücken reichte. Wir waren tief berührt und erfreut über die herzlichen und positiven Rückmeldungen der Gäste, die das Mikrofon ergriffen und warme Worte über die Veranstaltung und ihre bedeutungsvolle Atmosphäre äußerten.",
     "date": "13 März 2025",
     "images": [
-      "images/blog/interreligious-iftar-2025/00-interreligioses-iftar.jpg",
-      "images/blog/interreligious-iftar-2025/01.jpg",
-      "images/blog/interreligious-iftar-2025/02.jpg",
-      "images/blog/interreligious-iftar-2025/03.jpg",
-      "images/blog/interreligious-iftar-2025/04.jpg",
-      "images/blog/interreligious-iftar-2025/05.jpg",
-      "images/blog/interreligious-iftar-2025/06.jpg",
-      "images/blog/interreligious-iftar-2025/07.jpg"
+      "images/blog/2025-03-interreligious-iftar/00-interreligioses-iftar.jpg",
+      "images/blog/2025-03-interreligious-iftar/01.jpg",
+      "images/blog/2025-03-interreligious-iftar/02.jpg",
+      "images/blog/2025-03-interreligious-iftar/03.jpg",
+      "images/blog/2025-03-interreligious-iftar/04.jpg",
+      "images/blog/2025-03-interreligious-iftar/05.jpg",
+      "images/blog/2025-03-interreligious-iftar/06.jpg",
+      "images/blog/2025-03-interreligious-iftar/07.jpg"
+    ]
+  },
+  "gridWinterCup2023": {
+    "title": "Grid Winter Cup 2023",
+    "description": "Wir haben separate Rennturniere für Mädchen und Jungen veranstaltet, bei denen sie dieses Mal auf derselben Online-Rennstrecke gegeneinander antreten können. Es war für alle Beteiligten eine erfreuliche Erfahrung. Unser Ziel war es, ein freundliches Umfeld für die Teilnehmer zu schaffen, in dem sie etwas über E-Sport-Wettbewerbe, Sportlichkeit und die Bedeutung von Fairplay lernen konnten.",
+    "date": "9 Dezember 2023",
+    "images": [
+      "images/blog/2023-12-grid-winter-cup/00-grid-winter-cup-2023.png",
+      "images/blog/2023-12-grid-winter-cup/01.png",
+      "images/blog/2023-12-grid-winter-cup/02.png",
+      "images/blog/2023-12-grid-winter-cup/03.png"
+    ]
+  },
+  "gridGirlsWinterCup2023": {
+    "title": "Grid Girls Winter Cup 2023",
+    "description": "Wir haben separate Rennturniere für Mädchen und Jungen veranstaltet, bei denen sie dieses Mal auf derselben Online-Rennstrecke gegeneinander antreten können. Es war für alle Beteiligten eine erfreuliche Erfahrung. Unser Ziel war es, ein freundliches Umfeld für die Teilnehmer zu schaffen, in dem sie etwas über E-Sport-Wettbewerbe, Sportlichkeit und die Bedeutung von Fairplay lernen konnten.",
+    "date": "16 Dezember 2023",
+    "images": [
+      "images/blog/2023-12-grid-girls-winter-cup/00-grid-girls-winter-cup-2023.png",
+      "images/blog/2023-12-grid-girls-winter-cup/01.png"
+    ]
+  },
+  "origamiCourse": {
+    "title": "Origami lernen",
+    "description": "Wir haben Origami-Workshops für Kinder angeboten, in denen sie die Grundlagen erlernen, verschiedene Faltmethoden ausprobieren und verschiedene für Origami geeignete Papiersorten entdecken können. Unser Ziel war es, eine einladende Umgebung zu schaffen, die das Lernen fördert und die Kreativität, Fantasie und Konzentration der Kinder fördert.",
+    "date": "Juli 2023 - Dezember 2023",
+    "images": [
+      "images/blog/2023-07-origami-course/00-origami-course.png",
+      "images/blog/2023-07-origami-course/01.jpg",
+      "images/blog/2023-07-origami-course/02.jpg",
+      "images/blog/2023-07-origami-course/03.jpg",
+      "images/blog/2023-07-origami-course/04.jpg",
+      "images/blog/2023-07-origami-course/05.jpg",
+      "images/blog/2023-07-origami-course/06.jpg",
+      "images/blog/2023-07-origami-course/07.jpg",
+      "images/blog/2023-07-origami-course/08.jpg",
+      "images/blog/2023-07-origami-course/09.jpg",
+      "images/blog/2023-07-origami-course/10.jpg",
+      "images/blog/2023-07-origami-course/11.jpg",
+      "images/blog/2023-07-origami-course/12.png"
+    ]
+  },
+  "guitarCourse": {
+    "title": "Gitarre lernen",
+    "description": "Ab Juli bietet unser Musikclub Gitarrenkurse an. In diesem Kurs lernen die Teilnehmer die Grundlagen der Gitarre, Noten, Tabulatur und Akkorde. Sie werden Kompositionen deutscher Komponisten aus der Renaissance und der Klassik wie Bethooven, Bach, Pachelbel und Mozart studieren. Sie werden auch spanische klassische Gitarrenkompositionen studieren.",
+    "date": "Juli 2023 - Dezember 2023 | August 2024 - heutzutage",
+    "images": [
+      "images/blog/2023-07-guitar-course/00-guitar-course.jpg",
+      "images/blog/2023-07-guitar-course/01.jpg",
+      "images/blog/2023-07-guitar-course/02.jpg",
+      "images/blog/2023-07-guitar-course/03.jpg"
+    ]
+  },
+  "drivingCourse": {
+    "title": "Fahren Lernen Im Simulator",
+    "description": "Wir boten einen Simulator-Fahrkurs an, in dem die Teilnehmer grundlegende Kenntnisse über Fahrtechniken, Parktechniken sowie Verkehrsregeln und Beschilderungen erlangten. Dieser Kurs ist besonders für Kinder von Nutzen, da er die Bedeutung des Erlernens von Verkehrsregeln schon in jungen Jahren betont. Darüber hinaus dient es als wertvolle Vorbereitung für diejenigen, die vor ihrer Fahrprüfung in Deutschland Selbstvertrauen aufbauen möchten.",
+    "date": "Oktober 2023 - heutzutage",
+    "images": [
+      "images/blog/2023-07-driving-course/00-driving-simulator.png",
+      "images/blog/2023-07-driving-course/01.png",
+      "images/blog/2023-07-driving-course/02.png",
+      "images/blog/2023-07-driving-course/03.png",
+      "images/blog/2023-07-driving-course/04.png",
+      "images/blog/2023-07-driving-course/05.png"
+    ]
+  },
+  "chessCourse": {
+    "title": "Schach lernen",
+    "description": "Ab Juli bietet unser Sportclub jedes Wochenende Schachkurse an. In diesem Kurs lernen unsere Schüler die Grundlagen des Schachs, Eröffnungen, Taktiken, Schachstrategien und die Erstellung einer Partieanalyse. Nach dem Unterricht haben die Schüler Spaß daran, gegeneinander zu spielen.",
+    "date": "Juli 2023 - Dezember 2023",
+    "images": [
+      "images/blog/2023-07-chess-course/00-chess-course.png",
+      "images/blog/2023-07-chess-course/01.jpg",
+      "images/blog/2023-07-chess-course/02.jpg",
+      "images/blog/2023-07-chess-course/03.jpg",
+      "images/blog/2023-07-chess-course/04.jpg",
+      "images/blog/2023-07-chess-course/05.jpg",
+      "images/blog/2023-07-chess-course/06.jpg"
+    ]
+  },
+  "acSummerCup2023": {
+    "title": "AC Summer Cup 2023",
+    "description": "Wir veranstalteten separate Rennsimulator-Turniere für Jungen und Mädchen, bei denen sie im Zeitangriffsmodus gegeneinander antraten. Den Teilnehmern hat die Veranstaltung viel Spaß gemacht und sie konnten wertvolle Einblicke in die Wichtigkeit der Einhaltung der Fahrvorschriften gewinnen. Darüber hinaus lernten sie die potenziellen Gefahren des Hochgeschwindigkeitsfahrens kennen, selbst in einer Simulatorumgebung.",
+    "date": "29 Juli 2023",
+    "images": [
+      "images/blog/2023-07-ac-summer-cup/00-ac-summer-cup-2023.png",
+      "images/blog/2023-07-ac-summer-cup/01.jpg",
+      "images/blog/2023-07-ac-summer-cup/02.png",
+      "images/blog/2023-07-ac-summer-cup/03.jpg",
+      "images/blog/2023-07-ac-summer-cup/04.jpg"
+    ]
+  },
+  "acGirlsSummerCup2023": {
+    "title": "AC Girls Summer Cup 2023",
+    "description": "Wir veranstalteten separate Rennsimulator-Turniere für Jungen und Mädchen, bei denen sie im Zeitangriffsmodus gegeneinander antraten. Den Teilnehmern hat die Veranstaltung viel Spaß gemacht und sie konnten wertvolle Einblicke in die Wichtigkeit der Einhaltung der Fahrvorschriften gewinnen. Darüber hinaus lernten sie die potenziellen Gefahren des Hochgeschwindigkeitsfahrens kennen, selbst in einer Simulatorumgebung.",
+    "date": "22 Juli 2023",
+    "images": [
+      "images/blog/2023-07-ac-girls-summer-cup/00-ac-girls-summer-cup-2023.png",
+      "images/blog/2023-07-ac-girls-summer-cup/01.png",
+      "images/blog/2023-07-ac-girls-summer-cup/02.png",
+      "images/blog/2023-07-ac-girls-summer-cup/03.jpg",
+      "images/blog/2023-07-ac-girls-summer-cup/04.jpg",
+      "images/blog/2023-07-ac-girls-summer-cup/05.jpg"
+    ]
+  },
+  "fifaSummerCup2023": {
+    "title": "FIFA Summer Cup 2023",
+    "description": "Unser Sportklub hat ein PlayStation 4 FIFA23-Turnier organisiert. Das Turnier begann mit dem Frühstück, das wir für 20 Teilnehmer und ihre Eltern vorbereiteten, die kamen, um ihre Kinder zu unterstützen. Insgesamt wurden 38 Spiele ausgetragen, um den 1., 2. und 3. Platz zu ermitteln. Die Kinder hatten dort viel Spaß. Die Spieler lernten die Bedeutung von kompetitivem eSport und Fairplay-Regeln kennen. Den Gewinnern des Turniers wurden Medaillen und Geschenkgutscheine verliehen.",
+    "date": "18 Juni 2023",
+    "images": [
+      "images/blog/2023-06-fifa-summer-cup/00-ps-fifa-summer-cup-2023.png",
+      "images/blog/2023-06-fifa-summer-cup/01.jpg",
+      "images/blog/2023-06-fifa-summer-cup/02.jpg",
+      "images/blog/2023-06-fifa-summer-cup/03.jpg",
+      "images/blog/2023-06-fifa-summer-cup/04.jpg",
+      "images/blog/2023-06-fifa-summer-cup/05.jpg",
+      "images/blog/2023-06-fifa-summer-cup/06.jpg",
+      "images/blog/2023-06-fifa-summer-cup/07.jpg",
+      "images/blog/2023-06-fifa-summer-cup/08.jpg",
+      "images/blog/2023-06-fifa-summer-cup/09.jpg",
+      "images/blog/2023-06-fifa-summer-cup/10.jpg"
     ]
   }
 }

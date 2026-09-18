@@ -90,3 +90,91 @@ function clearBlogContent() {
 function onBlogClose() {
     clearBlogContent();
 }
+
+function addBlogsToHomepage() {
+    if (blogJson === null) {
+        if (blogJsonPromise !== null) {
+            blogJsonPromise.then(() => {
+                addBlogsToHomepage();
+            });
+        }
+        return;
+    }
+
+    const entries = Object.entries(blogJson).slice(0, 5);
+    entries.forEach(([blogName, entry]) => {
+        const imgSrc = Array.isArray(entry.images) && entry.images.length ? entry.images[0] : 'images/blog/more-blogs.jpg';
+        const heading = entry.title || blogName;
+        addPortfolioItem({ imgSrc, heading, clickArg: blogName });
+    });
+
+    addPortfolioItem({imgSrc:'images/blog/more-blogs.jpg', heading:'Mehr anzeigen', href:'blog-and-gallery.html'});
+}
+
+function addBlogsToBlogPage() {
+    if (blogJson === null) {
+        if (blogJsonPromise !== null) {
+            blogJsonPromise.then(() => {
+                addBlogsToBlogPage();
+            });
+        }
+        return;
+    }
+
+    const entries = Object.entries(blogJson).slice(5);
+    entries.forEach(([blogName, entry]) => {
+        const imgSrc = Array.isArray(entry.images) && entry.images.length ? entry.images[0] : 'images/blog/more-blogs.jpg';
+        const heading = entry.title || blogName;
+        addPortfolioItem({ imgSrc, heading, clickArg: blogName });
+    });
+}
+
+/*function addPortfolioItem({imgSrc, heading, clickArg}) {
+    const col = document.createElement('div');
+    col.className = 'col-lg-4 col-sm-6 mb-4';
+    col.innerHTML = `
+    <div class="portfolio-item">
+      <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal">
+        <div class="portfolio-hover">
+          <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+        </div>
+        <img class="img-fluid" src="${imgSrc}" alt="" />
+      </a>
+      <div class="portfolio-caption"><div class="portfolio-caption-heading">${heading}</div></div>
+    </div>`;
+
+    const link = col.querySelector('.portfolio-link');
+    link.addEventListener('click', () => onBlogClick(clickArg));
+    document.getElementById('portfolio-container').appendChild(col);
+}*/
+
+function addPortfolioItem({imgSrc, heading, clickArg, href}) {
+    const col = document.createElement('div');
+    col.className = 'col-lg-4 col-sm-6 mb-4';
+
+    const item = document.createElement('div');
+    item.className = 'portfolio-item';
+
+    const link = document.createElement('a');
+    link.className = 'portfolio-link';
+    if (href) { link.setAttribute('href', href); }
+    else { link.setAttribute('data-bs-toggle', 'modal');
+    link.setAttribute('href', '#portfolioModal');
+    if (clickArg) link.addEventListener('click', () => onBlogClick(clickArg)); }
+    link.innerHTML = `
+    <div class="portfolio-hover">
+        <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+    </div>
+    <img class="img-fluid" src="${imgSrc}" alt="" />`;
+
+    item.appendChild(link);
+
+    const caption = document.createElement('div');
+    caption.className = 'portfolio-caption';
+    caption.innerHTML = `<div class="portfolio-caption-heading">${heading}</div>`;
+    item.appendChild(caption);
+
+    col.appendChild(item);
+    document.getElementById('portfolio-container').appendChild(col);
+    return col;
+}

@@ -141,8 +141,8 @@
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Blog & Galerie</h2>
                 </div>
-                <div class="row">
-                    <div class="col-lg-4 col-sm-6 mb-4">
+                <div id="portfolio-container" class="row">
+                    <!--<div class="col-lg-4 col-sm-6 mb-4">
                         <div class="portfolio-item">
                             <a class="portfolio-link" onclick="onBlogClick('meetAndEat2025')" data-bs-toggle="modal" href="#portfolioModal">
                                 <div class="portfolio-hover">
@@ -231,7 +231,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div>-->
                 </div>
             </div>
         </section>
@@ -589,6 +589,20 @@
         <!-- Core JS -->
         <script src="js/blog.js"></script>
         <script src="js/scripts.js"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+              if (typeof blogJsonPromise !== 'undefined' && blogJsonPromise) {
+                blogJsonPromise.then(() => addBlogsToHomepage());
+              } else if (typeof blogJson !== 'undefined' && blogJson) {
+                addBlogsToHomepage();
+              } else {
+                const iv = setInterval(() => {
+                  if (typeof blogJson !== 'undefined' && blogJson) { clearInterval(iv); addBlogsToHomepage(); }
+                }, 50);
+                setTimeout(() => clearInterval(iv), 5000);
+              }
+            });
+        </script>
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
     </body>
 </html>
