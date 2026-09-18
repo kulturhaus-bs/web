@@ -69,7 +69,8 @@
     "date": "31. Mai 2026",
     "sortDate": "2026-05-31",
     "images": [
-      "images/flyer.svg"
+      "images/jugendabteilung/fruehlingsfest-grill/01-fussballplatz.png",
+      "images/jugendabteilung/fruehlingsfest-grill/02-fussballrunde.png"
     ]
   },
   "seniorenSommercamp": {
@@ -78,7 +79,12 @@
     "date": "3.–9. Juli 2026",
     "sortDate": "2026-07-03",
     "images": [
-      "images/flyer.svg"
+      "images/jugendabteilung/senioren-sommercamp/01-darts.png",
+      "images/jugendabteilung/senioren-sommercamp/02-gruppenspiel.png",
+      "images/jugendabteilung/senioren-sommercamp/03-kahoot.png",
+      "images/jugendabteilung/senioren-sommercamp/04-gruppenrunde.png",
+      "images/jugendabteilung/senioren-sommercamp/05-schach.png",
+      "images/jugendabteilung/senioren-sommercamp/06-lernrunde.png"
     ]
   },
   "juniorenSommercamp": {
@@ -87,7 +93,16 @@
     "date": "4.–9. August 2026",
     "sortDate": "2026-08-04",
     "images": [
-      "images/flyer.svg"
+      "images/jugendabteilung/junioren-sommercamp/01-seminar.png",
+      "images/jugendabteilung/junioren-sommercamp/02-lesezeit.png",
+      "images/jugendabteilung/junioren-sommercamp/03-lesepause.png",
+      "images/jugendabteilung/junioren-sommercamp/04-gruppenrunde.png",
+      "images/jugendabteilung/junioren-sommercamp/05-lernrunde.png",
+      "images/jugendabteilung/junioren-sommercamp/06-fifa-turnier.png",
+      "images/jugendabteilung/junioren-sommercamp/07-preise.png",
+      "images/jugendabteilung/junioren-sommercamp/08-gemeinsame-lesezeit.png",
+      "images/jugendabteilung/junioren-sommercamp/09-camp-kiosk.png",
+      "images/jugendabteilung/junioren-sommercamp/10-leserunde.png"
     ]
   }
 }

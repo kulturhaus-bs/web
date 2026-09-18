@@ -1,0 +1,353 @@
+/* Styles used only by jugendabteilung.html. */
+
+header.youth-masthead {
+  background-image:
+    linear-gradient(rgba(4, 16, 31, 0.58), rgba(4, 16, 31, 0.7)),
+    url("../images/jugendabteilung/jugend-hero-v3.png");
+  background-position: center center;
+}
+
+header.youth-masthead .masthead-heading {
+  text-shadow: 0 0.15rem 0.8rem rgba(0, 0, 0, 0.7);
+}
+
+/* Top navigation: page-specific Jugend identity without changing its width. */
+#mainNav.youth-main-nav {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+#mainNav.youth-main-nav .youth-nav-container {
+  display: flex;
+  align-items: center;
+}
+
+#mainNav.youth-main-nav .youth-site-brand {
+  display: flex;
+  align-items: center;
+  margin-right: 0;
+  font-size: 1rem;
+  line-height: 1.25;
+  text-transform: none;
+}
+
+#mainNav.youth-main-nav .youth-site-logo {
+  width: auto;
+  height: 48px;
+  margin-right: 0.6rem;
+}
+
+#mainNav.youth-main-nav .youth-nav-identity {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin-left: auto;
+}
+
+#mainNav.youth-main-nav .youth-nav-logo {
+  width: 48px;
+  height: 48px;
+  flex: 0 0 48px;
+  object-fit: contain;
+}
+
+#mainNav.youth-main-nav .youth-nav-label {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  background: linear-gradient(90deg, #008bd2 0%, #58a927 30%, #ffb000 62%, #ef2e2a 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 575.98px) {
+  #mainNav.youth-main-nav {
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+  }
+
+  #mainNav.youth-main-nav .youth-site-brand {
+    font-size: 0.72rem;
+  }
+
+  #mainNav.youth-main-nav .youth-site-logo {
+    height: 40px;
+    margin-right: 0.35rem;
+  }
+
+  #mainNav.youth-main-nav .youth-nav-identity {
+    gap: 0.3rem;
+  }
+
+  #mainNav.youth-main-nav .youth-nav-logo {
+    width: 38px;
+    height: 38px;
+    flex-basis: 38px;
+  }
+
+  #mainNav.youth-main-nav .youth-nav-label {
+    font-size: 1rem;
+    letter-spacing: 0.06em;
+  }
+}
+
+#youth .portfolio-item {
+  max-width: 26rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#youth .portfolio-item .portfolio-link {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+
+#youth .portfolio-item .portfolio-link .portfolio-hover {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 200, 0, 0.5);
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity ease-in-out 0.25s;
+}
+
+#youth .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+  font-size: 1.25rem;
+  color: #fff;
+}
+
+#youth .portfolio-item .portfolio-link:hover .portfolio-hover {
+  opacity: 1;
+}
+
+#youth .portfolio-item .portfolio-caption {
+  padding: 1.5rem;
+  text-align: center;
+  background-color: #fff;
+}
+
+#youth .portfolio-item .portfolio-caption .portfolio-caption-heading {
+  margin-bottom: 0;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+#youth .portfolio-item .portfolio-caption .portfolio-caption-subheading {
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-style: italic;
+}
+
+#youth #youth-image {
+  display: block;
+  width: 100%;
+  height: clamp(14rem, 42vw, 30rem);
+  object-fit: cover;
+  background-color: #fff;
+}
+
+.youth-portfolio-modal #blog-modal-image {
+  display: block;
+  width: 100%;
+  height: clamp(18rem, 55vw, 32rem);
+  object-fit: contain;
+}
+
+.youth-portfolio-modal #blog-modal-description {
+  white-space: pre-line;
+}
+
+#youth .youth-flyer {
+  width: 100%;
+  max-width: 18rem;
+}
+
+#youth .youth-carousel .portfolio-item {
+  max-width: 43rem;
+}
+
+#youth .youth-activities-toggle svg {
+  transition: transform 0.2s ease-in-out;
+}
+
+#youth .youth-toggle-hide,
+#youth .youth-activities-toggle[aria-expanded="true"] .youth-toggle-show {
+  display: none;
+}
+
+#youth .youth-activities-toggle[aria-expanded="true"] .youth-toggle-hide {
+  display: inline;
+}
+
+#youth .youth-activities-toggle[aria-expanded="true"] svg {
+  transform: rotate(180deg);
+}
+
+#youth .youth-timeline {
+  position: relative;
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+#youth .youth-timeline-line {
+  position: absolute;
+  top: -1.25rem;
+  bottom: -1.25rem;
+  left: 50%;
+  width: 2px;
+  background-color: #ffc800;
+  transform: translateX(-50%);
+}
+
+#youth .youth-timeline-item:first-child .youth-timeline-line {
+  top: 50%;
+}
+
+#youth .youth-timeline-item:last-child .youth-timeline-line {
+  bottom: 50%;
+}
+
+#youth .youth-timeline-item:only-child .youth-timeline-line {
+  display: none;
+}
+
+#youth .youth-timeline-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 7rem;
+  margin-bottom: 2.5rem;
+}
+
+#youth .youth-timeline-item:last-child {
+  margin-bottom: 0;
+}
+
+#youth .youth-timeline-item::before {
+  position: absolute;
+  top: 50%;
+  width: 6rem;
+  height: 2px;
+  content: "";
+  background-color: #ffc800;
+}
+
+#youth .youth-timeline-item-left::before {
+  right: 50%;
+}
+
+#youth .youth-timeline-item-right::before {
+  left: 50%;
+}
+
+#youth .youth-timeline-item::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0.9rem;
+  height: 0.9rem;
+  content: "";
+  border: 3px solid #ffc800;
+  border-radius: 50%;
+  background-color: #f8f9fa;
+  transform: translate(-50%, -50%);
+}
+
+#youth .youth-timeline-card {
+  display: block;
+  width: calc(50% - 6rem);
+  color: inherit;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+}
+
+#youth .youth-timeline-card:hover,
+#youth .youth-timeline-card:focus {
+  color: inherit;
+  border-color: #ffc800;
+}
+
+#youth .youth-timeline-description {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+#youth .youth-timeline-item-left .youth-timeline-card {
+  margin-right: calc(50% + 6rem);
+}
+
+#youth .youth-timeline-item-right .youth-timeline-card {
+  margin-left: calc(50% + 6rem);
+}
+
+#youth .youth-timeline-date {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  padding: 0.15rem 0.35rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  white-space: nowrap;
+  background-color: #f8f9fa;
+  transform: translate(-50%, -50%);
+}
+
+#youth .youth-timeline-item-left .youth-timeline-date {
+  left: calc(50% - 3rem);
+}
+
+#youth .youth-timeline-item-right .youth-timeline-date {
+  left: calc(50% + 3rem);
+}
+
+#youth .youth-activity-thumbnail {
+  width: 7rem;
+  height: 4.75rem;
+  flex: 0 0 auto;
+  object-fit: cover;
+}
+
+@media (max-width: 767.98px) {
+  #youth .youth-timeline-line,
+  #youth .youth-timeline-item::after {
+    left: 1rem;
+  }
+
+  #youth .youth-timeline-item-left::before,
+  #youth .youth-timeline-item-right::before {
+    right: auto;
+    left: 1rem;
+    width: 6rem;
+  }
+
+  #youth .youth-timeline-card {
+    width: calc(100% - 7rem);
+  }
+
+  #youth .youth-timeline-item-left .youth-timeline-card,
+  #youth .youth-timeline-item-right .youth-timeline-card {
+    margin-right: 0;
+    margin-left: 7rem;
+  }
+
+  #youth .youth-timeline-item-left .youth-timeline-date,
+  #youth .youth-timeline-item-right .youth-timeline-date {
+    left: 4rem;
+  }
+
+  #youth .youth-activity-thumbnail {
+    width: 5rem;
+    height: 3.5rem;
+  }
+}
