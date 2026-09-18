@@ -39,7 +39,7 @@ function changeBlogContent() {
 
     //document.getElementById("blog-modal-type").textContent = currentBlogContent["type"][language];
     document.getElementById("blog-modal-title").textContent = currentBlogTitle;
-    document.getElementById("blog-modal-description").textContent = currentBlogDescription;
+    document.getElementById("blog-modal-description").innerHTML = currentBlogDescription;
     document.getElementById("blog-modal-date").textContent = currentBlogDate;
 
     showImage();
@@ -81,7 +81,7 @@ function clearBlogContent() {
     currentImageIndex = 0;
 
     document.getElementById("blog-modal-title").textContent = "";
-    document.getElementById("blog-modal-description").textContent = "";
+    document.getElementById("blog-modal-description").innerHTML = "";
     document.getElementById("blog-modal-date").textContent = "";
     document.getElementById("blog-modal-image").removeAttribute("src");
     document.getElementById("image-number").textContent = "";
