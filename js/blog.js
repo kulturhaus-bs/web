@@ -39,7 +39,7 @@ function changeBlogContent() {
 
     //document.getElementById("blog-modal-type").textContent = currentBlogContent["type"][language];
     document.getElementById("blog-modal-title").textContent = currentBlogTitle;
-    document.getElementById("blog-modal-description").textContent = currentBlogDescription;
+    document.getElementById("blog-modal-description").innerHTML = currentBlogDescription;
     document.getElementById("blog-modal-date").textContent = currentBlogDate;
 
     showImage();
@@ -68,48 +68,11 @@ function showNextBlogImage() {
 }
 
 function showImage() {
-    const image = document.getElementById("blog-modal-image");
-    let video = document.getElementById("blog-modal-video");
-    const source = currentBlogImages[currentImageIndex];
-    if (video) {
-        video.pause();
-        video.removeAttribute("src");
-        video.load();
-        video.hidden = true;
-    }
-    const isVideo = /\.mp4(?:[?#]|$)/i.test(source);
-    image.classList.toggle("d-block", !isVideo);
-    image.hidden = isVideo;
-    if (isVideo) {
-        image.removeAttribute("src");
-        if (!video) {
-            video = document.createElement("video");
-            video.id = "blog-modal-video";
-            video.className = "img-fluid mx-auto";
-            video.controls = true;
-            video.playsInline = true;
-            video.preload = "metadata";
-            video.style.maxHeight = "70vh";
-            image.insertAdjacentElement("afterend", video);
-        }
-        video.setAttribute("aria-label", currentBlogTitle + " – Video");
-        video.src = source;
-        video.hidden = false;
-    } else {
-        image.src = source;
-        image.alt = currentBlogTitle;
-    }
+    document.getElementById("blog-modal-image").src= currentBlogImages[currentImageIndex];
     document.getElementById("image-number").textContent = (currentImageIndex + 1) + " / " + currentBlogImages.length;
 }
 
 function clearBlogContent() {
-    const video = document.getElementById("blog-modal-video");
-    if (video) {
-        video.pause();
-        video.removeAttribute("src");
-        video.load();
-        video.hidden = true;
-    }
     currentBlogName = null;
     currentBlogTitle = null;
     currentBlogDescription = null;
@@ -118,7 +81,7 @@ function clearBlogContent() {
     currentImageIndex = 0;
 
     document.getElementById("blog-modal-title").textContent = "";
-    document.getElementById("blog-modal-description").textContent = "";
+    document.getElementById("blog-modal-description").innerHTML = "";
     document.getElementById("blog-modal-date").textContent = "";
     document.getElementById("blog-modal-image").removeAttribute("src");
     document.getElementById("image-number").textContent = "";
@@ -128,6 +91,90 @@ function onBlogClose() {
     clearBlogContent();
 }
 
-document.addEventListener("hidden.bs.modal", event => {
-    if (event.target.id === "portfolioModal") onBlogClose();
-});
+function addBlogsToHomepage() {
+    if (blogJson === null) {
+        if (blogJsonPromise !== null) {
+            blogJsonPromise.then(() => {
+                addBlogsToHomepage();
+            });
+        }
+        return;
+    }
+
+    const entries = Object.entries(blogJson).slice(0, 5);
+    entries.forEach(([blogName, entry]) => {
+        const imgSrc = Array.isArray(entry.images) && entry.images.length ? entry.images[0] : 'images/blog/more-blogs.jpg';
+        const heading = entry.title || blogName;
+        addPortfolioItem({ imgSrc, heading, clickArg: blogName });
+    });
+
+    addPortfolioItem({imgSrc:'images/blog/more-blogs.jpg', heading:'Mehr anzeigen', href:'blog-and-gallery.html'});
+}
+
+function addBlogsToBlogPage() {
+    if (blogJson === null) {
+        if (blogJsonPromise !== null) {
+            blogJsonPromise.then(() => {
+                addBlogsToBlogPage();
+            });
+        }
+        return;
+    }
+
+    const entries = Object.entries(blogJson).slice(5);
+    entries.forEach(([blogName, entry]) => {
+        const imgSrc = Array.isArray(entry.images) && entry.images.length ? entry.images[0] : 'images/blog/more-blogs.jpg';
+        const heading = entry.title || blogName;
+        addPortfolioItem({ imgSrc, heading, clickArg: blogName });
+    });
+}
+
+/*function addPortfolioItem({imgSrc, heading, clickArg}) {
+    const col = document.createElement('div');
+    col.className = 'col-lg-4 col-sm-6 mb-4';
+    col.innerHTML = `
+    <div class="portfolio-item">
+      <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal">
+        <div class="portfolio-hover">
+          <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+        </div>
+        <img class="img-fluid" src="${imgSrc}" alt="" />
+      </a>
+      <div class="portfolio-caption"><div class="portfolio-caption-heading">${heading}</div></div>
+    </div>`;
+
+    const link = col.querySelector('.portfolio-link');
+    link.addEventListener('click', () => onBlogClick(clickArg));
+    document.getElementById('portfolio-container').appendChild(col);
+}*/
+
+function addPortfolioItem({imgSrc, heading, clickArg, href}) {
+    const col = document.createElement('div');
+    col.className = 'col-lg-4 col-sm-6 mb-4';
+
+    const item = document.createElement('div');
+    item.className = 'portfolio-item';
+
+    const link = document.createElement('a');
+    link.className = 'portfolio-link';
+    if (href) { link.setAttribute('href', href); }
+    else { link.setAttribute('data-bs-toggle', 'modal');
+    link.setAttribute('href', '#portfolioModal');
+    if (clickArg) link.addEventListener('click', () => onBlogClick(clickArg)); }
+    link.innerHTML = `
+    <div class="portfolio-hover">
+        <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+    </div>
+    <img class="img-fluid" src="${imgSrc}" alt="" />`;
+
+    item.appendChild(link);
+
+    const caption = document.createElement('div');
+    caption.className = 'portfolio-caption';
+    caption.innerHTML = `<div class="portfolio-caption-heading">${heading}</div>`;
+    item.appendChild(caption);
+
+    col.appendChild(item);
+    document.getElementById('portfolio-container').appendChild(col);
+    return col;
+}
