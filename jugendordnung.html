@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="NT" />
-        <title>Braunschweiger Kultur- und Bildungshaus e.V.</title>
+        <title>Jugendordnung | Jugendplattform</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="images/favicon.png" />
         <!-- Font Awesome icons (free version)-->
@@ -28,7 +28,7 @@
                 img-src 'self' data: https:;
                 frame-ancestors 'none';
               ">
-
+        
         <!-- Referrer Policy: don't leak page URLs -->
         <meta name="referrer" content="no-referrer">
         
@@ -45,7 +45,7 @@
                 </a>
                 <div class="youth-nav-actions" aria-label="Jugendseiten">
                     <a class="btn btn-outline-light btn-sm" href="flyer-archiv.html">Flyer-Archiv</a>
-                    <a class="btn btn-outline-light btn-sm" href="jugendordnung.html">Jugendordnung</a>
+                    <a class="btn btn-light btn-sm" href="jugendordnung.html" aria-current="page">Jugendordnung</a>
                 </div>
                 <a class="youth-nav-identity" href="jugendabteilung.html" aria-label="Zur Jugendplattform">
                     <img class="youth-nav-logo" src="images/jugendabteilung/logo/jugendabteilung-logo-transparent.png" width="48" height="48" alt="Logo der Jugendabteilung">
@@ -53,88 +53,59 @@
                 </a>
             </div>
         </nav>
-        <!-- Masthead-->
-        <header class="masthead youth-masthead">
-            <div class="container">
-                <h1 class="masthead-heading text-uppercase">Jugendplattform</h1>
-            </div>
+
+        <header class="masthead youth-masthead youth-subpage-masthead">
+            <div class="container"><h1 class="masthead-heading text-uppercase">Jugendordnung</h1></div>
         </header>
-        <!-- Jugendabteilung-->
-        <section class="page-section bg-light" id="youth">
+
+        <main class="youth-documents bg-light">
             <div class="container">
-                <div class="text-center">
-                    <div class="timeline-body" style="padding-bottom: 20px">
-                        <p class="text-muted">In unserer Jugendabteilung treffen sich Kinder und Jugendliche regelmäßig zu Kursen, Ausflügen und gemeinsamen Veranstaltungen.</p>
+                <div class="youth-document-intro">
+                    <p class="youth-document-kicker">Braunschweiger Kultur- und Bildungshaus e.V.</p>
+                    <div class="youth-document-actions" aria-label="Jugendordnung herunterladen oder öffnen">
+                        <a class="btn btn-primary" href="documents/Jugendordnung-kulturhausbs.docx" download>
+                            <i class="fa-solid fa-file-word me-2" aria-hidden="true"></i>Word-Datei herunterladen
+                        </a>
+                        <a class="btn btn-outline-dark" href="images/jugendabteilung/jugendordnung/jugendordnung-preview.pdf" target="_blank" rel="noopener">
+                            <i class="fa-solid fa-file-pdf me-2" aria-hidden="true"></i>PDF öffnen
+                        </a>
                     </div>
                 </div>
 
-
-                <div class="row justify-content-center g-4 mb-4 youth-flyer-preview">
-                    <div class="col-6 col-lg-3"><img class="img-fluid youth-flyer" src="images/jugendabteilung/flyer/lese-quiztag-september-logo.png" alt="Flyer zum Fontänejugend Lese- und Quiztag am 20. September 2026" /></div>
-                    <div class="col-6 col-lg-3"><img class="img-fluid youth-flyer" src="images/jugendabteilung/elternseminar/02-elternseminar-de.png" alt="Flyer zum Online-Elternseminar" /></div>
-                    <div class="col-6 col-lg-3"><img class="img-fluid youth-flyer" src="images/jugendabteilung/flyer/universitaet-sommercamp-lange-hosen-logo.png" alt="Flyer zum Universität-Sommercamp vom 9. bis 13. September 2026" /></div>
-                    <div class="col-6 col-lg-3"><img class="img-fluid youth-flyer" src="images/jugendabteilung/flyer-entwuerfe/junioren-sommercamp-lange-hosen-logo.png" alt="Flyer zum Junioren Sommercamp" /></div>
-                </div>
-                <div class="text-center mb-5">
-                    <a class="btn btn-primary" href="flyer-archiv.html">Zum Archiv</a>
-                </div>
-
-                <div class="text-center mb-4">
-                    <h3 class="text-uppercase">Aktivitäten entdecken</h3>
-                </div>
-                <div class="row align-items-center justify-content-center mb-5 youth-carousel">
-                    <div class="col-2 col-lg-1 text-center">
-                        <button type="button" class="btn btn-outline-dark" onclick="showPrevYouthActivity()" aria-label="Vorherige Aktivität">
-                            <i class="fas fa-angle-left"></i>
-                        </button>
-                    </div>
-                    <div class="col-8 col-lg-10">
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" onclick="onCurrentYouthClick()" data-bs-toggle="modal" href="#portfolioModal">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" id="youth-image" src="images/jugendabteilung/fontänejugend/00-fontänejugend.png" alt="Fontänejugend" />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">
-                                    <a id="youth-title" onclick="onCurrentYouthClick()" data-bs-toggle="modal" href="#portfolioModal">Fontänejugend</a>
-                                </div>
-                                <div class="portfolio-caption-subheading text-muted" id="youth-number">1 / 1</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-2 col-lg-1 text-center">
-                        <button type="button" class="btn btn-outline-dark" onclick="showNextYouthActivity()" aria-label="Nächste Aktivität">
-                            <i class="fas fa-angle-right"></i>
-                        </button>
-                    </div>
-                </div>
-
-                <div class="text-center mb-4">
-                    <h3 class="text-uppercase">Alle Aktivitäten</h3>
-                    <div class="d-flex flex-wrap justify-content-center gap-2">
-                        <button class="btn btn-outline-dark youth-activities-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#youthActivitiesTimeline" aria-expanded="false" aria-controls="youthActivitiesTimeline">
-                            <span class="youth-toggle-show">Aktivitäten anzeigen</span>
-                            <span class="youth-toggle-hide">Aktivitäten verstecken</span>
-                            <i class="fas fa-angle-down ms-2"></i>
-                        </button>
-                        <div class="dropdown">
-                            <button class="btn btn-outline-dark dropdown-toggle" id="youthProjectYearDropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        <span id="youth-project-year-label">Projektjahr 2027</span>
-                                    </button>
-                                    <ul class="dropdown-menu" aria-labelledby="youthProjectYearDropdown">
-                                        <li><button class="dropdown-item" type="button" onclick="selectYouthProjectYear('2027')">Projektjahr 2027</button></li>
-                                        <li><button class="dropdown-item" type="button" onclick="selectYouthProjectYear('2026')">Projektjahr 2026</button></li>
-                                    </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="collapse" id="youthActivitiesTimeline">
-                    <div class="youth-timeline" id="youth-activity-list"></div>
+                <div class="youth-document-pages" aria-label="Vorschau der Jugendordnung, fünf Seiten">
+                    <figure class="youth-document-page">
+                        <a href="images/jugendabteilung/jugendordnung/page-1.png" target="_blank" rel="noopener" aria-label="Seite 1 der Jugendordnung in voller Größe öffnen">
+                            <img src="images/jugendabteilung/jugendordnung/page-1.png" alt="Jugendordnung, Seite 1" width="1241" height="1754">
+                        </a>
+                        <figcaption>Seite 1 von 5</figcaption>
+                    </figure>
+                    <figure class="youth-document-page">
+                        <a href="images/jugendabteilung/jugendordnung/page-2.png" target="_blank" rel="noopener" aria-label="Seite 2 der Jugendordnung in voller Größe öffnen">
+                            <img src="images/jugendabteilung/jugendordnung/page-2.png" alt="Jugendordnung, Seite 2" width="1241" height="1754" loading="lazy">
+                        </a>
+                        <figcaption>Seite 2 von 5</figcaption>
+                    </figure>
+                    <figure class="youth-document-page">
+                        <a href="images/jugendabteilung/jugendordnung/page-3.png" target="_blank" rel="noopener" aria-label="Seite 3 der Jugendordnung in voller Größe öffnen">
+                            <img src="images/jugendabteilung/jugendordnung/page-3.png" alt="Jugendordnung, Seite 3" width="1241" height="1754" loading="lazy">
+                        </a>
+                        <figcaption>Seite 3 von 5</figcaption>
+                    </figure>
+                    <figure class="youth-document-page">
+                        <a href="images/jugendabteilung/jugendordnung/page-4.png" target="_blank" rel="noopener" aria-label="Seite 4 der Jugendordnung in voller Größe öffnen">
+                            <img src="images/jugendabteilung/jugendordnung/page-4.png" alt="Jugendordnung, Seite 4" width="1241" height="1754" loading="lazy">
+                        </a>
+                        <figcaption>Seite 4 von 5</figcaption>
+                    </figure>
+                    <figure class="youth-document-page">
+                        <a href="images/jugendabteilung/jugendordnung/page-5.png" target="_blank" rel="noopener" aria-label="Seite 5 der Jugendordnung in voller Größe öffnen">
+                            <img src="images/jugendabteilung/jugendordnung/page-5.png" alt="Jugendordnung, Seite 5" width="1241" height="1754" loading="lazy">
+                        </a>
+                        <figcaption>Seite 5 von 5</figcaption>
+                    </figure>
                 </div>
             </div>
-        </section>
+        </main>
         <!-- Contact-->
         <section class="page-section" id="contact">
             <div class="container">
@@ -230,7 +201,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core JS -->
         <script src="js/blog.js"></script>
-        <script src="js/youth.js"></script>
+
         <script src="js/scripts.js"></script>
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
     </body>

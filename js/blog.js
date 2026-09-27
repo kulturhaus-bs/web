@@ -68,11 +68,48 @@ function showNextBlogImage() {
 }
 
 function showImage() {
-    document.getElementById("blog-modal-image").src= currentBlogImages[currentImageIndex];
+    const image = document.getElementById("blog-modal-image");
+    let video = document.getElementById("blog-modal-video");
+    const source = currentBlogImages[currentImageIndex];
+    if (video) {
+        video.pause();
+        video.removeAttribute("src");
+        video.load();
+        video.hidden = true;
+    }
+    const isVideo = /\.mp4(?:[?#]|$)/i.test(source);
+    image.classList.toggle("d-block", !isVideo);
+    image.hidden = isVideo;
+    if (isVideo) {
+        image.removeAttribute("src");
+        if (!video) {
+            video = document.createElement("video");
+            video.id = "blog-modal-video";
+            video.className = "img-fluid mx-auto";
+            video.controls = true;
+            video.playsInline = true;
+            video.preload = "metadata";
+            video.style.maxHeight = "70vh";
+            image.insertAdjacentElement("afterend", video);
+        }
+        video.setAttribute("aria-label", currentBlogTitle + " – Video");
+        video.src = source;
+        video.hidden = false;
+    } else {
+        image.src = source;
+        image.alt = currentBlogTitle;
+    }
     document.getElementById("image-number").textContent = (currentImageIndex + 1) + " / " + currentBlogImages.length;
 }
 
 function clearBlogContent() {
+    const video = document.getElementById("blog-modal-video");
+    if (video) {
+        video.pause();
+        video.removeAttribute("src");
+        video.load();
+        video.hidden = true;
+    }
     currentBlogName = null;
     currentBlogTitle = null;
     currentBlogDescription = null;
@@ -90,3 +127,7 @@ function clearBlogContent() {
 function onBlogClose() {
     clearBlogContent();
 }
+
+document.addEventListener("hidden.bs.modal", event => {
+    if (event.target.id === "portfolioModal") onBlogClose();
+});
