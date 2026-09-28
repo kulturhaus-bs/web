@@ -1,12 +1,51 @@
 {
+  "universitaetSommercamp2026": {
+    "title": "Universität-Sommercamp",
+    "description": "Vom 9. bis 13. September 2026 fand in den Neue Birken Gästehäusern ein fünftägiges Sommercamp gemeinsam mit zwei Partnervereinen aus Osnabrück und Hannover statt. Insgesamt nahmen etwa 40 Personen teil, darunter sechs aus unserem Verein.\n\nIn Seminaren und gemeinsamen Leseeinheiten beschäftigten sich die Teilnehmenden mit respektvollem Zusammenleben, demokratischen Werten und menschlichen Grundwerten. Gesprächsrunden boten Raum, eigene Gedanken und Erfahrungen einzubringen und voneinander zu lernen.\n\nGemeinsames Fußballspielen, ein kleines Turnier und weitere Freizeitaktivitäten ergänzten das Bildungsprogramm. Das Camp stärkte den Zusammenhalt und die Kontakte zwischen den Teilnehmenden der drei Vereine.",
+    "date": "9.–13. September 2026",
+    "sortDate": "2026-09-09",
+    "images": [
+      "images/jugendabteilung/universitaet-sommercamp/01-fussball.png",
+      "images/jugendabteilung/universitaet-sommercamp/02-leserunde.png",
+      "images/jugendabteilung/universitaet-sommercamp/03-pause.png",
+      "images/jugendabteilung/universitaet-sommercamp/04-gemeinsames-lesen.png",
+      "images/jugendabteilung/universitaet-sommercamp/07-seminar-hochformat-blurred.png",
+      "images/jugendabteilung/universitaet-sommercamp/08-seminar-querformat-blurred.png",
+      "images/jugendabteilung/flyer/universitaet-sommercamp-lange-hosen-logo.png"
+    ],
+    "flyer": "images/jugendabteilung/flyer/universitaet-sommercamp-lange-hosen-logo.png"
+  },
+  "fontaenejugendLeseQuiztagSeptember2026": {
+    "title": "Fontänejugend Lese- und Quiztag",
+    "description": "Am 20. September 2026 trafen sich 23 Jugendliche im Alter von 13 bis 20 Jahren von 14:00 bis 17:00 Uhr in Braunschweig zu einem gemeinsamen Lese- und Quiztag. Im Mittelpunkt stand die Zeitschrift „Fontänejugend“.\n\nDie Jugendlichen lasen ausgewählte Beiträge, fassten sie in eigenen Worten zusammen und stellten ihre Ergebnisse anschließend der Gruppe vor. So erhielten alle einen Einblick in die verschiedenen Themen und übten Textverständnis und mündliche Präsentation. Für die 13- bis 16-Jährigen folgte ein Kahoot-Quiz, bei dem der Gewinner einen kleinen Preis erhielt.\n\nGemeinsames Pizzaessen rundete den Nachmittag ab. Die Verbindung aus Lesen, Austausch und spielerischem Lernen förderte die aktive Beteiligung und das Gemeinschaftsgefühl.",
+    "date": "20. September 2026 | 14:00–17:00 Uhr",
+    "sortDate": "2026-09-20",
+    "images": [
+      "images/jugendabteilung/fontaenejugend-september-2026/01-fontaene-jugend-ausgabe-23.png",
+      "images/jugendabteilung/flyer/lese-quiztag-september-logo.png"
+    ],
+    "flyer": "images/jugendabteilung/flyer/lese-quiztag-september-logo.png"
+  },
+  "elternseminarSeptember2026": {
+    "title": "Online-Elternseminar",
+    "description": "Am 17. September 2026 fand von 21:00 bis 22:30 Uhr ein Online-Elternseminar für die Eltern der 13- bis 20-jährigen Jugendlichen statt, die an unseren Angeboten teilnehmen. Rund 35 bis 36 Mütter und Väter informierten sich über die Begleitung ihrer Kinder und die Planung für den neuen Jahresabschnitt.\n\nDie ehrenamtlichen Verantwortlichen stellten die schulischen Unterstützungsangebote sowie die Begleitung der persönlichen und sozialen Entwicklung vor. Außerdem gaben sie einen Überblick über regelmäßige Aktivitäten, längerfristige Programme, gemeinsame Veranstaltungen und Camps.\n\nIn der abschließenden Fragerunde konnten die Eltern eigene Anliegen und Rückmeldungen einbringen. Der direkte Austausch stärkte die Kommunikation und die Zusammenarbeit zwischen Eltern und Verein.",
+    "date": "17. September 2026 | 21:00–22:30 Uhr",
+    "sortDate": "2026-09-17",
+    "images": [
+      "images/jugendabteilung/logo/jugendabteilung-logo-transparent.png"
+    ],
+    "flyer": "images/jugendabteilung/elternseminar/02-elternseminar-de.png"
+  },
   "fontaenejugend": {
     "title": "Fontänejugend Lesetag & Quiz",
     "description": "Über mehrere Wochen hinweg lasen 25 Jugendliche im Alter von 13 bis 19 Jahren in festen Gruppen die Ausgaben der Zeitschrift „Fontäne“, die ethische, moralische und humanistische Themen behandelt. Im Mittelpunkt der Sitzungen standen Ethik und Moral im Alltag, Verantwortung gegenüber den Mitmenschen, Respekt und Toleranz sowie Persönlichkeitsentwicklung. Begleitet wurde der Lesekreis von sechs ehrenamtlichen Gruppenleiterinnen und Gruppenleitern. Den Abschluss bildete am 12. April 2026 ein bundesweiter Wissenswettbewerb, bei dem Vereine aus ganz Deutschland dieselben Fragen zu den Inhalten der Zeitschrift bearbeiteten – alle angemeldeten Jugendlichen nahmen geschlossen teil. Nach der gemeinsamen Auswertung klang der Tag bei einem geselligen Beisammensein aus. Die Rückmeldungen von Jugendlichen und Eltern fielen durchweg positiv aus, sodass das Format fortgeführt wird.",
     "date": "12 April 2026",
     "sortDate": "2026-04-12",
     "images": [
-      "images/jugendabteilung/fontänejugend/00-fontänejugend.png"
-    ]
+      "images/jugendabteilung/fontänejugend/00-fontänejugend.png",
+      "images/jugendabteilung/flyer/lesetag-quiz-april-logo.png"
+    ],
+    "flyer": "images/jugendabteilung/flyer/lesetag-quiz-april-logo.png"
   },
   "jugendmentorenWeiterbildung": {
     "title": "Jugendmentoren Weiterbildung",
@@ -16,8 +55,10 @@
     "images": [
       "images/jugendabteilung/jugendmentoren-weiterbildung/00-jugendmentoren-weiterbildung.jpeg",
       "images/jugendabteilung/jugendmentoren-weiterbildung/01-jugendmentoren-weiterbildung.jpeg",
-      "images/jugendabteilung/jugendmentoren-weiterbildung/02-jugendmentoren-weiterbildung.jpeg"
-    ]
+      "images/jugendabteilung/jugendmentoren-weiterbildung/02-jugendmentoren-weiterbildung.jpeg",
+      "images/jugendabteilung/flyer/jugendmentoren-weiterbildung-logo.png"
+    ],
+    "flyer": "images/jugendabteilung/flyer/jugendmentoren-weiterbildung-logo.png"
   },
   "sahabeWorkshop": {
     "title": "Sahabe Workshop",
@@ -27,8 +68,10 @@
     "images": [
       "images/jugendabteilung/sahabe-workshop/00-sahabe-workshop.png",
       "images/jugendabteilung/sahabe-workshop/01-sahabe-workshop.jpeg",
-      "images/jugendabteilung/sahabe-workshop/02-sahabe-workshop.jpeg"
-    ]
+      "images/jugendabteilung/sahabe-workshop/02-sahabe-workshop.jpeg",
+      "images/jugendabteilung/flyer/sahabe-workshop-logo.png"
+    ],
+    "flyer": "images/jugendabteilung/flyer/sahabe-workshop-logo.png"
   },
   "bubblesoccer": {
     "title": "Bubblesoccer",
@@ -42,8 +85,10 @@
       "images/jugendabteilung/bubblesoccer/03-bubblesoccer.jpeg",
       "images/jugendabteilung/bubblesoccer/04-bubblesoccer.jpeg",
       "images/jugendabteilung/bubblesoccer/05-bubblesoccer.jpeg",
-      "images/jugendabteilung/bubblesoccer/06-bubblesoccer.jpeg"
-    ]
+      "images/jugendabteilung/bubblesoccer/06-bubblesoccer.jpeg",
+      "images/jugendabteilung/flyer-entwuerfe/bubble-soccer-lange-hosen-logo.png"
+    ],
+    "flyer": "images/jugendabteilung/flyer-entwuerfe/bubble-soccer-lange-hosen-logo.png"
   },
   "sommerGrillfest": {
     "title": "Sommer Grillfest",
@@ -51,8 +96,10 @@
     "date": "28. Juli 2026",
     "sortDate": "2026-07-28",
     "images": [
-      "images/jugendabteilung/sommer-grillfest/00-sommer-grillfest.png"
-    ]
+      "images/jugendabteilung/sommer-grillfest/00-sommer-grillfest.png",
+      "images/jugendabteilung/flyer/sommer-grillfest-logo.png"
+    ],
+    "flyer": "images/jugendabteilung/flyer/sommer-grillfest-logo.png"
   },
   "fontaenejugendLesetagQuiz": {
     "title": "Fontänejugend Lesetag & Quiz",
@@ -60,8 +107,10 @@
     "date": "14. Juli 2026",
     "sortDate": "2026-07-14",
     "images": [
-      "images/jugendabteilung/fontaenejugend-lesetag-quiz/00-fontaenejugend-lesetag-quiz.jpg"
-    ]
+      "images/jugendabteilung/fontaenejugend-lesetag-quiz/00-fontaenejugend-lesetag-quiz.jpg",
+      "images/jugendabteilung/flyer-entwuerfe/lesetag-quiz-logo.png"
+    ],
+    "flyer": "images/jugendabteilung/flyer-entwuerfe/lesetag-quiz-logo.png"
   },
   "fruehlingsfestGrill": {
     "title": "Frühlingsfest & Grill",
@@ -70,8 +119,10 @@
     "sortDate": "2026-05-31",
     "images": [
       "images/jugendabteilung/fruehlingsfest-grill/01-fussballplatz.png",
-      "images/jugendabteilung/fruehlingsfest-grill/02-fussballrunde.png"
-    ]
+      "images/jugendabteilung/fruehlingsfest-grill/02-fussballrunde.png",
+      "images/jugendabteilung/flyer-entwuerfe/fruehlingsfest-grill-lange-hosen-logo.png"
+    ],
+    "flyer": "images/jugendabteilung/flyer-entwuerfe/fruehlingsfest-grill-lange-hosen-logo.png"
   },
   "seniorenSommercamp": {
     "title": "Senioren Sommercamp",
@@ -84,8 +135,10 @@
       "images/jugendabteilung/senioren-sommercamp/03-kahoot.png",
       "images/jugendabteilung/senioren-sommercamp/04-gruppenrunde.png",
       "images/jugendabteilung/senioren-sommercamp/05-schach.png",
-      "images/jugendabteilung/senioren-sommercamp/06-lernrunde.png"
-    ]
+      "images/jugendabteilung/senioren-sommercamp/06-lernrunde.png",
+      "images/jugendabteilung/flyer/senioren-sommercamp-lange-hosen-logo.png"
+    ],
+    "flyer": "images/jugendabteilung/flyer/senioren-sommercamp-lange-hosen-logo.png"
   },
   "juniorenSommercamp": {
     "title": "Junioren Sommercamp",
@@ -97,12 +150,13 @@
       "images/jugendabteilung/junioren-sommercamp/02-lesezeit.png",
       "images/jugendabteilung/junioren-sommercamp/03-lesepause.png",
       "images/jugendabteilung/junioren-sommercamp/04-gruppenrunde.png",
-      "images/jugendabteilung/junioren-sommercamp/05-lernrunde.png",
       "images/jugendabteilung/junioren-sommercamp/06-fifa-turnier.png",
       "images/jugendabteilung/junioren-sommercamp/07-preise.png",
       "images/jugendabteilung/junioren-sommercamp/08-gemeinsame-lesezeit.png",
       "images/jugendabteilung/junioren-sommercamp/09-camp-kiosk.png",
-      "images/jugendabteilung/junioren-sommercamp/10-leserunde.png"
-    ]
+      "images/jugendabteilung/junioren-sommercamp/10-leserunde.png",
+      "images/jugendabteilung/flyer-entwuerfe/junioren-sommercamp-lange-hosen-logo.png"
+    ],
+    "flyer": "images/jugendabteilung/flyer-entwuerfe/junioren-sommercamp-lange-hosen-logo.png"
   }
 }
