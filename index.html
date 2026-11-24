@@ -48,6 +48,7 @@
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                         <li class="nav-item"><a class="nav-link" href="#about">Über Uns</a></li>
                         <li class="nav-item"><a class="nav-link" href="#activity">Aktivitäten</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#donate">Ihre Spende</a></li>
                         <li class="nav-item"><a class="nav-link" href="#portfolio">Blog & Galerie</a></li>
                         <li class="nav-item"><a class="nav-link" href="#trainers">Trainer</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">Kontakt</a></li>
@@ -138,6 +139,102 @@
                         </div>
                     </li>
                 </ul>
+            </div>
+        </section>
+        <!-- Donation -->
+        <section class="page-section" id="donate">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Ihre Spende</h2>
+                    <p class="text-muted mx-auto" style="max-width: 760px;">
+                        Ihre Unterstützung ist für uns von großer Bedeutung. Mit Ihrer Spende können wir
+                        wichtige Projekte und Aktivitäten finanzieren, die der Gemeinschaft nützen.
+                    </p>
+                </div>
+
+                <div class="row justify-content-center g-4 mt-2">
+                    <!-- PayPal -->
+                    <div class="col-md-6 col-lg-5">
+                        <div class="card h-100 text-center shadow-sm">
+                            <div class="card-body p-4">
+                                <i class="fab fa-paypal fa-3x mb-3" style="color: #003087;"></i>
+                                <h4 class="card-title">Mit PayPal spenden</h4>
+                                <p class="card-text text-muted">
+                                    Schnell und einfach über Ihren PayPal.me-Link.
+                                </p>
+
+                                <a class="btn btn-primary btn-xl text-uppercase"
+                                   href="https://www.paypal.biz/KilimKultur"
+                                   target="_blank"
+                                   rel="noopener noreferrer">
+                                    <i class="fab fa-paypal me-2"></i>
+                                    Jetzt spenden
+                                </a>
+
+                                <div class="mt-3">
+                                    <small class="text-muted">https://www.paypal.biz/KilimKultur</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Bankverbindung -->
+                    <div class="col-md-6 col-lg-5">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <i class="fas fa-building-columns fa-3x mb-3" style="color: #212529;"></i>
+                                    <h4 class="card-title">Per Überweisung spenden</h4>
+                                </div>
+
+                                <dl class="mt-3 mb-0">
+                                    <dt>Kontoinhaber</dt>
+                                    <dd class="d-flex justify-content-between align-items-center gap-2">
+                                        <span>Braunschweiger Kultur und Bildungshaus e.V.</span>
+                                        <button class="btn btn-sm btn-outline-dark copy-bank-value"
+                                                type="button"
+                                                data-copy-value="Braunschweiger Kultur und Bildungshaus e.V."
+                                                aria-label="Kontoinhaber kopieren">
+                                            <i class="fas fa-copy"></i>
+                                        </button>
+                                    </dd>
+
+                                    <dt>IBAN</dt>
+                                    <dd class="d-flex justify-content-between align-items-center gap-2">
+                                        <span>DE76 2505 0000 0200 1305 81</span>
+                                        <button class="btn btn-sm btn-outline-dark copy-bank-value"
+                                                type="button"
+                                                data-copy-value="DE76 2505 0000 0200 1305 81"
+                                                aria-label="IBAN kopieren">
+                                            <i class="fas fa-copy"></i>
+                                        </button>
+                                    </dd>
+
+                                    <dt>BIC</dt>
+                                    <dd>NOLADE2HXXX</dd>
+
+                                    <dt>Bank</dt>
+                                    <dd>Nord LB Hannover</dd>
+
+                                    <dt>Verwendungszweck</dt>
+                                    <dd class="d-flex justify-content-between align-items-center gap-2">
+                                        <span>Spende</span>
+                                        <button class="btn btn-sm btn-outline-dark copy-bank-value"
+                                                type="button"
+                                                data-copy-value="Spende"
+                                                aria-label="Verwendungszweck kopieren">
+                                            <i class="fas fa-copy"></i>
+                                        </button>
+                                    </dd>
+                                </dl>
+
+                                <div class="text-success text-center mt-3 small"
+                                     id="copy-status"
+                                     aria-live="polite"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <!-- Portfolio Grid-->
@@ -551,6 +648,35 @@
         <script src="js/scripts.js"></script>
         <script>
             document.addEventListener('DOMContentLoaded', () => {
+                const copyStatus = document.getElementById("copy-status");
+
+                async function copyText(text) {
+                    if (navigator.clipboard && window.isSecureContext) {
+                        await navigator.clipboard.writeText(text);
+                        return;
+                    }
+
+                    const textarea = document.createElement("textarea");
+                    textarea.value = text;
+                    textarea.style.position = "fixed";
+                    textarea.style.opacity = "0";
+                    document.body.appendChild(textarea);
+                    textarea.select();
+                    document.execCommand("copy");
+                    textarea.remove();
+                }
+
+                document.querySelectorAll(".copy-bank-value").forEach(function (button) {
+                    button.addEventListener("click", async function () {
+                        try {
+                            await copyText(button.dataset.copyValue);
+                            copyStatus.textContent = "In die Zwischenablage kopiert.";
+                        } catch (error) {
+                            copyStatus.textContent = "Kopieren ist fehlgeschlagen.";
+                        }
+                    });
+                });
+
               if (typeof blogJsonPromise !== 'undefined' && blogJsonPromise) {
                 blogJsonPromise.then(() => addBlogsToHomepage());
               } else if (typeof blogJson !== 'undefined' && blogJson) {
